@@ -90,8 +90,8 @@ test.describe('Edit Worksheet (Step 6)', () => {
 		// Right sidebar: Properties panel header
 		await expect(page.getByRole('heading', { name: 'Properties' })).toBeVisible();
 
-		// Center canvas: A4 page
-		await expect(page.locator('.a4-page').first()).toBeVisible();
+		// Center canvas: SVG A4 page
+		await expect(page.locator('[data-testid="edit-canvas"]')).toBeVisible();
 	});
 
 	test('shows all generated activities in the sidebar', async ({ page }) => {
@@ -112,14 +112,9 @@ test.describe('Edit Worksheet (Step 6)', () => {
 	test('shows activities on the canvas with titles and instructions', async ({ page }) => {
 		await navigateToEditStep(page);
 
-		const canvas = page.locator('.a4-page');
+		const canvas = page.locator('[data-testid="edit-canvas"]');
 
-		// Question labels
-		await expect(canvas.getByText('Q1.')).toBeVisible();
-		await expect(canvas.getByText('Q2.')).toBeVisible();
-		await expect(canvas.getByText('Q3.')).toBeVisible();
-
-		// Activity titles on canvas
+		// Activity titles on canvas (rendered by ActivityBlockRenderer)
 		await expect(canvas.getByText('Simple Addition')).toBeVisible();
 		await expect(canvas.getByText('Letter Tracing')).toBeVisible();
 		await expect(canvas.getByText('Match the Pairs')).toBeVisible();
@@ -133,10 +128,10 @@ test.describe('Edit Worksheet (Step 6)', () => {
 	test('displays worksheet header with subject and age', async ({ page }) => {
 		await navigateToEditStep(page);
 
-		const canvas = page.locator('.a4-page');
+		const canvas = page.locator('[data-testid="edit-canvas"]');
 
-		// Subject
-		await expect(canvas.locator('h1')).toContainText('math');
+		// Subject (SVG text element)
+		await expect(canvas.getByText('math')).toBeVisible();
 
 		// Age and activity count
 		await expect(canvas.getByText('Age 5')).toBeVisible();
@@ -212,13 +207,13 @@ test.describe('Edit Worksheet (Step 6)', () => {
 		).toBeVisible();
 	});
 
-	test('canvas shows activity content area placeholders', async ({ page }) => {
+	test('canvas renders activity blocks via SVG', async ({ page }) => {
 		await navigateToEditStep(page);
 
-		const canvas = page.locator('.a4-page');
-		// Each activity has a dashed placeholder area
-		const placeholders = canvas.getByText('Activity content area');
-		await expect(placeholders).toHaveCount(3);
+		const canvas = page.locator('[data-testid="edit-canvas"]');
+		// Each activity is rendered as an SVG group by ActivityBlockRenderer
+		const activityGroups = canvas.locator('.edit-activity-zone');
+		await expect(activityGroups).toHaveCount(3);
 	});
 
 	test('Back button navigates to Preview step', async ({ page }) => {
@@ -241,10 +236,10 @@ test.describe('Edit Worksheet (Step 6)', () => {
 		await navigateToEditStep(page, []);
 
 		// Canvas should show empty state
-		await expect(page.getByText('Empty canvas')).toBeVisible();
+		await expect(page.getByText('No activities generated yet')).toBeVisible();
 
 		// Sidebar should show "No activities"
-		await expect(page.getByText('No activities')).toBeVisible();
+		await expect(page.getByText('No activities', { exact: true })).toBeVisible();
 	});
 
 	test('stepper highlights Edit step as current', async ({ page }) => {
@@ -299,7 +294,8 @@ test.describe('Edit Worksheet (Step 6)', () => {
 		expect(count).toBeGreaterThan(0);
 
 		// Canvas should have activities
-		const canvas = page.locator('.a4-page');
-		await expect(canvas.getByText('Q1.')).toBeVisible();
+		const canvas = page.locator('[data-testid="edit-canvas"]');
+		const activityGroups = canvas.locator('.edit-activity-zone');
+		expect(await activityGroups.count()).toBeGreaterThan(0);
 	});
 });

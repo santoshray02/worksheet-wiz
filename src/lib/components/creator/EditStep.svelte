@@ -1,10 +1,44 @@
 <script lang="ts">
 	import { generationState } from '$lib/state/generation.svelte';
 	import { getActivityMeta } from '$lib/activities/registry';
+	import ActivityBlockRenderer from '$lib/components/worksheet/ActivityBlockRenderer.svelte';
 
 	type EditorTool = 'select' | 'move' | 'text' | 'asset';
 
 	let activeTool = $state<EditorTool>('select');
+
+	/** A4 dimensions in mm */
+	const A4_W = 210;
+	const A4_H = 297;
+	const MARGIN = 15;
+	const HEADER_H = 25;
+	const INSTR_GAP = 4;
+	const GAP = 3;
+	const MIN_ACTIVITY_H = 40;
+	const FOOTER_H = 12;
+
+	const contentW = A4_W - 2 * MARGIN;
+	const firstPageTop = MARGIN + HEADER_H + INSTR_GAP;
+	const pageBottom = A4_H - MARGIN - FOOTER_H;
+
+	function activityZones() {
+		const items = generationState.streamedActivities;
+		if (items.length === 0) return [];
+
+		const topY = firstPageTop;
+		const availH = pageBottom - topY;
+		const totalGap = GAP * (items.length - 1);
+		const perActivity = Math.max(MIN_ACTIVITY_H, (availH - totalGap) / items.length);
+
+		return items.map((_, i) => ({
+			x: MARGIN,
+			y: topY + i * (perActivity + GAP),
+			width: contentW,
+			height: perActivity
+		}));
+	}
+
+	const zones = $derived(activityZones());
 
 	const tools: { id: EditorTool; label: string; icon: string }[] = [
 		{
@@ -128,49 +162,81 @@
 
 		<!-- Center: A4 canvas -->
 		<div class="flex-1 bg-gray-100 rounded-xl overflow-auto flex justify-center p-6">
-			<div class="a4-page rounded-sm shrink-0">
-				<div class="p-8 h-full">
+			<div
+				class="bg-white shadow-lg shrink-0 rounded-sm"
+				style="width: 210mm; height: 297mm"
+			>
+				<svg
+					data-testid="edit-canvas"
+					xmlns="http://www.w3.org/2000/svg"
+					viewBox="0 0 {A4_W} {A4_H}"
+					width="210mm"
+					height="297mm"
+					style="font-family: 'Comic Neue', sans-serif"
+				>
+					<!-- White background -->
+					<rect width={A4_W} height={A4_H} fill="white" />
+
+					<!-- Decorative border -->
+					<rect x="5" y="5" width={A4_W - 10} height={A4_H - 10} fill="none" stroke="#e5e7eb" stroke-width="0.3" rx="2" />
+
 					<!-- Header area -->
-					<div class="text-center border-b-2 border-gray-200 pb-4 mb-6">
-						<h1 class="text-xl font-bold text-gray-800 font-display capitalize">
-							{generationState.config.subject ?? 'Worksheet'}
-						</h1>
-						<p class="text-sm text-gray-500 mt-1">
-							Age {generationState.config.age ?? ''} &middot; {generationState.streamedActivities.length} Activities
-						</p>
-						<div class="mt-3 flex items-center justify-between text-xs text-gray-400">
-							<span>Name: _______________________</span>
-							<span>Date: ____________</span>
-						</div>
-					</div>
+					<g transform="translate({MARGIN}, {MARGIN})">
+						<text
+							x={contentW / 2}
+							y="8"
+							text-anchor="middle"
+							font-size="7"
+							font-weight="700"
+							fill="#1f2937"
+							style="text-transform: capitalize"
+						>{generationState.config.subject ?? 'Worksheet'}</text>
 
-					<!-- Editable activities -->
+						<text
+							x={contentW / 2}
+							y="14"
+							text-anchor="middle"
+							font-size="3"
+							fill="#9ca3af"
+						>Age {generationState.config.age ?? ''} &middot; {generationState.streamedActivities.length} Activities</text>
+
+						<text x="0" y="22" font-size="2.5" fill="#9ca3af">Name: ________________________</text>
+						<text x={contentW} y="22" text-anchor="end" font-size="2.5" fill="#9ca3af">Date: ____________</text>
+
+						<line x1="0" y1={HEADER_H} x2={contentW} y2={HEADER_H} stroke="#e5e7eb" stroke-width="0.3" />
+					</g>
+
+					<!-- Activities -->
 					{#each generationState.streamedActivities as activity, i}
-						{@const meta = getActivityMeta(activity.type)}
-						<div class="mb-5 group relative {i > 0 ? 'pt-4 border-t border-gray-100' : ''}">
-							<!-- Hover outline for editing -->
-							<div class="absolute -inset-2 rounded-lg border-2 border-transparent group-hover:border-primary/30 transition-colors pointer-events-none"></div>
-
-							<div class="flex items-baseline gap-2 mb-1.5">
-								<span class="text-sm font-bold text-gray-700">Q{i + 1}.</span>
-								<span class="text-sm font-semibold text-gray-800">{activity.title}</span>
-							</div>
-							<p class="text-xs text-gray-600 ml-6">{activity.instructions}</p>
-							<div class="mt-2 ml-6 h-14 border-2 border-dashed border-gray-200 rounded-lg flex items-center justify-center">
-								<span class="text-xs text-gray-300 italic">Activity content area</span>
-							</div>
-						</div>
+						{#if zones[i]}
+							<g class="edit-activity-zone">
+								<rect
+									x={zones[i].x}
+									y={zones[i].y}
+									width={zones[i].width}
+									height={zones[i].height}
+									fill="transparent"
+									stroke="transparent"
+									stroke-width="0.5"
+									rx="1"
+								/>
+								<ActivityBlockRenderer {activity} zone={zones[i]} />
+							</g>
+						{/if}
 					{/each}
 
+					<!-- Empty state -->
 					{#if generationState.streamedActivities.length === 0}
-						<div class="flex flex-col items-center justify-center h-80 text-gray-300">
-							<svg class="w-12 h-12 mb-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1">
-								<path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
-							</svg>
-							<p class="text-xs">Empty canvas</p>
-						</div>
+						<text
+							x={A4_W / 2}
+							y={A4_H / 2}
+							text-anchor="middle"
+							dominant-baseline="middle"
+							font-size="5"
+							fill="#d1d5db"
+						>No activities generated yet</text>
 					{/if}
-				</div>
+				</svg>
 			</div>
 		</div>
 
@@ -188,3 +254,12 @@
 		</div>
 	</div>
 </div>
+
+<style>
+	.edit-activity-zone > rect {
+		transition: stroke 0.15s ease;
+	}
+	.edit-activity-zone:hover > rect {
+		stroke: rgba(99, 102, 241, 0.3);
+	}
+</style>
