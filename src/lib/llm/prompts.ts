@@ -350,6 +350,8 @@ export function buildSystemPrompt(): string {
 5. **IDs**: Generate unique IDs for each activity using the format "act-{type}-{number}" (e.g. "act-math-1", "act-tracing-2").
 
 6. **Asset IDs**: Use ONLY these exact asset IDs when referencing images:
+
+   **Clean Style** (simple, flat icons):
    - **Animals**: cat, dog, fish, bird, elephant, lion, rabbit, butterfly, frog, turtle
    - **Sea Creatures**: whale, dolphin, octopus, crab, seahorse, starfish, jellyfish, shark
    - **Fruits**: apple, banana, orange, grapes, strawberry, watermelon
@@ -358,6 +360,17 @@ export function buildSystemPrompt(): string {
    - **Instruments**: guitar, piano, drum, trumpet, violin, flute, tambourine, xylophone
    - **Objects**: ball, house, tree, flower, sun, moon, book, pencil-obj
    - **Shapes**: circle, triangle, square, star, heart, diamond
+
+   **Hand-Sketched Style** (pencil-drawn, multiple poses — use for a more playful, coloring-book feel):
+   - **Animals**: cat-front-sketched, cat-side-sketched, cat-sitting-sketched, dog-front-sketched, dog-side-sketched, dog-running-sketched, fish-side-sketched, fish-swimming-sketched, fish-jumping-sketched, bird-front-sketched, bird-side-sketched, bird-flying-sketched, elephant-front-sketched, elephant-side-sketched, elephant-walking-sketched, lion-front-sketched, lion-side-sketched, lion-roaring-sketched, rabbit-front-sketched, rabbit-side-sketched, rabbit-hopping-sketched, butterfly-front-sketched, butterfly-side-sketched, butterfly-resting-sketched, frog-front-sketched, frog-side-sketched, frog-jumping-sketched, turtle-front-sketched, turtle-side-sketched, turtle-walking-sketched
+   - **Sea Creatures**: whale-side-sketched, whale-diving-sketched, dolphin-side-sketched, dolphin-jumping-sketched, octopus-front-sketched, octopus-swimming-sketched, crab-front-sketched, crab-side-sketched, seahorse-front-sketched, seahorse-side-sketched, starfish-front-sketched, starfish-tilted-sketched, jellyfish-front-sketched, jellyfish-floating-sketched, shark-side-sketched, shark-attacking-sketched
+   - **Fruits**: apple-whole-sketched, apple-half-sketched, banana-whole-sketched, banana-peeled-sketched, orange-whole-sketched, orange-slice-sketched, grapes-bunch-sketched, grapes-single-sketched, strawberry-whole-sketched, strawberry-half-sketched, watermelon-whole-sketched, watermelon-slice-sketched
+   - **Vegetables**: carrot-whole-sketched, carrot-chopped-sketched, broccoli-whole-sketched, broccoli-floret-sketched, tomato-whole-sketched, tomato-slice-sketched, corn-whole-sketched, corn-cob-sketched, peas-pod-sketched, peas-open-sketched, potato-whole-sketched, potato-half-sketched, onion-whole-sketched, onion-slice-sketched, mushroom-whole-sketched, mushroom-side-sketched
+   - **Vehicles**: car-side-sketched, car-front-sketched, bus-side-sketched, bus-front-sketched, truck-side-sketched, truck-front-sketched, airplane-side-sketched, airplane-top-sketched, boat-side-sketched, boat-front-sketched, bicycle-side-sketched, bicycle-front-sketched, helicopter-side-sketched, helicopter-front-sketched, train-side-sketched, train-front-sketched, rocket-side-sketched, rocket-launching-sketched
+   - **Instruments**: guitar-front-sketched, guitar-tilted-sketched, piano-front-sketched, piano-side-sketched, drum-front-sketched, drum-side-sketched, trumpet-side-sketched, trumpet-tilted-sketched, violin-front-sketched, violin-tilted-sketched, flute-side-sketched, flute-tilted-sketched, tambourine-front-sketched, tambourine-tilted-sketched, xylophone-front-sketched, xylophone-tilted-sketched
+   - **Objects**: ball-plain-sketched, ball-bouncing-sketched, house-front-sketched, house-side-sketched, tree-summer-sketched, tree-winter-sketched, flower-bloom-sketched, flower-bud-sketched, sun-happy-sketched, sun-setting-sketched, moon-crescent-sketched, moon-full-sketched, book-closed-sketched, book-open-sketched, pencil-straight-sketched, pencil-writing-sketched
+
+   Prefer sketched assets for a hand-drawn worksheet feel. Mix clean and sketched as appropriate.
    Always pick assets from this list. Do NOT invent new asset IDs.
 
 ## Available Activity Types
