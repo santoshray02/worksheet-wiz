@@ -1,7 +1,11 @@
 <script lang="ts">
 	import type { ActivityType } from '$lib/types/activity';
 	import { generationState } from '$lib/state/generation.svelte';
+	import { settingsState } from '$lib/state/settings.svelte';
 	import { getAvailableActivities, type ActivityMeta } from '$lib/activities/registry';
+	import { OFFLINE_SUPPORTED_TYPES } from '$lib/offline/generators';
+
+	const isOffline = $derived(!settingsState.hasAnyKey);
 
 	let availableActivities = $derived<ActivityMeta[]>(
 		getAvailableActivities(
@@ -55,8 +59,8 @@
 				</svg>
 			</div>
 			<div>
-				<p class="text-sm font-semibold text-gray-900">Let AI Decide</p>
-				<p class="text-xs text-gray-500">Automatically pick the best mix of activities</p>
+				<p class="text-sm font-semibold text-gray-900">{isOffline ? 'Auto-Select' : 'Let AI Decide'}</p>
+				<p class="text-xs text-gray-500">{isOffline ? 'Automatically pick a good mix of activities' : 'Automatically pick the best mix of activities'}</p>
 			</div>
 		</div>
 
@@ -91,11 +95,13 @@
 		<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 {generationState.config.letAIDecide ? 'opacity-50 pointer-events-none' : ''}">
 			{#each availableActivities as activity}
 				{@const selected = isSelected(activity.type)}
+				{@const unsupported = isOffline && !OFFLINE_SUPPORTED_TYPES.has(activity.type)}
 				<button
 					class="relative flex items-start gap-3 p-4 rounded-xl border-2 text-left transition-all duration-200 cursor-pointer
 						{selected
 						? 'border-primary bg-primary/5 shadow-sm'
-						: 'border-gray-200 bg-white hover:border-gray-300 hover:shadow-sm'}"
+						: 'border-gray-200 bg-white hover:border-gray-300 hover:shadow-sm'}
+						{unsupported ? 'opacity-60' : ''}"
 					onclick={() => toggleActivity(activity.type)}
 					disabled={generationState.config.letAIDecide}
 				>
@@ -122,6 +128,9 @@
 							</span>
 						</div>
 						<p class="text-xs text-gray-500 mt-0.5 line-clamp-2">{activity.description}</p>
+						{#if unsupported}
+							<p class="text-[0.6rem] text-amber-600 mt-1">(requires API key)</p>
+						{/if}
 					</div>
 				</button>
 			{/each}

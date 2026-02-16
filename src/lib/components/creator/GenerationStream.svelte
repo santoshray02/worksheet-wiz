@@ -1,8 +1,11 @@
 <script lang="ts">
 	import { generationState } from '$lib/state/generation.svelte';
+	import { settingsState } from '$lib/state/settings.svelte';
 	import Spinner from '$lib/components/ui/Spinner.svelte';
 	import Button from '$lib/components/ui/Button.svelte';
 	import { getActivityMeta } from '$lib/activities/registry';
+
+	const isOffline = $derived(!settingsState.hasAnyKey);
 
 	/** Badge colour mapped to activity type for visual variety */
 	const typeBadgeColors: Record<string, string> = {
@@ -49,9 +52,23 @@
 			{/if}
 		</h2>
 		{#if generationState.isGenerating}
-			<p class="text-gray-500 mt-1">Hang tight while we create your activities</p>
+			<p class="text-gray-500 mt-1">
+				{isOffline ? 'Creating with built-in templates...' : 'Hang tight while we create your activities'}
+			</p>
 		{/if}
 	</div>
+
+	<!-- Offline mode banner -->
+	{#if isOffline && generationState.isGenerating}
+		<div class="flex items-center gap-3 p-3 bg-amber-50 border border-amber-200 rounded-xl text-sm">
+			<svg class="w-5 h-5 text-amber-500 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+				<path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m9-.75a9 9 0 11-18 0 9 9 0 0118 0zm-9 3.75h.008v.008H12v-.008z" />
+			</svg>
+			<p class="text-amber-800">
+				<span class="font-semibold">Offline Mode</span> — Generating with built-in templates. Add API keys in Settings for AI-powered worksheets.
+			</p>
+		</div>
+	{/if}
 
 	<!-- Progress bar -->
 	<div class="space-y-2">

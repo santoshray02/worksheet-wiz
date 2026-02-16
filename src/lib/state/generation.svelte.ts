@@ -1,5 +1,6 @@
 import type { ActivityData, ActivityType, Subject } from '$lib/types/activity';
 import { settingsState } from './settings.svelte';
+import type { OfflineGenerateResult } from '$lib/offline';
 
 // ---------------------------------------------------------------------------
 // Types
@@ -65,6 +66,10 @@ export class GenerationState {
 
 	get isComplete(): boolean {
 		return this.status === 'complete';
+	}
+
+	get isOffline(): boolean {
+		return !settingsState.hasAnyKey;
 	}
 
 	/**
@@ -147,11 +152,9 @@ export class GenerationState {
 	// -----------------------------------------------------------------------
 
 	/**
-	 * Kick off the generation flow by POSTing the current config to
-	 * `/api/generate` and processing the NDJSON stream of activities.
-	 *
-	 * The stream is expected to emit one JSON object per line, each
-	 * conforming to the `ActivityData` discriminated union.
+	 * Kick off the generation flow. When API keys are available, uses the
+	 * `/api/generate` endpoint. Otherwise, generates offline using built-in
+	 * procedural generators.
 	 */
 	async startGeneration(): Promise<void> {
 		// Guard against double-invocation
@@ -167,6 +170,67 @@ export class GenerationState {
 		// Allow the caller (or a cancel button) to abort
 		this.abortController = new AbortController();
 
+		if (this.isOffline) {
+			await this.runOfflineGeneration();
+		} else {
+			await this.runOnlineGeneration();
+		}
+	}
+
+	/**
+	 * Offline generation using built-in procedural generators.
+	 * Dynamically imports the offline module for code splitting.
+	 * Simulates streaming UX with delays between activities.
+	 */
+	private async runOfflineGeneration(): Promise<void> {
+		try {
+			const { generateOffline } = await import('$lib/offline');
+
+			const result: OfflineGenerateResult = generateOffline({
+				subject: this.config.subject!,
+				age: this.config.age!,
+				activities: this.config.letAIDecide ? [] : this.config.selectedActivities,
+				letAIDecide: this.config.letAIDecide
+			});
+
+			this.status = 'streaming';
+			this.currentActivity = result.title;
+
+			// Simulate streaming UX with delays between activities
+			for (let i = 0; i < result.activities.length; i++) {
+				// Check for cancellation
+				if (this.abortController?.signal.aborted) {
+					this.status = 'idle';
+					return;
+				}
+
+				await new Promise((resolve) => setTimeout(resolve, 200));
+
+				const activity = result.activities[i];
+				this.streamedActivities = [...this.streamedActivities, activity];
+				this.currentActivity = activity.title;
+				this.progress = Math.round(((i + 1) / result.activities.length) * 100);
+			}
+
+			this.progress = 100;
+			this.status = 'complete';
+		} catch (err: unknown) {
+			if (err instanceof DOMException && err.name === 'AbortError') {
+				this.status = 'idle';
+				return;
+			}
+			this.error = err instanceof Error ? err.message : 'An unknown error occurred';
+			this.status = 'error';
+		} finally {
+			this.abortController = null;
+		}
+	}
+
+	/**
+	 * Online generation via the /api/generate endpoint.
+	 * Processes the NDJSON stream of activities.
+	 */
+	private async runOnlineGeneration(): Promise<void> {
 		try {
 			const headers: Record<string, string> = { 'Content-Type': 'application/json' };
 			if (settingsState.anthropicApiKey) {
@@ -185,7 +249,7 @@ export class GenerationState {
 					activities: this.config.letAIDecide ? [] : this.config.selectedActivities,
 					letAIDecide: this.config.letAIDecide
 				}),
-				signal: this.abortController.signal
+				signal: this.abortController!.signal
 			});
 
 			if (!response.ok) {
