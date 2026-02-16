@@ -15,8 +15,8 @@
 	<nav
 		class="no-print bg-white border-b border-gray-200 px-6 py-3 flex items-center justify-between sticky top-0 z-40"
 	>
-		<a href="/" class="text-xl font-bold text-primary font-display tracking-tight">
-			WorksheetWiz
+		<a href="/" class="flex items-center gap-2">
+			<img src="/logo.png" alt="EdunodeX" class="h-8 w-auto" />
 		</a>
 		<div class="flex items-center gap-6">
 			<a
@@ -52,6 +52,15 @@
 	<main>
 		{@render children()}
 	</main>
+
+	<footer class="no-print border-t border-gray-100 bg-white">
+		<div class="max-w-5xl mx-auto px-6 py-6 flex flex-col items-center gap-2 text-center">
+			<img src="/logo.png" alt="EdunodeX" class="h-6 w-auto opacity-60" />
+			<p class="text-sm text-gray-400">
+				Created by <span class="text-gray-500 font-medium">Rajnee Dubey</span>
+			</p>
+		</div>
+	</footer>
 </div>
 
 <SettingsModal open={settingsOpen} onclose={() => (settingsOpen = false)} />

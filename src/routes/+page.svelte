@@ -136,11 +136,3 @@
 	</div>
 </section>
 
-<!-- Footer -->
-<footer class="no-print border-t border-gray-100 bg-white">
-	<div class="max-w-5xl mx-auto px-6 py-8 text-center">
-		<p class="text-sm text-gray-400">
-			WorksheetWiz &mdash; Free worksheet generator for parents and teachers.
-		</p>
-	</div>
-</footer>
