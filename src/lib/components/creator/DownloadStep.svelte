@@ -1,7 +1,6 @@
 <script lang="ts">
 	import { generationState } from '$lib/state/generation.svelte';
-	import { pdfGenerator, type PDFOptions } from '$lib/pdf/generator';
-	import { svgStringToPdfBlob } from '$lib/pdf/svg-to-pdf';
+	import { pdfGenerator } from '$lib/pdf/generator';
 	import { getActivityMeta } from '$lib/activities/registry';
 	import Button from '$lib/components/ui/Button.svelte';
 
@@ -11,45 +10,84 @@
 	let isDownloading = $state(false);
 	let downloadError = $state<string | null>(null);
 
-	/**
-	 * Build the worksheet SVG string from the current generation state.
-	 */
-	function buildWorksheetSvg(): string {
-		const A4_W = 210;
-		const A4_H = 297;
-		const MARGIN = 15;
-		const HEADER_H = 25;
-		const INSTR_GAP = 4;
+	const A4_W = 210;
+	const A4_H = 297;
+	const MARGIN = 15;
+	const HEADER_H = 25;
+	const GAP = 3;
+	const MIN_ACTIVITY_H = 40;
+	const FOOTER_H = 12;
 
+	const contentW = A4_W - 2 * MARGIN;
+	// First page has header; continuation pages start higher
+	const firstPageTop = MARGIN + HEADER_H + 4;
+	const contPageTop = MARGIN + 8;
+	const pageBottom = A4_H - MARGIN - FOOTER_H;
+
+	/**
+	 * Paginate activities so no single page overflows.
+	 * Returns an array of arrays — one inner array per page.
+	 */
+	function paginateActivities(): Array<typeof generationState.streamedActivities> {
+		const activities = generationState.streamedActivities;
+		if (activities.length === 0) return [[]];
+
+		const pages: Array<typeof activities> = [];
+		let remaining = [...activities];
+
+		while (remaining.length > 0) {
+			const isFirst = pages.length === 0;
+			const availH = pageBottom - (isFirst ? firstPageTop : contPageTop);
+			// How many activities fit on this page?
+			let count = 0;
+			let usedH = 0;
+			for (const _ of remaining) {
+				const needed = MIN_ACTIVITY_H + (count > 0 ? GAP : 0);
+				if (usedH + needed > availH) break;
+				usedH += needed;
+				count++;
+			}
+			// At least one per page to avoid infinite loop
+			if (count === 0) count = 1;
+			pages.push(remaining.slice(0, count));
+			remaining = remaining.slice(count);
+		}
+
+		return pages;
+	}
+
+	const activityPages = $derived(paginateActivities());
+	const totalPages = $derived(activityPages.length);
+
+	/**
+	 * Build one SVG page string.
+	 */
+	function buildPageSvg(pageActivities: typeof generationState.streamedActivities, pageIndex: number, globalOffset: number): string {
 		const activities = generationState.streamedActivities;
 		const subject = generationState.config.subject ?? 'Worksheet';
 		const age = generationState.config.age ?? '';
+		const isFirst = pageIndex === 0;
+		const topY = isFirst ? firstPageTop : contPageTop;
+		const availH = pageBottom - topY;
 
-		const contentX = MARGIN;
-		const contentW = A4_W - 2 * MARGIN;
-		const contentTop = MARGIN + HEADER_H + INSTR_GAP;
-		const contentBottom = A4_H - MARGIN;
-		const totalH = contentBottom - contentTop;
-		const gapBetween = 3;
-		const perActivity = activities.length > 0
-			? (totalH - gapBetween * (activities.length - 1)) / activities.length
-			: totalH;
+		// Distribute height evenly, respecting minimum
+		const count = pageActivities.length;
+		const totalGap = GAP * (count - 1);
+		const perActivity = Math.max(MIN_ACTIVITY_H, (availH - totalGap) / count);
 
-		// Build activity blocks as simple SVG
-		const activityBlocks = activities.map((activity, i) => {
-			const y = contentTop + i * (Math.max(perActivity, 20) + gapBetween);
-			const h = Math.max(perActivity, 20);
+		const activityBlocks = pageActivities.map((activity, i) => {
+			const y = topY + i * (perActivity + GAP);
+			const h = perActivity;
+			const qi = globalOffset + i + 1;
 			const meta = getActivityMeta(activity.type);
 			const label = meta?.name ?? activity.type;
 
-			return `
-				<g transform="translate(${contentX}, ${y})">
-					<text x="0" y="5" font-size="3.5" font-weight="700" fill="#374151">Q${i + 1}. ${escapeXml(activity.title)}</text>
-					<text x="0" y="10" font-size="2.5" fill="#6b7280">${escapeXml(activity.instructions)}</text>
-					<rect x="0" y="13" width="${contentW}" height="${h - 15}" fill="none" stroke="#e5e7eb" stroke-width="0.2" stroke-dasharray="2,1" rx="1" />
-					<text x="${contentW / 2}" y="${13 + (h - 15) / 2}" text-anchor="middle" dominant-baseline="middle" font-size="2.5" fill="#d1d5db">[${escapeXml(label)}]</text>
-				</g>
-			`;
+			return `<g transform="translate(${MARGIN}, ${y})">
+	<text x="0" y="5" font-size="3.5" font-weight="700" fill="#374151">Q${qi}. ${escapeXml(activity.title)}</text>
+	<text x="0" y="10" font-size="2.5" fill="#6b7280">${escapeXml(activity.instructions)}</text>
+	<rect x="0" y="13" width="${contentW}" height="${h - 15}" fill="none" stroke="#e5e7eb" stroke-width="0.2" stroke-dasharray="2,1" rx="1" />
+	<text x="${contentW / 2}" y="${13 + (h - 15) / 2}" text-anchor="middle" dominant-baseline="middle" font-size="2.5" fill="#d1d5db">[${escapeXml(label)}]</text>
+</g>`;
 		}).join('\n');
 
 		const borderSvg = showBorder
@@ -61,20 +99,27 @@
 			? `<defs><filter id="grayscale"><feColorMatrix type="saturate" values="0"/></filter></defs>`
 			: '';
 
-		return `<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${A4_W} ${A4_H}" width="210mm" height="297mm" style="font-family: Comic Neue, sans-serif"${filterAttr}>
-${grayscaleFilter}
-<rect width="${A4_W}" height="${A4_H}" fill="white" />
-${borderSvg}
-<g transform="translate(${MARGIN}, ${MARGIN})">
+		const headerSvg = isFirst
+			? `<g transform="translate(${MARGIN}, ${MARGIN})">
 	<text x="${contentW / 2}" y="8" text-anchor="middle" font-size="7" font-weight="700" fill="#1f2937">${escapeXml(subject)}</text>
 	<text x="${contentW / 2}" y="14" text-anchor="middle" font-size="3" fill="#9ca3af">Age ${age} - ${activities.length} Activities</text>
 	<text x="0" y="22" font-size="2.5" fill="#9ca3af">Name: ________________________</text>
 	<text x="${contentW}" y="22" text-anchor="end" font-size="2.5" fill="#9ca3af">Date: ____________</text>
 	<line x1="0" y1="${HEADER_H}" x2="${contentW}" y2="${HEADER_H}" stroke="#e5e7eb" stroke-width="0.3" />
-</g>
+</g>`
+			: '';
+
+		const pageLabel = totalPages > 1 ? `Page ${pageIndex + 1} of ${totalPages}` : '';
+		const footerSvg = `<text x="${A4_W / 2}" y="${A4_H - 8}" text-anchor="middle" font-size="2" fill="#d1d5db">${pageLabel}${pageLabel ? '  ·  ' : ''}Generated by WorksheetWiz</text>`;
+
+		return `<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${A4_W} ${A4_H}" width="210mm" height="297mm" style="font-family: Comic Neue, sans-serif"${filterAttr}>
+${grayscaleFilter}
+<rect width="${A4_W}" height="${A4_H}" fill="white" />
+${borderSvg}
+${headerSvg}
 ${activityBlocks}
-<text x="${A4_W / 2}" y="${A4_H - 8}" text-anchor="middle" font-size="2" fill="#d1d5db">Generated by WorksheetWiz</text>
+${footerSvg}
 </svg>`;
 	}
 
@@ -92,8 +137,26 @@ ${activityBlocks}
 		downloadError = null;
 
 		try {
-			const svgString = buildWorksheetSvg();
-			const blob = await svgStringToPdfBlob(svgString);
+			const { default: jsPDF } = await import('jspdf');
+			await import('svg2pdf.js');
+
+			const doc = new jsPDF({ orientation: 'portrait', unit: 'mm', format: 'a4' });
+			const pages = activityPages;
+			let globalOffset = 0;
+
+			for (let i = 0; i < pages.length; i++) {
+				if (i > 0) doc.addPage('a4', 'portrait');
+
+				const svgString = buildPageSvg(pages[i], i, globalOffset);
+				const parser = new DOMParser();
+				const svgDoc = parser.parseFromString(svgString, 'image/svg+xml');
+				const svgEl = svgDoc.documentElement as unknown as SVGSVGElement;
+
+				await (doc as any).svg(svgEl, { x: 0, y: 0, width: 210, height: 297 });
+				globalOffset += pages[i].length;
+			}
+
+			const blob = doc.output('blob');
 			const subject = generationState.config.subject ?? 'worksheet';
 			const age = generationState.config.age ?? '';
 			const filename = `${subject}-age${age}-worksheet.pdf`;
@@ -188,7 +251,7 @@ ${activityBlocks}
 					<svg class="w-4 h-4 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
 						<path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
 					</svg>
-					<span>1 page</span>
+					<span>{totalPages} page{totalPages !== 1 ? 's' : ''}</span>
 				</div>
 				<div class="flex items-center gap-1.5">
 					<svg class="w-4 h-4 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">

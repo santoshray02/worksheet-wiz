@@ -16,6 +16,16 @@
 	const MARGIN = 15;
 	const HEADER_H = 25;
 	const INSTR_GAP = 4;
+	const GAP = 3;
+	const MIN_ACTIVITY_H = 40;
+	const FOOTER_H = 12;
+
+	const contentW = A4_W - 2 * MARGIN;
+	const firstPageTop = MARGIN + HEADER_H + INSTR_GAP;
+	const contPageTop = MARGIN + 8;
+	const pageBottom = A4_H - MARGIN - FOOTER_H;
+
+	let currentPreviewPage = $state(0);
 
 	function zoomIn() {
 		zoom = Math.min(ZOOM_MAX, zoom + ZOOM_STEP);
@@ -38,26 +48,56 @@
 	}
 
 	/**
-	 * Calculate zone layout for each activity.
-	 * Divides the available vertical space evenly.
+	 * Paginate activities across pages so they don't overlap.
+	 */
+	function paginateActivities() {
+		const activities = generationState.streamedActivities;
+		if (activities.length === 0) return [[]];
+
+		const pages: Array<{ activity: typeof activities[0]; index: number }[]> = [];
+		let remaining = activities.map((a, i) => ({ activity: a, index: i }));
+
+		while (remaining.length > 0) {
+			const isFirst = pages.length === 0;
+			const availH = pageBottom - (isFirst ? firstPageTop : contPageTop);
+			let count = 0;
+			let usedH = 0;
+			for (const _ of remaining) {
+				const needed = MIN_ACTIVITY_H + (count > 0 ? GAP : 0);
+				if (usedH + needed > availH) break;
+				usedH += needed;
+				count++;
+			}
+			if (count === 0) count = 1;
+			pages.push(remaining.slice(0, count));
+			remaining = remaining.slice(count);
+		}
+
+		return pages;
+	}
+
+	const activityPages = $derived(paginateActivities());
+	const previewTotalPages = $derived(activityPages.length);
+	const currentPageActivities = $derived(activityPages[currentPreviewPage] ?? []);
+
+	/**
+	 * Calculate zone layout for activities on the current preview page.
 	 */
 	function activityZones() {
-		const activities = generationState.streamedActivities;
-		if (activities.length === 0) return [];
+		const items = currentPageActivities;
+		if (items.length === 0) return [];
 
-		const contentX = MARGIN;
-		const contentW = A4_W - 2 * MARGIN;
-		const contentTop = MARGIN + HEADER_H + INSTR_GAP;
-		const contentBottom = A4_H - MARGIN;
-		const totalH = contentBottom - contentTop;
-		const gapBetween = 3;
-		const perActivity = (totalH - gapBetween * (activities.length - 1)) / activities.length;
+		const isFirst = currentPreviewPage === 0;
+		const topY = isFirst ? firstPageTop : contPageTop;
+		const availH = pageBottom - topY;
+		const totalGap = GAP * (items.length - 1);
+		const perActivity = Math.max(MIN_ACTIVITY_H, (availH - totalGap) / items.length);
 
-		return activities.map((_, i) => ({
-			x: contentX,
-			y: contentTop + i * (perActivity + gapBetween),
+		return items.map((_, i) => ({
+			x: MARGIN,
+			y: topY + i * (perActivity + GAP),
 			width: contentW,
-			height: Math.max(perActivity, 20)
+			height: perActivity
 		}));
 	}
 
@@ -124,6 +164,25 @@
 		</button>
 	</div>
 
+	<!-- Page navigation -->
+	{#if previewTotalPages > 1}
+		<div class="flex items-center justify-center gap-3">
+			<button
+				class="px-3 py-1.5 rounded-lg border border-gray-200 text-sm text-gray-600 hover:bg-gray-50 transition-colors disabled:opacity-40"
+				disabled={currentPreviewPage === 0}
+				onclick={() => currentPreviewPage--}
+			>Prev</button>
+			<span class="text-sm text-gray-500 font-medium">
+				Page {currentPreviewPage + 1} of {previewTotalPages}
+			</span>
+			<button
+				class="px-3 py-1.5 rounded-lg border border-gray-200 text-sm text-gray-600 hover:bg-gray-50 transition-colors disabled:opacity-40"
+				disabled={currentPreviewPage >= previewTotalPages - 1}
+				onclick={() => currentPreviewPage++}
+			>Next</button>
+		</div>
+	{/if}
+
 	<!-- A4 canvas area -->
 	<div class="flex justify-center overflow-auto bg-gray-100 rounded-xl p-8 min-h-[600px]">
 		<div
@@ -144,40 +203,38 @@
 				<!-- Decorative border -->
 				<rect x="5" y="5" width={A4_W - 10} height={A4_H - 10} fill="none" stroke="#e5e7eb" stroke-width="0.3" rx="2" />
 
-				<!-- Header area -->
-				<g transform="translate({MARGIN}, {MARGIN})">
-					<!-- Title -->
-					<text
-						x={(A4_W - 2 * MARGIN) / 2}
-						y="8"
-						text-anchor="middle"
-						font-size="7"
-						font-weight="700"
-						fill="#1f2937"
-						style="text-transform: capitalize"
-					>{generationState.config.subject ?? 'Worksheet'}</text>
+				<!-- Header area (first page only) -->
+				{#if currentPreviewPage === 0}
+					<g transform="translate({MARGIN}, {MARGIN})">
+						<text
+							x={contentW / 2}
+							y="8"
+							text-anchor="middle"
+							font-size="7"
+							font-weight="700"
+							fill="#1f2937"
+							style="text-transform: capitalize"
+						>{generationState.config.subject ?? 'Worksheet'}</text>
 
-					<!-- Subtitle -->
-					<text
-						x={(A4_W - 2 * MARGIN) / 2}
-						y="14"
-						text-anchor="middle"
-						font-size="3"
-						fill="#9ca3af"
-					>Age {generationState.config.age ?? ''} &middot; {generationState.streamedActivities.length} Activities</text>
+						<text
+							x={contentW / 2}
+							y="14"
+							text-anchor="middle"
+							font-size="3"
+							fill="#9ca3af"
+						>Age {generationState.config.age ?? ''} &middot; {generationState.streamedActivities.length} Activities</text>
 
-					<!-- Name & date lines -->
-					<text x="0" y="22" font-size="2.5" fill="#9ca3af">Name: ________________________</text>
-					<text x={A4_W - 2 * MARGIN} y="22" text-anchor="end" font-size="2.5" fill="#9ca3af">Date: ____________</text>
+						<text x="0" y="22" font-size="2.5" fill="#9ca3af">Name: ________________________</text>
+						<text x={contentW} y="22" text-anchor="end" font-size="2.5" fill="#9ca3af">Date: ____________</text>
 
-					<!-- Header underline -->
-					<line x1="0" y1={HEADER_H} x2={A4_W - 2 * MARGIN} y2={HEADER_H} stroke="#e5e7eb" stroke-width="0.3" />
-				</g>
+						<line x1="0" y1={HEADER_H} x2={contentW} y2={HEADER_H} stroke="#e5e7eb" stroke-width="0.3" />
+					</g>
+				{/if}
 
-				<!-- Activities rendered with proper SVG components -->
-				{#each generationState.streamedActivities as activity, i}
+				<!-- Activities for current page -->
+				{#each currentPageActivities as item, i}
 					{#if zones[i]}
-						<ActivityBlockRenderer {activity} zone={zones[i]} />
+						<ActivityBlockRenderer activity={item.activity} zone={zones[i]} />
 					{/if}
 				{/each}
 
@@ -200,7 +257,7 @@
 					text-anchor="middle"
 					font-size="2"
 					fill="#d1d5db"
-				>Generated by WorksheetWiz</text>
+				>{previewTotalPages > 1 ? `Page ${currentPreviewPage + 1} of ${previewTotalPages}  ·  ` : ''}Generated by WorksheetWiz</text>
 			</svg>
 		</div>
 	</div>

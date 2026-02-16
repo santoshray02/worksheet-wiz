@@ -19,11 +19,12 @@
 	const ACTIVITY_AREA_WIDTH = 190;
 	const ACTIVITY_AREA_HEIGHT = 222;
 	const ACTIVITY_GAP = 3;
+	const MIN_ACTIVITY_HEIGHT = 40;
 
 	/**
 	 * Calculate zone positions by vertically stacking activities within
 	 * the activity area (y=55 to y=277). Each activity gets an equal share
-	 * of the available height minus gaps.
+	 * of the available height minus gaps, with a minimum height enforced.
 	 */
 	function getZoneForActivity(
 		index: number,
@@ -34,7 +35,7 @@
 		}
 
 		const totalGap = ACTIVITY_GAP * (total - 1);
-		const slotHeight = (ACTIVITY_AREA_HEIGHT - totalGap) / total;
+		const slotHeight = Math.max(MIN_ACTIVITY_HEIGHT, (ACTIVITY_AREA_HEIGHT - totalGap) / total);
 
 		return {
 			x: ACTIVITY_AREA_X,
