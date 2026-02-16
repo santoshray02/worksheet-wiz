@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Apple half - hand sketched style, cross section -->
+  <!-- Outer skin -->
+  <path d="M50 85 C28 85, 15 68, 16 52 C17 36, 25 28, 35 25 C40 23, 45 24, 50 27 L50 85Z"
+    fill="#c75b5b" fill-opacity="0.8" stroke="#8b3a3a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Inner flesh -->
+  <path d="M50 27 C55 24, 60 23, 65 25 C75 28, 83 36, 84 52 C85 68, 72 85, 50 85 L50 27Z"
+    fill="#f0d6a8" fill-opacity="0.8" stroke="#8b3a3a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Cut line -->
+  <line x1="50" y1="27" x2="50" y2="85" stroke="#8b3a3a" stroke-width="2" stroke-linecap="round"/>
+  <!-- Core -->
+  <path d="M56 48 C60 52, 60 60, 56 65 C54 67, 52 66, 52 63 C52 58, 52 53, 56 48Z"
+    fill="#f5e6c8" fill-opacity="0.7" stroke="#b08050" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Seeds -->
+  <ellipse cx="58" cy="54" rx="2" ry="3.5" transform="rotate(15,58,54)"
+    fill="#6b4226" fill-opacity="0.85" stroke="#4a2e14" stroke-width="0.8"/>
+  <ellipse cx="57" cy="62" rx="2" ry="3.5" transform="rotate(-10,57,62)"
+    fill="#6b4226" fill-opacity="0.85" stroke="#4a2e14" stroke-width="0.8"/>
+  <!-- Stem -->
+  <path d="M50 27 C49 22, 48 17, 50 12"
+    fill="none" stroke="#6b4226" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Leaf -->
+  <path d="M50 18 C55 14, 63 13, 67 16 C63 17, 55 18, 50 18Z"
+    fill="#7ba87b" fill-opacity="0.75" stroke="#4a7a4a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

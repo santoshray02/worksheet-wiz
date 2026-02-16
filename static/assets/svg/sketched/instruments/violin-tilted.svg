@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Violin tilted view - hand sketched style -->
+  <g transform="rotate(-20, 50, 50)">
+    <!-- Scroll -->
+    <path d="M 47 5 Q 44 4 43 6 Q 42 8.5 44 9.5 Q 46 10.5 47 8.5 Q 47.5 7 47 5" stroke="#6b4226" stroke-width="1.5" stroke-linecap="round" fill="#8b5e3c" fill-opacity="0.7"/>
+    <!-- Pegbox -->
+    <path d="M 47 9 L 47 18 L 53 18 L 53 9" stroke="#6b4226" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="#8b5e3c" fill-opacity="0.8"/>
+    <!-- Tuning pegs -->
+    <line x1="44" y1="11" x2="47" y2="11" stroke="#4a2e18" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="44" y1="15" x2="47" y2="15" stroke="#4a2e18" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="53" y1="12" x2="56" y2="12" stroke="#4a2e18" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="53" y1="16" x2="56" y2="16" stroke="#4a2e18" stroke-width="1.5" stroke-linecap="round"/>
+    <!-- Neck -->
+    <path d="M 48 18 L 48 35 L 52 35 L 52 18" fill="#b87d4a" fill-opacity="0.8" stroke="#6b4226" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Body -->
+    <path d="M 48 35 Q 37 37 33 43 Q 30 48 33 53 Q 36 56 48 57 Q 41 58 39 61 Q 38 64 41 67 Q 43 68 48 69 Q 33 71 29 79 Q 27 86 33 91 Q 39 95 50 96 Q 61 95 67 91 Q 73 86 71 79 Q 67 71 52 69 Q 57 68 59 67 Q 62 64 61 61 Q 59 58 52 57 Q 64 56 67 53 Q 70 48 67 43 Q 63 37 52 35 Z" fill="#b87d4a" fill-opacity="0.75" stroke="#6b4226" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- F-holes -->
+    <path d="M 42 53 Q 41 57 42 61 Q 43 65 44 69" stroke="#3d2b1f" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+    <path d="M 58 53 Q 59 57 58 61 Q 57 65 56 69" stroke="#3d2b1f" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+    <circle cx="42.5" cy="61" r="1" fill="#3d2b1f"/>
+    <circle cx="57.5" cy="61" r="1" fill="#3d2b1f"/>
+    <!-- Bridge -->
+    <path d="M 44 73 L 46 69 L 54 69 L 56 73" stroke="#6b4226" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="#8b5e3c" fill-opacity="0.6"/>
+    <!-- Strings -->
+    <line x1="49" y1="9" x2="48.5" y2="78" stroke="#aaa" stroke-width="0.5" stroke-linecap="round"/>
+    <line x1="50" y1="9" x2="50" y2="78" stroke="#aaa" stroke-width="0.5" stroke-linecap="round"/>
+    <line x1="51" y1="9" x2="50.8" y2="78" stroke="#aaa" stroke-width="0.5" stroke-linecap="round"/>
+    <line x1="52" y1="9" x2="51.5" y2="78" stroke="#aaa" stroke-width="0.5" stroke-linecap="round"/>
+    <!-- Tailpiece -->
+    <path d="M 47 78 L 50 96 L 53 78 Z" fill="#3d2b1f" fill-opacity="0.6" stroke="#3d2b1f" stroke-width="1"/>
+    <!-- Bow crossing the violin -->
+    <line x1="15" y1="55" x2="90" y2="45" stroke="#b87d4a" stroke-width="1.8" stroke-linecap="round"/>
+    <path d="M 15 55 Q 14 56 15 57 Q 16 57 16 55" stroke="#6b4226" stroke-width="1" stroke-linecap="round" fill="#6b4226" fill-opacity="0.6"/>
+    <!-- Bow hair hint -->
+    <line x1="16" y1="56" x2="89" y2="46" stroke="#eee" stroke-width="0.5" stroke-linecap="round" opacity="0.6"/>
+  </g>
+</svg>

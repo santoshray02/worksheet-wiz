@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Dolphin - Jumping View -->
+  <g stroke="#2a5a7b" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Body - arched upward -->
+    <path d="M20,75 C16,65 18,50 25,38 C32,28 42,20 52,18 C62,16 70,20 75,28 C80,36 80,45 76,55"
+          fill="#8fbcbb" fill-opacity="0.8" stroke-width="2.5"/>
+    <path d="M76,55 C72,62 65,68 58,72 C48,76 35,78 20,75"
+          fill="#8fbcbb" fill-opacity="0.8" stroke-width="2.5"/>
+    <!-- Double stroke -->
+    <path d="M22,62 C20,52 24,40 32,30" fill="none" stroke-width="1.2" opacity="0.35"/>
+    <!-- Belly -->
+    <path d="M30,72 C42,70 56,64 68,54" fill="none" stroke-width="1.5" opacity="0.4"/>
+    <!-- Snout/beak -->
+    <path d="M52,18 C56,12 60,10 62,10" fill="none" stroke-width="2.5"/>
+    <path d="M55,20 C58,14 62,12 64,13" fill="none" stroke-width="1.8"/>
+    <!-- Eye -->
+    <circle cx="48" cy="25" r="2.5" fill="#2a3a4a" stroke-width="1.5"/>
+    <circle cx="49" cy="24" r="0.8" fill="white" stroke="none"/>
+    <!-- Smile -->
+    <path d="M54,22 C56,20 58,18" fill="none" stroke-width="1.5"/>
+    <!-- Dorsal fin -->
+    <path d="M38,32 C34,24 36,18 40,16 C42,18 42,24 40,32" fill="#7aacaa" fill-opacity="0.75" stroke-width="2"/>
+    <!-- Tail flukes -->
+    <path d="M20,75 C14,78 8,82 6,86 C10,82 14,80 18,78" fill="none" stroke-width="2.5"/>
+    <path d="M20,75 C16,72 12,70 8,68 C12,70 16,72 20,73" fill="none" stroke-width="2.5"/>
+    <!-- Pectoral fin -->
+    <path d="M55,42 C60,48 62,54 58,52 C56,50 54,46 54,44" fill="#7aacaa" fill-opacity="0.7" stroke-width="2"/>
+    <!-- Water splash at bottom -->
+    <path d="M5,90 C15,86 25,88 35,86 C45,84 55,86 65,84 C75,82 85,84 95,82" fill="none" stroke-width="2" stroke="#6b9dba" opacity="0.5"/>
+    <path d="M10,94 C20,92 30,94 40,92 C50,90 60,92 70,90 C80,88 90,90 98,88" fill="none" stroke-width="1.5" stroke="#6b9dba" opacity="0.3"/>
+    <!-- Water droplets -->
+    <circle cx="14" cy="82" r="1.2" fill="#6b9dba" fill-opacity="0.4" stroke-width="1" stroke="#5a8aa9" opacity="0.5"/>
+    <circle cx="28" cy="80" r="1" fill="#6b9dba" fill-opacity="0.4" stroke-width="1" stroke="#5a8aa9" opacity="0.4"/>
+    <!-- Bubbles -->
+    <circle cx="65" cy="14" r="1.5" fill="none" stroke-width="1" stroke="#5a8aa9" opacity="0.5"/>
+    <circle cx="68" cy="8" r="1" fill="none" stroke-width="1" stroke="#5a8aa9" opacity="0.4"/>
+  </g>
+</svg>

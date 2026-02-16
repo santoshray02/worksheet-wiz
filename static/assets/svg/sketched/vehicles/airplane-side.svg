@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <g stroke="#3a3a3a" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- Fuselage -->
+    <path d="M5,48 C3,47 2,45 4,43 C6,41 15,39 25,38 L75,37 C82,37 90,39 94,42 C97,44 98,46 96,48 C94,50 85,52 75,52 L25,52 C15,51 6,50 5,48 Z"
+          fill="#e8e8e8" fill-opacity="0.85" stroke-width="2.2"/>
+    <!-- Cockpit windows -->
+    <path d="M88,40 C90,40 93,42 94,43 L91,44 L88,44 Z"
+          fill="#87ceeb" fill-opacity="0.8" stroke-width="1.2"/>
+    <!-- Passenger windows -->
+    <ellipse cx="40" cy="44" rx="2" ry="1.8" fill="#87ceeb" fill-opacity="0.7" stroke-width="1"/>
+    <ellipse cx="47" cy="44" rx="2" ry="1.8" fill="#87ceeb" fill-opacity="0.7" stroke-width="1"/>
+    <ellipse cx="54" cy="44" rx="2" ry="1.8" fill="#87ceeb" fill-opacity="0.7" stroke-width="1"/>
+    <ellipse cx="61" cy="44" rx="2" ry="1.8" fill="#87ceeb" fill-opacity="0.7" stroke-width="1"/>
+    <ellipse cx="68" cy="44" rx="2" ry="1.8" fill="#87ceeb" fill-opacity="0.7" stroke-width="1"/>
+    <ellipse cx="75" cy="44" rx="2" ry="1.8" fill="#87ceeb" fill-opacity="0.7" stroke-width="1"/>
+    <!-- Wing -->
+    <path d="M42,48 C40,52 35,65 32,72 C31,74 32,75 34,75 L50,72 C52,71 53,68 52,65 L50,48"
+          fill="#5b8cc7" fill-opacity="0.7" stroke-width="2"/>
+    <!-- Tail fin vertical -->
+    <path d="M12,38 C10,32 8,22 8,18 C8,16 9,15 11,16 C14,18 18,28 20,38"
+          fill="#c75b5b" fill-opacity="0.75" stroke-width="2"/>
+    <!-- Tail fin horizontal -->
+    <path d="M8,42 C6,40 2,35 1,32 C0.5,31 1,30 2,30.5 C5,32 12,38 15,40"
+          fill="#5b8cc7" fill-opacity="0.7" stroke-width="1.5"/>
+    <!-- Engine under wing -->
+    <ellipse cx="46" cy="54" rx="5" ry="3" fill="#888" fill-opacity="0.6" stroke-width="1.5"/>
+    <!-- Stripe on fuselage -->
+    <path d="M20,45 L85,44" stroke="#c75b5b" stroke-width="1.5" opacity="0.5"/>
+    <!-- Landing gear hint -->
+    <line x1="55" y1="52" x2="55" y2="58" stroke-width="1.2"/>
+    <ellipse cx="55" cy="59" rx="2" ry="1.5" fill="#4a4a4a" fill-opacity="0.7" stroke-width="1"/>
+  </g>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Ball bouncing view - hand sketched style -->
+  <!-- Main ball (elevated, mid-bounce) -->
+  <circle cx="50" cy="35" r="28" fill="#c75b5b" fill-opacity="0.8" stroke="#a04040" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Curved stripes -->
+  <path d="M 28 22 Q 38 35 32 50" stroke="#f5f0e0" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.7"/>
+  <path d="M 72 22 Q 62 35 68 50" stroke="#f5f0e0" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.7"/>
+  <path d="M 28 22 Q 40 16 50 16 Q 60 16 72 22" stroke="#f5f0e0" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.7"/>
+  <path d="M 32 50 Q 42 55 50 55 Q 58 55 68 50" stroke="#f5f0e0" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.7"/>
+  <!-- Highlight -->
+  <path d="M 38 20 Q 40 17 44 15" stroke="#e8a0a0" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.6"/>
+  <!-- Motion lines (bouncing effect) -->
+  <line x1="38" y1="68" x2="40" y2="74" stroke="#888" stroke-width="1.2" stroke-linecap="round" opacity="0.5"/>
+  <line x1="50" y1="66" x2="50" y2="73" stroke="#888" stroke-width="1.2" stroke-linecap="round" opacity="0.5"/>
+  <line x1="62" y1="68" x2="60" y2="74" stroke="#888" stroke-width="1.2" stroke-linecap="round" opacity="0.5"/>
+  <!-- More motion lines -->
+  <line x1="42" y1="75" x2="43" y2="80" stroke="#888" stroke-width="1" stroke-linecap="round" opacity="0.35"/>
+  <line x1="50" y1="74" x2="50" y2="80" stroke="#888" stroke-width="1" stroke-linecap="round" opacity="0.35"/>
+  <line x1="58" y1="75" x2="57" y2="80" stroke="#888" stroke-width="1" stroke-linecap="round" opacity="0.35"/>
+  <!-- Bounce impact point -->
+  <path d="M 35 90 Q 42 87 50 86 Q 58 87 65 90" stroke="#888" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.4"/>
+  <path d="M 40 93 Q 45 91 50 90 Q 55 91 60 93" stroke="#888" stroke-width="1" stroke-linecap="round" fill="none" opacity="0.3"/>
+  <!-- Small impact lines -->
+  <line x1="45" y1="86" x2="43" y2="83" stroke="#888" stroke-width="1" stroke-linecap="round" opacity="0.3"/>
+  <line x1="55" y1="86" x2="57" y2="83" stroke="#888" stroke-width="1" stroke-linecap="round" opacity="0.3"/>
+</svg>

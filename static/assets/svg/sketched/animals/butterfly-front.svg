@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <style>
+    .detail { fill: none; stroke: #4a3a5a; stroke-width: 1.2; stroke-linecap: round; stroke-linejoin: round; }
+    .body-stroke { fill: none; stroke: #4a3a5a; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+    .wing-upper-l { fill: #c4789a; fill-opacity: 0.75; stroke: #4a3a5a; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+    .wing-upper-r { fill: #c47898; fill-opacity: 0.75; stroke: #4a3a5a; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+    .wing-lower-l { fill: #d4a06a; fill-opacity: 0.7; stroke: #4a3a5a; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+    .wing-lower-r { fill: #d4a068; fill-opacity: 0.7; stroke: #4a3a5a; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+  </style>
+  <!-- Upper left wing -->
+  <path class="wing-upper-l" d="M48 36 C42 28, 30 18, 18 16 C10 14, 6 20, 8 28 C10 36, 18 44, 28 48 C36 50, 44 48, 48 44Z"/>
+  <!-- Upper right wing -->
+  <path class="wing-upper-r" d="M52 36 C58 28, 70 18, 82 16 C90 14, 94 20, 92 28 C90 36, 82 44, 72 48 C64 50, 56 48, 52 44Z"/>
+  <!-- Lower left wing -->
+  <path class="wing-lower-l" d="M48 48 C42 50, 30 56, 22 64 C16 70, 18 78, 24 80 C30 82, 40 76, 46 68 C48 62, 48 54, 48 48Z"/>
+  <!-- Lower right wing -->
+  <path class="wing-lower-r" d="M52 48 C58 50, 70 56, 78 64 C84 70, 82 78, 76 80 C70 82, 60 76, 54 68 C52 62, 52 54, 52 48Z"/>
+  <!-- Wing pattern dots - upper left -->
+  <ellipse cx="26" cy="28" rx="4" ry="4.5" fill="#9a5a7a" fill-opacity="0.5" stroke="#4a3a5a" stroke-width="1" stroke-linecap="round"/>
+  <ellipse cx="18" cy="32" rx="2.5" ry="3" fill="#b4688a" fill-opacity="0.4" stroke="#4a3a5a" stroke-width="0.8"/>
+  <ellipse cx="34" cy="36" rx="3" ry="2.5" fill="#9a5a7a" fill-opacity="0.4" stroke="#4a3a5a" stroke-width="0.8"/>
+  <!-- Wing pattern dots - upper right -->
+  <ellipse cx="74" cy="28" rx="4" ry="4.5" fill="#9a5a7a" fill-opacity="0.5" stroke="#4a3a5a" stroke-width="1" stroke-linecap="round"/>
+  <ellipse cx="82" cy="32" rx="2.5" ry="3" fill="#b4688a" fill-opacity="0.4" stroke="#4a3a5a" stroke-width="0.8"/>
+  <ellipse cx="66" cy="36" rx="3" ry="2.5" fill="#9a5a7a" fill-opacity="0.4" stroke="#4a3a5a" stroke-width="0.8"/>
+  <!-- Wing pattern - lower wings -->
+  <ellipse cx="32" cy="66" rx="3" ry="3.5" fill="#b4805a" fill-opacity="0.4" stroke="#4a3a5a" stroke-width="0.8"/>
+  <ellipse cx="68" cy="66" rx="3" ry="3.5" fill="#b4805a" fill-opacity="0.4" stroke="#4a3a5a" stroke-width="0.8"/>
+  <!-- Wing edge details -->
+  <path class="detail" d="M14 22 C12 24, 10 26, 10 28"/>
+  <path class="detail" d="M86 22 C88 24, 90 26, 90 28"/>
+  <path class="detail" d="M20 74 C22 76, 24 78, 26 78"/>
+  <path class="detail" d="M80 74 C78 76, 76 78, 74 78"/>
+  <!-- Body -->
+  <path d="M50 28 C52 28, 53 30, 53 34 L53 70 C53 74, 51 76, 50 76 C49 76, 47 74, 47 70 L47 34 C47 30, 48 28, 50 28Z" fill="#5a4a3a" fill-opacity="0.8" stroke="#4a3a5a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Body segments -->
+  <path class="detail" d="M47.5 38 L52.5 38"/>
+  <path class="detail" d="M47.5 44 L52.5 44"/>
+  <path class="detail" d="M47.5 50 L52.5 50"/>
+  <path class="detail" d="M47.5 56 L52.5 56"/>
+  <path class="detail" d="M47.5 62 L52.5 62"/>
+  <path class="detail" d="M48 68 L52 68"/>
+  <!-- Head -->
+  <ellipse cx="50" cy="26" rx="5" ry="5.5" fill="#5a4a3a" fill-opacity="0.8" stroke="#4a3a5a" stroke-width="2" stroke-linecap="round"/>
+  <!-- Eyes -->
+  <circle cx="48" cy="25" r="1.5" fill="#f5f0e0" fill-opacity="0.9"/>
+  <circle cx="52" cy="25" r="1.5" fill="#f5f0e0" fill-opacity="0.9"/>
+  <circle cx="48.2" cy="25.2" r="0.7" fill="#2a2020"/>
+  <circle cx="52.2" cy="25.2" r="0.7" fill="#2a2020"/>
+  <!-- Smile -->
+  <path d="M48 27.5 C49 28.5, 51 28.5, 52 27.5" fill="none" stroke="#f5f0e0" stroke-width="0.8" stroke-linecap="round" opacity="0.7"/>
+  <!-- Antennae -->
+  <path d="M48 21 C44 14, 38 8, 34 6" fill="none" stroke="#4a3a5a" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M52 21 C56 14, 62 8, 66 6" fill="none" stroke="#4a3a5a" stroke-width="1.8" stroke-linecap="round"/>
+  <circle cx="34" cy="6" r="2" fill="#c4789a" fill-opacity="0.7" stroke="#4a3a5a" stroke-width="1.2"/>
+  <circle cx="66" cy="6" r="2" fill="#c4789a" fill-opacity="0.7" stroke="#4a3a5a" stroke-width="1.2"/>
+  <!-- Tiny legs suggestion -->
+  <path class="detail" d="M48 40 L44 42"/>
+  <path class="detail" d="M52 40 L56 42"/>
+  <path class="detail" d="M48 46 L44 48"/>
+  <path class="detail" d="M52 46 L56 48"/>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Pencil straight view - hand sketched style (vertical pencil) -->
+  <!-- Pencil body (hexagonal simplified as rectangle with slight taper) -->
+  <path d="M 42 15 L 42 72 L 58 72 L 58 15 Z" fill="#c7c75b" fill-opacity="0.8" stroke="#a0a040" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Wood/sharpened tip -->
+  <path d="M 42 72 L 50 92 L 58 72 Z" fill="#e8c97a" fill-opacity="0.8" stroke="#b8943a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Graphite tip -->
+  <path d="M 47 84 L 50 92 L 53 84 Z" fill="#444" fill-opacity="0.8" stroke="#333" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Eraser ferrule (metal band) -->
+  <rect x="40" y="10" width="20" height="8" rx="1" fill="#c0c0c0" fill-opacity="0.8" stroke="#888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Ferrule lines -->
+  <line x1="40" y1="12" x2="60" y2="12" stroke="#999" stroke-width="0.6" stroke-linecap="round"/>
+  <line x1="40" y1="14" x2="60" y2="14" stroke="#999" stroke-width="0.6" stroke-linecap="round"/>
+  <line x1="40" y1="16" x2="60" y2="16" stroke="#999" stroke-width="0.6" stroke-linecap="round"/>
+  <!-- Eraser -->
+  <path d="M 41 10 Q 41 5 43 4 L 57 4 Q 59 5 59 10" fill="#c75b7b" fill-opacity="0.8" stroke="#a04060" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Pencil body stripe (brand stripe) -->
+  <rect x="42" y="30" width="16" height="4" fill="#a0a040" fill-opacity="0.4" stroke="none"/>
+  <!-- Text line on pencil (brand hint) -->
+  <line x1="44" y1="45" x2="56" y2="45" stroke="#8b8b2e" stroke-width="0.8" stroke-linecap="round" opacity="0.5"/>
+  <line x1="46" y1="48" x2="54" y2="48" stroke="#8b8b2e" stroke-width="0.6" stroke-linecap="round" opacity="0.4"/>
+  <!-- Side edge lines (hex shape suggestion) -->
+  <line x1="45" y1="15" x2="45" y2="72" stroke="#8b8b2e" stroke-width="0.5" stroke-linecap="round" opacity="0.3"/>
+  <line x1="55" y1="15" x2="55" y2="72" stroke="#8b8b2e" stroke-width="0.5" stroke-linecap="round" opacity="0.3"/>
+  <!-- Wood grain in sharpened area -->
+  <path d="M 44 74 Q 46 78 48 82" stroke="#b8943a" stroke-width="0.6" stroke-linecap="round" fill="none" opacity="0.5"/>
+  <path d="M 56 74 Q 54 78 52 82" stroke="#b8943a" stroke-width="0.6" stroke-linecap="round" fill="none" opacity="0.5"/>
+</svg>

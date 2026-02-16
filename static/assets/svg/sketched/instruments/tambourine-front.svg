@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Tambourine front view - hand sketched style -->
+  <!-- Outer rim -->
+  <circle cx="50" cy="50" r="38" fill="none" stroke="#8b5e3c" stroke-width="3" stroke-linecap="round"/>
+  <!-- Inner rim -->
+  <circle cx="50" cy="50" r="34" fill="none" stroke="#8b5e3c" stroke-width="2" stroke-linecap="round"/>
+  <!-- Drum head -->
+  <circle cx="50" cy="50" r="33" fill="#f5f0e0" fill-opacity="0.8" stroke="none"/>
+  <!-- Frame (wood ring) -->
+  <path d="M 50 12 Q 75 12 82 26 Q 90 40 88 50 Q 90 60 82 74 Q 75 88 50 88 Q 25 88 18 74 Q 10 60 12 50 Q 10 40 18 26 Q 25 12 50 12" fill="#b87d4a" fill-opacity="0.3" stroke="none"/>
+  <!-- Jingle slots and jingles (pairs of small cymbals) -->
+  <!-- Top -->
+  <ellipse cx="50" cy="14" rx="4" ry="2.5" fill="#d4b84a" fill-opacity="0.8" stroke="#a08620" stroke-width="1" stroke-linecap="round"/>
+  <ellipse cx="50" cy="14" rx="2" ry="1.2" fill="#e8d066" fill-opacity="0.6" stroke="none"/>
+  <!-- Top right -->
+  <ellipse cx="72" cy="20" rx="4" ry="2.5" fill="#d4b84a" fill-opacity="0.8" stroke="#a08620" stroke-width="1" stroke-linecap="round" transform="rotate(30, 72, 20)"/>
+  <ellipse cx="72" cy="20" rx="2" ry="1.2" fill="#e8d066" fill-opacity="0.6" stroke="none" transform="rotate(30, 72, 20)"/>
+  <!-- Right -->
+  <ellipse cx="86" cy="38" rx="4" ry="2.5" fill="#d4b84a" fill-opacity="0.8" stroke="#a08620" stroke-width="1" stroke-linecap="round" transform="rotate(60, 86, 38)"/>
+  <!-- Mid right -->
+  <ellipse cx="88" cy="56" rx="4" ry="2.5" fill="#d4b84a" fill-opacity="0.8" stroke="#a08620" stroke-width="1" stroke-linecap="round" transform="rotate(80, 88, 56)"/>
+  <!-- Bottom right -->
+  <ellipse cx="78" cy="74" rx="4" ry="2.5" fill="#d4b84a" fill-opacity="0.8" stroke="#a08620" stroke-width="1" stroke-linecap="round" transform="rotate(-30, 78, 74)"/>
+  <!-- Bottom -->
+  <ellipse cx="58" cy="86" rx="4" ry="2.5" fill="#d4b84a" fill-opacity="0.8" stroke="#a08620" stroke-width="1" stroke-linecap="round"/>
+  <!-- Bottom left -->
+  <ellipse cx="36" cy="84" rx="4" ry="2.5" fill="#d4b84a" fill-opacity="0.8" stroke="#a08620" stroke-width="1" stroke-linecap="round" transform="rotate(15, 36, 84)"/>
+  <!-- Left bottom -->
+  <ellipse cx="18" cy="70" rx="4" ry="2.5" fill="#d4b84a" fill-opacity="0.8" stroke="#a08620" stroke-width="1" stroke-linecap="round" transform="rotate(-60, 18, 70)"/>
+  <!-- Left -->
+  <ellipse cx="12" cy="50" rx="4" ry="2.5" fill="#d4b84a" fill-opacity="0.8" stroke="#a08620" stroke-width="1" stroke-linecap="round" transform="rotate(90, 12, 50)"/>
+  <!-- Left top -->
+  <ellipse cx="18" cy="30" rx="4" ry="2.5" fill="#d4b84a" fill-opacity="0.8" stroke="#a08620" stroke-width="1" stroke-linecap="round" transform="rotate(-45, 18, 30)"/>
+  <!-- Top left -->
+  <ellipse cx="32" cy="16" rx="4" ry="2.5" fill="#d4b84a" fill-opacity="0.8" stroke="#a08620" stroke-width="1" stroke-linecap="round" transform="rotate(-20, 32, 16)"/>
+  <!-- Drum head texture (subtle lines) -->
+  <path d="M 35 40 Q 50 38 65 42" stroke="#d5c8a0" stroke-width="0.5" stroke-linecap="round" fill="none" opacity="0.4"/>
+  <path d="M 32 55 Q 50 58 68 54" stroke="#d5c8a0" stroke-width="0.5" stroke-linecap="round" fill="none" opacity="0.4"/>
+</svg>

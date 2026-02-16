@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <g stroke="#3a3a3a" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- Locomotive body -->
+    <path d="M10,35 L10,28 C10,26 12,24 14,24 L72,24 C74,24 76,26 76,28 L76,35 L82,35 C86,35 90,38 92,42 L95,50 C96,52 96,55 95,57 L95,65 C95,67 93,68 91,68 L10,68 C8,68 6,66 6,64 L6,38 C6,36 8,35 10,35 Z"
+          fill="#7bc77b" fill-opacity="0.8" stroke-width="2.5"/>
+    <!-- Boiler/nose area -->
+    <path d="M76,35 L82,35 C86,35 90,38 92,42 L95,50"
+          stroke-width="2" fill="none"/>
+    <!-- Windows -->
+    <rect x="14" y="28" width="12" height="10" rx="2" fill="#87ceeb" fill-opacity="0.75" stroke-width="1.2"/>
+    <rect x="30" y="28" width="12" height="10" rx="2" fill="#87ceeb" fill-opacity="0.75" stroke-width="1.2"/>
+    <rect x="46" y="28" width="12" height="10" rx="2" fill="#87ceeb" fill-opacity="0.75" stroke-width="1.2"/>
+    <rect x="62" y="28" width="12" height="10" rx="2" fill="#87ceeb" fill-opacity="0.75" stroke-width="1.2"/>
+    <!-- Stripe -->
+    <path d="M6,50 L95,50" stroke="#c7c75b" stroke-width="2.5" opacity="0.5"/>
+    <!-- Headlight -->
+    <ellipse cx="95" cy="45" rx="2.5" ry="3" fill="#c7c75b" fill-opacity="0.85" stroke-width="1.2"/>
+    <!-- Cow catcher -->
+    <path d="M95,62 L98,68 L95,68" fill="#888" fill-opacity="0.5" stroke-width="1.5"/>
+    <!-- Wheels -->
+    <ellipse cx="18" cy="72" rx="7.5" ry="7" fill="#4a4a4a" fill-opacity="0.8" stroke-width="2.2"/>
+    <ellipse cx="18" cy="72" rx="3" ry="2.8" fill="#888" fill-opacity="0.6" stroke-width="1"/>
+    <ellipse cx="38" cy="72" rx="7.5" ry="7" fill="#4a4a4a" fill-opacity="0.8" stroke-width="2.2"/>
+    <ellipse cx="38" cy="72" rx="3" ry="2.8" fill="#888" fill-opacity="0.6" stroke-width="1"/>
+    <ellipse cx="58" cy="72" rx="7.5" ry="7" fill="#4a4a4a" fill-opacity="0.8" stroke-width="2.2"/>
+    <ellipse cx="58" cy="72" rx="3" ry="2.8" fill="#888" fill-opacity="0.6" stroke-width="1"/>
+    <ellipse cx="82" cy="72" rx="7.5" ry="7" fill="#4a4a4a" fill-opacity="0.8" stroke-width="2.2"/>
+    <ellipse cx="82" cy="72" rx="3" ry="2.8" fill="#888" fill-opacity="0.6" stroke-width="1"/>
+    <!-- Connecting rod -->
+    <path d="M18,72 L38,72 L58,72" stroke-width="1.5" stroke="#888" opacity="0.5"/>
+    <!-- Smokestack -->
+    <path d="M85,35 L85,22 C85,20 86,18 88,18 L90,18 C92,18 93,20 93,22 L93,35"
+          fill="#555" fill-opacity="0.6" stroke-width="1.5"/>
+    <!-- Smoke -->
+    <circle cx="89" cy="14" r="3.5" fill="#ddd" fill-opacity="0.4" stroke-width="0.8"/>
+    <circle cx="85" cy="10" r="3" fill="#ddd" fill-opacity="0.3" stroke-width="0.8"/>
+    <circle cx="91" cy="7" r="2.5" fill="#ddd" fill-opacity="0.25" stroke-width="0.8"/>
+    <!-- Track/rail -->
+    <path d="M2,80 L98,80" stroke-width="2" opacity="0.4"/>
+    <path d="M2,82 L98,82" stroke-width="2" opacity="0.4"/>
+    <!-- Ties -->
+    <line x1="10" y1="79" x2="10" y2="83" stroke-width="1.5" opacity="0.3"/>
+    <line x1="25" y1="79" x2="25" y2="83" stroke-width="1.5" opacity="0.3"/>
+    <line x1="40" y1="79" x2="40" y2="83" stroke-width="1.5" opacity="0.3"/>
+    <line x1="55" y1="79" x2="55" y2="83" stroke-width="1.5" opacity="0.3"/>
+    <line x1="70" y1="79" x2="70" y2="83" stroke-width="1.5" opacity="0.3"/>
+    <line x1="85" y1="79" x2="85" y2="83" stroke-width="1.5" opacity="0.3"/>
+  </g>
+</svg>

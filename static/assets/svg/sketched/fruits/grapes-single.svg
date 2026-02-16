@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Single grape - hand sketched style -->
+  <!-- Stem -->
+  <path d="M50 18 C49 22, 48 26, 48 30"
+    fill="none" stroke="#6b4226" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Main grape body -->
+  <ellipse cx="50" cy="55" rx="22" ry="28"
+    fill="#7b5a8b" fill-opacity="0.82" stroke="#5a3a6b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Highlight -->
+  <path d="M38 42 C40 36, 44 33, 48 32"
+    fill="none" stroke="#a888b8" stroke-width="2" stroke-linecap="round" stroke-opacity="0.5"/>
+  <!-- Subtle texture -->
+  <path d="M36 50 C38 48, 40 47, 42 48"
+    fill="none" stroke="#6a4a7b" stroke-width="1" stroke-linecap="round" stroke-opacity="0.3"/>
+  <!-- Bottom dimple -->
+  <path d="M47 82 C49 83, 51 83, 53 82"
+    fill="none" stroke="#5a3a6b" stroke-width="1" stroke-linecap="round" stroke-opacity="0.5"/>
+  <!-- Small stem attachment at top -->
+  <circle cx="49" cy="30" r="2" fill="#6b4226" fill-opacity="0.5" stroke="#5a3a2a" stroke-width="1"/>
+</svg>

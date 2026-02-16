@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Banana whole - hand sketched style -->
+  <!-- Main banana body -->
+  <path d="M25 75 C20 65, 18 50, 22 38 C26 26, 35 18, 48 15 C60 12, 72 16, 78 22 C74 20, 65 19, 55 22 C42 26, 32 38, 28 55 C26 64, 27 72, 30 78Z"
+    fill="#d4a24d" fill-opacity="0.82" stroke="#a07830" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Bottom tip -->
+  <path d="M25 75 C23 78, 22 82, 24 85"
+    fill="none" stroke="#a07830" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Top stem -->
+  <path d="M78 22 C80 20, 82 18, 81 15"
+    fill="none" stroke="#6b4226" stroke-width="3" stroke-linecap="round"/>
+  <!-- Ridge lines -->
+  <path d="M35 25 C30 38, 26 55, 27 70"
+    fill="none" stroke="#b89040" stroke-width="1.2" stroke-linecap="round" stroke-opacity="0.5"/>
+  <path d="M55 18 C45 28, 35 45, 30 65"
+    fill="none" stroke="#b89040" stroke-width="1" stroke-linecap="round" stroke-opacity="0.4"/>
+  <!-- Small brown spots -->
+  <circle cx="40" cy="40" r="1.2" fill="#8b6914" fill-opacity="0.4"/>
+  <circle cx="35" cy="55" r="1" fill="#8b6914" fill-opacity="0.35"/>
+  <circle cx="45" cy="30" r="0.8" fill="#8b6914" fill-opacity="0.3"/>
+</svg>

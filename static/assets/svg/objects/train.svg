@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Smokestack smoke puffs -->
+  <circle cx="25" cy="12" r="4" fill="#DDD" opacity="0.5"/>
+  <circle cx="22" cy="7" r="3" fill="#DDD" opacity="0.4"/>
+  <circle cx="28" cy="4" r="2.5" fill="#DDD" opacity="0.3"/>
+  <!-- Smokestack -->
+  <rect x="22" y="18" width="8" height="14" rx="2" fill="#555" stroke="#333" stroke-width="1.5"/>
+  <ellipse cx="26" cy="18" rx="5.5" ry="2" fill="#666" stroke="#333" stroke-width="1"/>
+  <!-- Boiler -->
+  <rect x="12" y="32" width="45" height="28" rx="8" ry="8" fill="#E53935" stroke="#C62828" stroke-width="2"/>
+  <!-- Boiler highlight -->
+  <rect x="16" y="35" width="38" height="8" rx="4" fill="#FF6B6B" opacity="0.4"/>
+  <!-- Boiler bands -->
+  <rect x="25" y="32" width="3" height="28" rx="1" fill="#FFD233" opacity="0.7"/>
+  <rect x="40" y="32" width="3" height="28" rx="1" fill="#FFD233" opacity="0.7"/>
+  <!-- Boiler front -->
+  <circle cx="57" cy="46" r="12" fill="#C62828" stroke="#A31515" stroke-width="2"/>
+  <circle cx="57" cy="46" r="8" fill="#E53935"/>
+  <circle cx="57" cy="46" r="4" fill="#333"/>
+  <circle cx="57" cy="46" r="2" fill="#555"/>
+  <!-- Headlight -->
+  <circle cx="57" cy="36" r="3" fill="#FFFDE0" stroke="#E6A817" stroke-width="1"/>
+  <circle cx="56.5" cy="35.5" r="1.5" fill="white" opacity="0.6"/>
+  <!-- Cab -->
+  <rect x="62" y="22" width="28" height="38" rx="4" ry="4" fill="#4A90D9" stroke="#2E6DB4" stroke-width="2"/>
+  <!-- Cab highlight -->
+  <rect x="65" y="25" width="22" height="6" rx="3" fill="#7AB8F5" opacity="0.4"/>
+  <!-- Cab roof -->
+  <rect x="60" y="19" width="32" height="6" rx="3" fill="#2E6DB4" stroke="#1A5276" stroke-width="1"/>
+  <!-- Cab windows -->
+  <rect x="66" y="30" width="10" height="10" rx="2" fill="#B8E4FF" stroke="#2E6DB4" stroke-width="1.5"/>
+  <rect x="80" y="30" width="8" height="10" rx="2" fill="#B8E4FF" stroke="#2E6DB4" stroke-width="1.5"/>
+  <!-- Window shine -->
+  <line x1="68" y1="32" x2="68" y2="38" stroke="white" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+  <line x1="82" y1="32" x2="82" y2="38" stroke="white" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+  <!-- Cab door -->
+  <rect x="68" y="44" width="8" height="14" rx="2" fill="#3A7CC5" stroke="#2E6DB4" stroke-width="1"/>
+  <circle cx="74" cy="51" r="1" fill="#FFD233"/>
+  <!-- Cowcatcher -->
+  <polygon points="55,60 58,68 52,68" fill="#888" stroke="#666" stroke-width="1"/>
+  <!-- Wheels -->
+  <circle cx="22" cy="68" r="9" fill="#555" stroke="#333" stroke-width="2"/>
+  <circle cx="22" cy="68" r="5" fill="#888"/>
+  <circle cx="22" cy="68" r="2" fill="#E53935"/>
+  <circle cx="42" cy="68" r="9" fill="#555" stroke="#333" stroke-width="2"/>
+  <circle cx="42" cy="68" r="5" fill="#888"/>
+  <circle cx="42" cy="68" r="2" fill="#E53935"/>
+  <circle cx="78" cy="68" r="7" fill="#555" stroke="#333" stroke-width="2"/>
+  <circle cx="78" cy="68" r="4" fill="#888"/>
+  <circle cx="78" cy="68" r="1.5" fill="#4A90D9"/>
+  <!-- Connecting rod -->
+  <line x1="22" y1="68" x2="42" y2="68" stroke="#FFD233" stroke-width="2" stroke-linecap="round"/>
+  <!-- Rail -->
+  <rect x="0" y="76" width="100" height="3" rx="1" fill="#888"/>
+  <rect x="0" y="80" width="100" height="2" rx="1" fill="#666"/>
+  <!-- Rail ties -->
+  <rect x="5" y="76" width="3" height="7" fill="#8B5E3C"/>
+  <rect x="20" y="76" width="3" height="7" fill="#8B5E3C"/>
+  <rect x="35" y="76" width="3" height="7" fill="#8B5E3C"/>
+  <rect x="50" y="76" width="3" height="7" fill="#8B5E3C"/>
+  <rect x="65" y="76" width="3" height="7" fill="#8B5E3C"/>
+  <rect x="80" y="76" width="3" height="7" fill="#8B5E3C"/>
+  <rect x="95" y="76" width="3" height="7" fill="#8B5E3C"/>
+</svg>

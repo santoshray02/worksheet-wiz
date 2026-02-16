@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Bow stick -->
+  <line x1="78" y1="8" x2="78" y2="92" stroke="#8B6914" stroke-width="2" stroke-linecap="round"/>
+  <!-- Bow hair -->
+  <line x1="80" y1="12" x2="80" y2="88" stroke="#F5E6CA" stroke-width="1.2"/>
+  <!-- Bow frog (bottom) -->
+  <rect x="75" y="86" width="8" height="6" rx="2" fill="#3D2E00" stroke="#2A1F00" stroke-width="0.8"/>
+  <!-- Bow tip (top) -->
+  <path d="M76,8 L80,5 L80,12 L76,12 Z" fill="#F5E6CA" stroke="#8B6914" stroke-width="0.5"/>
+  <!-- Neck -->
+  <rect x="33" y="5" width="7" height="35" rx="2" fill="#8B6914" stroke="#5C4400" stroke-width="1.2"/>
+  <!-- Scroll -->
+  <circle cx="36.5" cy="6" r="5" fill="#5C4400" stroke="#3D2E00" stroke-width="1"/>
+  <circle cx="36.5" cy="6" r="2.5" fill="#8B6914"/>
+  <!-- Pegbox -->
+  <rect x="32" y="8" width="9" height="10" rx="1" fill="#6B5010" stroke="#5C4400" stroke-width="0.8"/>
+  <!-- Pegs -->
+  <line x1="30" y1="11" x2="33" y2="11" stroke="#3D2E00" stroke-width="2" stroke-linecap="round"/>
+  <line x1="40" y1="14" x2="43" y2="14" stroke="#3D2E00" stroke-width="2" stroke-linecap="round"/>
+  <!-- Upper bout -->
+  <ellipse cx="36.5" cy="47" rx="16" ry="12" fill="#C8841E" stroke="#8B5E0B" stroke-width="1.8"/>
+  <!-- Waist (C-bout inward curves) -->
+  <ellipse cx="36.5" cy="58" rx="11" ry="7" fill="#C8841E" stroke="#8B5E0B" stroke-width="1.5"/>
+  <!-- Lower bout -->
+  <ellipse cx="36.5" cy="72" rx="20" ry="16" fill="#C8841E" stroke="#8B5E0B" stroke-width="1.8"/>
+  <!-- Cover overlap between bouts -->
+  <ellipse cx="36.5" cy="58" rx="10" ry="6" fill="#C8841E"/>
+  <!-- F-holes -->
+  <path d="M28,52 Q26,58 29,63" fill="none" stroke="#5C3400" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M45,52 Q47,58 44,63" fill="none" stroke="#5C3400" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Bridge -->
+  <path d="M30,65 L33,60 L36.5,62 L40,60 L43,65" fill="none" stroke="#3D2E00" stroke-width="1.5"/>
+  <!-- Tailpiece -->
+  <rect x="33" y="76" width="7" height="8" rx="2" fill="#3D2E00"/>
+  <!-- Strings -->
+  <line x1="34.5" y1="18" x2="34.5" y2="76" stroke="#E8D5A3" stroke-width="0.4"/>
+  <line x1="36" y1="18" x2="36" y2="76" stroke="#E8D5A3" stroke-width="0.4"/>
+  <line x1="37.5" y1="18" x2="37.5" y2="76" stroke="#E8D5A3" stroke-width="0.4"/>
+  <line x1="39" y1="18" x2="39" y2="76" stroke="#E8D5A3" stroke-width="0.4"/>
+  <!-- Chin rest -->
+  <ellipse cx="43" cy="80" rx="6" ry="4" fill="#5C4400" stroke="#3D2E00" stroke-width="0.8"/>
+  <!-- Body highlight -->
+  <ellipse cx="30" cy="48" rx="5" ry="4" fill="white" opacity="0.15" transform="rotate(-15, 30, 48)"/>
+  <ellipse cx="30" cy="68" rx="7" ry="5" fill="white" opacity="0.15" transform="rotate(-15, 30, 68)"/>
+</svg>

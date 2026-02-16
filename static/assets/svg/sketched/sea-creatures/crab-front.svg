@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Crab - Front View -->
+  <g stroke="#8b4532" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Body/shell -->
+    <path d="M25,50 C22,40 28,30 50,28 C72,30 78,40 75,50 C72,58 62,62 50,62 C38,62 28,58 25,50 Z"
+          fill="#c4756e" fill-opacity="0.8" stroke-width="2.5"/>
+    <!-- Double stroke on shell top -->
+    <path d="M30,35 C40,30 58,30 68,35" fill="none" stroke-width="1.2" opacity="0.35"/>
+    <!-- Shell detail lines -->
+    <path d="M35,38 C42,36 58,36 65,38" fill="none" stroke-width="1" opacity="0.3"/>
+    <path d="M32,44 C42,42 58,42 68,44" fill="none" stroke-width="1" opacity="0.25"/>
+    <!-- Eyes on stalks -->
+    <path d="M40,32 C38,26 36,22 35,20" fill="none" stroke-width="2"/>
+    <circle cx="35" cy="18" r="3.5" fill="#c4756e" fill-opacity="0.8" stroke-width="2"/>
+    <circle cx="35" cy="18" r="2" fill="#2a3a4a" stroke-width="1"/>
+    <circle cx="36" cy="17" r="0.7" fill="white" stroke="none"/>
+    <path d="M60,32 C62,26 64,22 65,20" fill="none" stroke-width="2"/>
+    <circle cx="65" cy="18" r="3.5" fill="#c4756e" fill-opacity="0.8" stroke-width="2"/>
+    <circle cx="65" cy="18" r="2" fill="#2a3a4a" stroke-width="1"/>
+    <circle cx="66" cy="17" r="0.7" fill="white" stroke="none"/>
+    <!-- Mouth -->
+    <path d="M46,52 C48,54 52,54 54,52" fill="none" stroke-width="1.5"/>
+    <!-- Left claw arm -->
+    <path d="M25,48 C18,44 12,40 8,38" fill="none" stroke-width="2.5"/>
+    <!-- Left claw -->
+    <path d="M8,38 C4,34 2,30 4,28 C6,26 10,28 12,32 C14,28 16,26 18,28 C20,30 18,34 14,38 C12,40 10,40 8,38 Z"
+          fill="#c4756e" fill-opacity="0.75" stroke-width="2"/>
+    <!-- Right claw arm -->
+    <path d="M75,48 C82,44 88,40 92,38" fill="none" stroke-width="2.5"/>
+    <!-- Right claw -->
+    <path d="M92,38 C96,34 98,30 96,28 C94,26 90,28 88,32 C86,28 84,26 82,28 C80,30 82,34 86,38 C88,40 90,40 92,38 Z"
+          fill="#c4756e" fill-opacity="0.75" stroke-width="2"/>
+    <!-- Legs left -->
+    <path d="M28,54 C22,60 16,66 12,70" fill="none" stroke-width="2"/>
+    <path d="M30,58 C24,64 20,72 18,78" fill="none" stroke-width="2"/>
+    <path d="M34,60 C30,68 28,76 26,84" fill="none" stroke-width="2"/>
+    <!-- Legs right -->
+    <path d="M72,54 C78,60 84,66 88,70" fill="none" stroke-width="2"/>
+    <path d="M70,58 C76,64 80,72 82,78" fill="none" stroke-width="2"/>
+    <path d="M66,60 C70,68 72,76 74,84" fill="none" stroke-width="2"/>
+    <!-- Small leg joints -->
+    <circle cx="12" cy="70" r="1.2" fill="#c4756e" fill-opacity="0.6" stroke-width="1"/>
+    <circle cx="88" cy="70" r="1.2" fill="#c4756e" fill-opacity="0.6" stroke-width="1"/>
+    <!-- Bubbles -->
+    <circle cx="48" cy="10" r="1.5" fill="none" stroke-width="1" stroke="#6b9dba" opacity="0.5"/>
+    <circle cx="52" cy="6" r="1" fill="none" stroke-width="1" stroke="#6b9dba" opacity="0.4"/>
+  </g>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Mushroom whole (top view) - hand sketched style -->
+  <!-- Cap - large dome shape from above -->
+  <path d="M50 14 C30 14, 12 28, 10 44 C8 58, 18 72, 30 76 C38 78, 46 78, 50 78 C54 78, 62 78, 70 76 C82 72, 92 58, 90 44 C88 28, 70 14, 50 14Z"
+    fill="#c4a060" fill-opacity="0.8" stroke="#8a7040" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Cap center (slightly darker) -->
+  <path d="M50 18 C40 20, 30 28, 28 40 C26 50, 32 58, 40 60 C44 62, 50 62, 50 62 C50 62, 56 62, 60 60 C68 58, 74 50, 72 40 C70 28, 60 20, 50 18Z"
+    fill="#b09050" fill-opacity="0.3" stroke="none"/>
+  <!-- Radial texture lines on cap -->
+  <path d="M50 16 C48 28, 46 42, 46 55"
+    fill="none" stroke="#a08048" stroke-width="1" stroke-linecap="round" stroke-opacity="0.3"/>
+  <path d="M35 20 C34 32, 30 45, 28 58"
+    fill="none" stroke="#a08048" stroke-width="1" stroke-linecap="round" stroke-opacity="0.25"/>
+  <path d="M65 20 C66 32, 70 45, 72 58"
+    fill="none" stroke="#a08048" stroke-width="1" stroke-linecap="round" stroke-opacity="0.25"/>
+  <path d="M22 32 C22 42, 20 52, 20 62"
+    fill="none" stroke="#a08048" stroke-width="1" stroke-linecap="round" stroke-opacity="0.2"/>
+  <path d="M78 32 C78 42, 80 52, 80 62"
+    fill="none" stroke="#a08048" stroke-width="1" stroke-linecap="round" stroke-opacity="0.2"/>
+  <!-- Small stem visible at bottom -->
+  <path d="M44 78 C44 82, 44 88, 46 94 L54 94 C56 88, 56 82, 56 78"
+    fill="#f0e0c0" fill-opacity="0.75" stroke="#a08858" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Highlight on cap -->
+  <path d="M35 28 C38 22, 44 18, 48 17"
+    fill="none" stroke="#d8c088" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.4"/>
+</svg>

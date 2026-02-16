@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <style>
+    .outline { fill: none; stroke: #3a3a3a; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+    .detail { fill: none; stroke: #3a3a3a; stroke-width: 1.2; stroke-linecap: round; stroke-linejoin: round; }
+    .fill-body { fill: #b8864e; fill-opacity: 0.78; }
+    .fill-belly { fill: #dfc9a8; fill-opacity: 0.82; }
+    .fill-nose { fill: #4a3a3a; fill-opacity: 0.9; }
+    .fill-tongue { fill: #d4787a; fill-opacity: 0.8; }
+  </style>
+  <!-- Tail (streaming behind) -->
+  <path d="M88 32 C92 28, 94 22, 90 18" fill="none" stroke="#b8864e" stroke-width="5" stroke-linecap="round" opacity="0.75" />
+  <path class="outline" d="M88 32 C92 28, 94 22, 90 18" style="fill:none;" />
+  <!-- Body (stretched/running) -->
+  <path class="fill-body" d="M28 42 C22 38, 20 34, 22 30 C26 26, 40 26, 52 28 C64 30, 78 34, 84 38 C88 42, 86 50, 80 54 C72 58, 56 58, 42 56 C32 54, 28 50, 28 42Z" />
+  <path class="outline" d="M28 42 C22 38, 20 34, 22 30 C26 26, 40 26, 52 28 C64 30, 78 34, 84 38 C88 42, 86 50, 80 54 C72 58, 56 58, 42 56 C32 54, 28 50, 28 42Z" />
+  <!-- Belly -->
+  <path class="fill-belly" d="M38 50 C44 54, 56 55, 68 52 C72 50, 70 46, 66 44 C58 42, 44 42, 38 46Z" />
+  <!-- Head -->
+  <path class="fill-body" d="M14 28 C8 22, 6 14, 10 10 C14 6, 24 8, 28 14 C32 20, 30 30, 24 34 C20 36, 16 34, 14 28Z" />
+  <path class="outline" d="M14 28 C8 22, 6 14, 10 10 C14 6, 24 8, 28 14 C32 20, 30 30, 24 34 C20 36, 16 34, 14 28Z" />
+  <!-- Snout -->
+  <path class="fill-belly" d="M6 22 C3 18, 4 14, 8 14 C12 14, 14 18, 12 22 C10 25, 7 25, 6 22Z" />
+  <path class="outline" d="M6 22 C3 18, 4 14, 8 14 C12 14, 14 18, 12 22 C10 25, 7 25, 6 22Z" />
+  <!-- Ear (flying back) -->
+  <path class="fill-body" d="M24 12 C28 8, 34 8, 36 12 C38 16, 34 20, 30 18 C26 16, 24 14, 24 12Z" />
+  <path class="outline" d="M24 12 C28 8, 34 8, 36 12 C38 16, 34 20, 30 18 C26 16, 24 14, 24 12Z" />
+  <!-- Eye -->
+  <ellipse cx="14" cy="18" rx="3" ry="3.5" fill="#5a3e2a" fill-opacity="0.85" />
+  <ellipse cx="14" cy="18" rx="3" ry="3.5" class="outline" />
+  <circle cx="13.5" cy="17.5" r="1.8" fill="#1a1a1a" />
+  <circle cx="13" cy="17" r="0.8" fill="white" fill-opacity="0.9" />
+  <!-- Nose -->
+  <ellipse class="fill-nose" cx="6" cy="18" rx="2.5" ry="2" />
+  <!-- Tongue (flapping) -->
+  <path class="fill-tongue" d="M8 24 C7 28, 5 30, 4 32 C3 30, 4 26, 6 24Z" />
+  <path class="detail" d="M8 24 C7 28, 5 30, 4 32" />
+  <!-- Mouth -->
+  <path class="detail" d="M8 23 C10 24, 14 24, 16 23" />
+  <!-- Front legs (extended) -->
+  <!-- Front leg reaching forward -->
+  <path class="fill-body" d="M32 48 C28 54, 20 62, 14 70 C12 74, 10 80, 8 86 C8 89, 13 89, 13 86 C14 80, 16 74, 18 70 C22 62, 28 56, 36 50Z" />
+  <path class="outline" d="M32 48 C28 54, 20 62, 14 70 C12 74, 10 80, 8 86 C8 89, 13 89, 13 86 C14 80, 16 74, 18 70 C22 62, 28 56, 36 50" />
+  <!-- Front leg pushing back -->
+  <path class="fill-body" d="M42 52 C44 58, 48 66, 50 74 C52 80, 52 84, 52 88 C52 91, 47 91, 47 88 C47 84, 46 78, 44 72 C42 64, 38 58, 38 52Z" />
+  <path class="outline" d="M42 52 C44 58, 48 66, 50 74 C52 80, 52 84, 52 88 C52 91, 47 91, 47 88 C47 84, 46 78, 44 72 C42 64, 38 58, 38 52" />
+  <!-- Back leg reaching back -->
+  <path class="fill-body" d="M70 50 C74 56, 80 64, 84 72 C86 78, 88 84, 88 88 C88 91, 83 91, 83 88 C83 84, 82 78, 80 72 C76 64, 72 56, 68 50Z" />
+  <path class="outline" d="M70 50 C74 56, 80 64, 84 72 C86 78, 88 84, 88 88 C88 91, 83 91, 83 88 C83 84, 82 78, 80 72 C76 64, 72 56, 68 50" />
+  <!-- Back leg pushing forward -->
+  <path class="fill-body" d="M60 54 C58 60, 56 68, 58 76 C60 82, 62 86, 64 88 C64 91, 69 91, 69 88 C68 84, 66 78, 64 72 C62 66, 62 58, 64 54Z" />
+  <path class="outline" d="M60 54 C58 60, 56 68, 58 76 C60 82, 62 86, 64 88 C64 91, 69 91, 69 88 C68 84, 66 78, 64 72 C62 66, 62 58, 64 54" />
+  <!-- Motion lines -->
+  <line x1="94" y1="36" x2="98" y2="36" stroke="#3a3a3a" stroke-width="1" stroke-linecap="round" opacity="0.4" />
+  <line x1="92" y1="42" x2="98" y2="42" stroke="#3a3a3a" stroke-width="1" stroke-linecap="round" opacity="0.4" />
+  <line x1="93" y1="48" x2="97" y2="48" stroke="#3a3a3a" stroke-width="1" stroke-linecap="round" opacity="0.4" />
+  <!-- Fur details -->
+  <path class="detail" d="M46 34 C48 32, 50 33, 52 32" />
+  <path class="detail" d="M56 36 C58 34, 60 35, 62 34" />
+  <!-- Collar -->
+  <path d="M22 32 C24 34, 28 36, 30 34" fill="none" stroke="#c45a5a" stroke-width="2" stroke-linecap="round" opacity="0.7" />
+  <!-- Double stroke -->
+  <path d="M12 14 C16 10, 22 10, 26 14" fill="none" stroke="#3a3a3a" stroke-width="0.8" stroke-linecap="round" opacity="0.3" />
+</svg>

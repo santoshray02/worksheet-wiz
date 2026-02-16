@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Octopus - Front View -->
+  <g stroke="#6b3a5a" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Head/mantle -->
+    <path d="M30,35 C28,20 35,8 50,8 C65,8 72,20 70,35 C70,42 65,48 50,48 C35,48 30,42 30,35 Z"
+          fill="#c4756e" fill-opacity="0.8" stroke-width="2.5"/>
+    <!-- Double stroke on head -->
+    <path d="M34,18 C40,10 55,8 65,14" fill="none" stroke-width="1.2" opacity="0.35"/>
+    <!-- Eyes -->
+    <ellipse cx="40" cy="28" rx="5" ry="6" fill="white" fill-opacity="0.9" stroke-width="2"/>
+    <circle cx="41" cy="29" r="3" fill="#2a3a4a" stroke-width="1"/>
+    <circle cx="42" cy="28" r="1" fill="white" stroke="none"/>
+    <ellipse cx="60" cy="28" rx="5" ry="6" fill="white" fill-opacity="0.9" stroke-width="2"/>
+    <circle cx="59" cy="29" r="3" fill="#2a3a4a" stroke-width="1"/>
+    <circle cx="60" cy="28" r="1" fill="white" stroke="none"/>
+    <!-- Smile -->
+    <path d="M44,38 C47,42 53,42 56,38" fill="none" stroke-width="2"/>
+    <!-- Tentacle 1 (far left) -->
+    <path d="M32,46 C26,52 20,60 18,68 C16,74 18,80 22,82 C24,78 22,72 24,66 C26,60 30,54 34,48"
+          fill="#c4756e" fill-opacity="0.7" stroke-width="2"/>
+    <!-- Tentacle 2 -->
+    <path d="M36,48 C32,56 28,66 28,74 C28,80 30,86 34,88 C34,82 32,76 34,70 C36,64 38,56 38,50"
+          fill="#c4756e" fill-opacity="0.7" stroke-width="2"/>
+    <!-- Tentacle 3 -->
+    <path d="M42,48 C40,58 38,68 40,78 C42,84 44,90 46,92 C46,86 44,78 44,72 C44,66 44,58 44,50"
+          fill="#c4756e" fill-opacity="0.7" stroke-width="2"/>
+    <!-- Tentacle 4 -->
+    <path d="M48,48 C48,58 48,70 50,80 C51,86 52,92 54,94 C54,88 52,80 52,74 C52,66 50,58 50,50"
+          fill="#c4756e" fill-opacity="0.7" stroke-width="2"/>
+    <!-- Tentacle 5 -->
+    <path d="M56,48 C58,58 60,68 60,78 C60,84 58,90 56,92 C56,86 58,78 58,72 C58,66 58,58 56,50"
+          fill="#c4756e" fill-opacity="0.7" stroke-width="2"/>
+    <!-- Tentacle 6 -->
+    <path d="M62,48 C66,56 70,66 72,74 C72,80 70,86 66,88 C66,82 68,76 66,70 C64,64 62,56 62,50"
+          fill="#c4756e" fill-opacity="0.7" stroke-width="2"/>
+    <!-- Tentacle 7 -->
+    <path d="M66,46 C72,52 78,60 80,68 C82,74 80,80 76,82 C76,78 78,72 76,66 C74,60 70,54 66,48"
+          fill="#c4756e" fill-opacity="0.7" stroke-width="2"/>
+    <!-- Sucker details -->
+    <circle cx="24" cy="72" r="1" fill="none" stroke-width="1" opacity="0.4"/>
+    <circle cx="32" cy="78" r="1" fill="none" stroke-width="1" opacity="0.4"/>
+    <circle cx="42" cy="76" r="1" fill="none" stroke-width="1" opacity="0.4"/>
+    <circle cx="52" cy="80" r="1" fill="none" stroke-width="1" opacity="0.4"/>
+    <circle cx="60" cy="76" r="1" fill="none" stroke-width="1" opacity="0.4"/>
+    <circle cx="68" cy="78" r="1" fill="none" stroke-width="1" opacity="0.4"/>
+    <!-- Bubbles -->
+    <circle cx="78" cy="18" r="2" fill="none" stroke-width="1" stroke="#6b9dba" opacity="0.5"/>
+    <circle cx="82" cy="12" r="1.5" fill="none" stroke-width="1" stroke="#6b9dba" opacity="0.4"/>
+    <circle cx="80" cy="6" r="1" fill="none" stroke-width="1" stroke="#6b9dba" opacity="0.3"/>
+  </g>
+</svg>

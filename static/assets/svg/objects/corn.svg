@@ -1,0 +1,36 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Husk leaves -->
+  <path d="M30,55 Q20,40 25,28 Q32,38 38,50Z" fill="#8BC34A" stroke="#558B2F" stroke-width="1.5"/>
+  <path d="M70,55 Q80,40 75,28 Q68,38 62,50Z" fill="#7CB342" stroke="#558B2F" stroke-width="1.5"/>
+  <path d="M34,60 Q22,50 22,35 Q30,45 38,55Z" fill="#9CCC65" stroke="#558B2F" stroke-width="1.5"/>
+  <path d="M66,60 Q78,50 78,35 Q70,45 62,55Z" fill="#AED581" stroke="#558B2F" stroke-width="1.5"/>
+  <!-- Corn cob body -->
+  <path d="M38,25 Q36,22 50,18 Q64,22 62,25 Q65,60 58,85 Q50,90 42,85 Q35,60 38,25Z" fill="#FDD835" stroke="#F9A825" stroke-width="2"/>
+  <!-- Kernel rows -->
+  <ellipse cx="44" cy="32" rx="2.5" ry="3" fill="#FFB300"/>
+  <ellipse cx="50" cy="30" rx="2.5" ry="3" fill="#FFB300"/>
+  <ellipse cx="56" cy="32" rx="2.5" ry="3" fill="#FFB300"/>
+  <ellipse cx="44" cy="40" rx="2.5" ry="3" fill="#FFA000"/>
+  <ellipse cx="50" cy="38" rx="2.5" ry="3" fill="#FFA000"/>
+  <ellipse cx="56" cy="40" rx="2.5" ry="3" fill="#FFA000"/>
+  <ellipse cx="44" cy="48" rx="2.5" ry="3" fill="#FFB300"/>
+  <ellipse cx="50" cy="46" rx="2.5" ry="3" fill="#FFB300"/>
+  <ellipse cx="56" cy="48" rx="2.5" ry="3" fill="#FFB300"/>
+  <ellipse cx="44" cy="56" rx="2.5" ry="3" fill="#FFA000"/>
+  <ellipse cx="50" cy="54" rx="2.5" ry="3" fill="#FFA000"/>
+  <ellipse cx="56" cy="56" rx="2.5" ry="3" fill="#FFA000"/>
+  <ellipse cx="45" cy="64" rx="2.5" ry="3" fill="#FFB300"/>
+  <ellipse cx="50" cy="62" rx="2.5" ry="3" fill="#FFB300"/>
+  <ellipse cx="55" cy="64" rx="2.5" ry="3" fill="#FFB300"/>
+  <ellipse cx="46" cy="72" rx="2.5" ry="3" fill="#FFA000"/>
+  <ellipse cx="50" cy="70" rx="2.5" ry="3" fill="#FFA000"/>
+  <ellipse cx="54" cy="72" rx="2.5" ry="3" fill="#FFA000"/>
+  <ellipse cx="48" cy="80" rx="2.5" ry="3" fill="#FFB300"/>
+  <ellipse cx="52" cy="80" rx="2.5" ry="3" fill="#FFB300"/>
+  <!-- Silk threads at top -->
+  <path d="M48,22 Q44,12 40,6" fill="none" stroke="#A1887F" stroke-width="1" stroke-linecap="round" opacity="0.6"/>
+  <path d="M50,20 Q50,10 52,4" fill="none" stroke="#A1887F" stroke-width="1" stroke-linecap="round" opacity="0.6"/>
+  <path d="M52,22 Q56,12 60,6" fill="none" stroke="#A1887F" stroke-width="1" stroke-linecap="round" opacity="0.6"/>
+  <!-- Highlight -->
+  <ellipse cx="43" cy="42" rx="3" ry="14" fill="white" opacity="0.15"/>
+</svg>

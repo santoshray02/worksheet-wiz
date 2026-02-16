@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Potato whole - hand sketched style -->
+  <!-- Main body - irregular oval -->
+  <path d="M22 42 C18 48, 16 56, 18 62 C20 70, 28 78, 40 80 C52 82, 68 80, 78 74 C86 68, 88 58, 86 50 C84 42, 78 34, 68 30 C56 26, 38 28, 28 34 C24 37, 22 40, 22 42Z"
+    fill="#c4a060" fill-opacity="0.82" stroke="#8a7040" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Eyes (small dimples) -->
+  <circle cx="35" cy="48" r="1.5" fill="#8a6a30" fill-opacity="0.4" stroke="#7a5a28" stroke-width="0.8"/>
+  <circle cx="55" cy="42" r="1.5" fill="#8a6a30" fill-opacity="0.4" stroke="#7a5a28" stroke-width="0.8"/>
+  <circle cx="70" cy="52" r="1.5" fill="#8a6a30" fill-opacity="0.4" stroke="#7a5a28" stroke-width="0.8"/>
+  <circle cx="45" cy="65" r="1.2" fill="#8a6a30" fill-opacity="0.35" stroke="#7a5a28" stroke-width="0.8"/>
+  <circle cx="62" cy="68" r="1.2" fill="#8a6a30" fill-opacity="0.35" stroke="#7a5a28" stroke-width="0.8"/>
+  <!-- Skin texture marks -->
+  <path d="M30 40 C32 38, 34 38, 36 40"
+    fill="none" stroke="#a08048" stroke-width="1" stroke-linecap="round" stroke-opacity="0.3"/>
+  <path d="M60 36 C62 35, 64 35, 66 37"
+    fill="none" stroke="#a08048" stroke-width="1" stroke-linecap="round" stroke-opacity="0.3"/>
+  <path d="M50 72 C53 71, 56 71, 58 73"
+    fill="none" stroke="#a08048" stroke-width="1" stroke-linecap="round" stroke-opacity="0.3"/>
+  <!-- Highlight -->
+  <path d="M30 42 C35 36, 42 32, 50 32"
+    fill="none" stroke="#d8c088" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.4"/>
+  <!-- Dirt speckles -->
+  <circle cx="40" cy="75" r="0.8" fill="#6a5028" fill-opacity="0.25"/>
+  <circle cx="58" cy="76" r="0.6" fill="#6a5028" fill-opacity="0.2"/>
+  <circle cx="72" cy="70" r="0.7" fill="#6a5028" fill-opacity="0.2"/>
+</svg>

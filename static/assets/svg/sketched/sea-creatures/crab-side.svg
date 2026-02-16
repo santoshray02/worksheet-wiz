@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Crab - Side View -->
+  <g stroke="#8b4532" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Body/shell from side -->
+    <path d="M25,40 C28,30 40,24 55,26 C70,28 80,36 82,44 C80,52 72,58 58,58 C42,58 28,52 25,40 Z"
+          fill="#c4756e" fill-opacity="0.8" stroke-width="2.5"/>
+    <!-- Double stroke on shell -->
+    <path d="M32,32 C42,26 60,26 74,32" fill="none" stroke-width="1.2" opacity="0.35"/>
+    <!-- Shell texture lines -->
+    <path d="M35,36 C45,34 60,34 72,38" fill="none" stroke-width="1" opacity="0.3"/>
+    <path d="M30,42 C42,40 60,40 76,44" fill="none" stroke-width="1" opacity="0.25"/>
+    <!-- Eye on stalk -->
+    <path d="M75,32 C78,26 80,22 82,20" fill="none" stroke-width="2"/>
+    <circle cx="83" cy="18" r="3.5" fill="#c4756e" fill-opacity="0.8" stroke-width="2"/>
+    <circle cx="83" cy="18" r="2" fill="#2a3a4a" stroke-width="1"/>
+    <circle cx="84" cy="17" r="0.7" fill="white" stroke="none"/>
+    <!-- Front claw (large, raised) -->
+    <path d="M78,40 C84,36 88,30 90,26" fill="none" stroke-width="2.5"/>
+    <path d="M90,26 C94,22 96,18 94,16 C92,14 88,16 87,20 C86,16 84,14 82,16 C80,18 82,22 86,26 C88,28 90,28 90,26 Z"
+          fill="#c4756e" fill-opacity="0.75" stroke-width="2"/>
+    <!-- Legs (walking left) -->
+    <path d="M30,52 C24,58 18,64 14,72" fill="none" stroke-width="2"/>
+    <path d="M38,56 C34,64 30,72 28,80" fill="none" stroke-width="2"/>
+    <path d="M48,58 C46,66 44,74 44,82" fill="none" stroke-width="2"/>
+    <path d="M58,56 C58,64 60,72 62,80" fill="none" stroke-width="2"/>
+    <path d="M68,52 C72,58 76,64 78,70" fill="none" stroke-width="2"/>
+    <!-- Leg feet -->
+    <path d="M14,72 C12,74 14,76 16,74" fill="none" stroke-width="1.5"/>
+    <path d="M28,80 C26,82 28,84 30,82" fill="none" stroke-width="1.5"/>
+    <path d="M44,82 C42,84 44,86 46,84" fill="none" stroke-width="1.5"/>
+    <path d="M62,80 C60,82 62,84 64,82" fill="none" stroke-width="1.5"/>
+    <path d="M78,70 C76,72 78,74 80,72" fill="none" stroke-width="1.5"/>
+    <!-- Mouth area -->
+    <path d="M80,48 C82,50 84,50" fill="none" stroke-width="1.5"/>
+    <!-- Bubbles -->
+    <circle cx="88" cy="10" r="1.5" fill="none" stroke-width="1" stroke="#6b9dba" opacity="0.5"/>
+    <circle cx="92" cy="6" r="1" fill="none" stroke-width="1" stroke="#6b9dba" opacity="0.4"/>
+    <circle cx="86" cy="4" r="1.8" fill="none" stroke-width="1" stroke="#6b9dba" opacity="0.3"/>
+  </g>
+</svg>

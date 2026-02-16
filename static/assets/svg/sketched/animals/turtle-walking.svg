@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <style>
+    .detail { fill: none; stroke: #3a5a3a; stroke-width: 1.2; stroke-linecap: round; stroke-linejoin: round; }
+    .shell { fill: #8a7a5a; fill-opacity: 0.8; stroke: #3a5a3a; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+    .shell-pattern { fill: #7a6a4a; fill-opacity: 0.4; stroke: #3a5a3a; stroke-width: 1.2; stroke-linecap: round; stroke-linejoin: round; }
+    .skin { fill: #7ba87b; fill-opacity: 0.8; stroke: #3a5a3a; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+    .belly-shell { fill: #c4b47a; fill-opacity: 0.75; stroke: #3a5a3a; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+  </style>
+  <!-- Tail -->
+  <path d="M84 58 C88 56, 92 54, 94 52 C95 51, 94 50, 93 51 C90 54, 88 56, 84 58" fill="none" stroke="#3a5a3a" stroke-width="2" stroke-linecap="round"/>
+  <!-- Back leg (far) - lifted for walk -->
+  <path d="M70 58 C74 56, 78 54, 80 58 C82 62, 78 68, 74 70 L72 72 C70 72, 70 70, 72 68 C74 66, 76 62, 74 60 L70 60" fill="#6a9a6a" fill-opacity="0.6" stroke="#3a5a3a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Far foot toes -->
+  <path class="detail" d="M72 72 L70 74"/>
+  <path class="detail" d="M73 72 L74 75"/>
+  <!-- Shell -->
+  <path class="shell" d="M28 34 C34 20, 52 14, 70 18 C84 22, 90 34, 88 48 C86 58, 78 66, 62 68 C46 70, 32 66, 24 56 C20 50, 20 42, 28 34Z"/>
+  <!-- Shell pattern -->
+  <path class="shell-pattern" d="M52 18 C60 18, 68 22, 70 30 C72 36, 68 42, 60 44 C54 46, 48 44, 44 40 C40 36, 40 28, 44 22 C46 20, 50 18, 52 18Z"/>
+  <path class="shell-pattern" d="M44 40 C40 42, 34 46, 30 52 C28 56, 30 62, 36 64 C40 66, 46 64, 48 60 C50 56, 48 50, 46 46"/>
+  <path class="shell-pattern" d="M60 44 C64 46, 70 50, 74 56 C76 60, 74 64, 68 66 C64 68, 58 66, 56 62 C54 56, 56 50, 58 46"/>
+  <path class="shell-pattern" d="M70 30 C76 28, 82 32, 84 38 C86 44, 84 50, 80 54 C76 56, 72 54, 70 50 C68 46, 70 40, 72 36"/>
+  <path class="shell-pattern" d="M44 22 C38 22, 32 26, 28 34 C26 40, 28 46, 32 48 C36 50, 40 48, 42 44 C44 40, 44 34, 44 28"/>
+  <!-- Shell rim -->
+  <path class="belly-shell" d="M26 54 C30 62, 40 68, 52 68 C64 68, 74 64, 82 56 L84 58 C78 66, 66 72, 52 72 C38 72, 28 66, 24 58Z"/>
+  <!-- Front leg (far) - back position -->
+  <path d="M34 56 C32 60, 34 66, 36 70 L34 72 C32 72, 32 70, 34 68 C34 64, 32 60, 32 58" fill="#6a9a6a" fill-opacity="0.6" stroke="#3a5a3a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Back leg (near) - planted -->
+  <path d="M66 58 C68 62, 68 68, 66 74 L64 78 C62 78, 62 76, 64 74 C66 70, 66 64, 64 60" fill="#7ba87b" fill-opacity="0.8" stroke="#3a5a3a" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Front leg (near) - forward stride -->
+  <path d="M28 52 C22 54, 16 58, 12 64 L10 70 C8 72, 10 74, 12 72 L16 66 C18 62, 22 56, 26 54" fill="#7ba87b" fill-opacity="0.8" stroke="#3a5a3a" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Near foot toes -->
+  <path class="detail" d="M10 70 L8 72"/>
+  <path class="detail" d="M11 71 L10 74"/>
+  <path class="detail" d="M12 72 L14 74"/>
+  <path class="detail" d="M64 78 L62 80"/>
+  <path class="detail" d="M65 78 L64 81"/>
+  <path class="detail" d="M66 77 L68 80"/>
+  <!-- Neck - extended forward -->
+  <path class="skin" d="M24 40 C18 36, 10 32, 6 32 C2 32, 0 36, 2 40 C4 44, 10 46, 18 46 C22 46, 24 44, 24 42"/>
+  <!-- Head -->
+  <path class="skin" d="M4 28 C6 22, 12 20, 18 22 C22 24, 24 28, 22 34 C20 38, 16 40, 10 40 C4 40, 0 36, 0 32 C-1 30, 0 28, 4 28Z"/>
+  <!-- Eye -->
+  <ellipse cx="10" cy="28" rx="3.5" ry="3.5" fill="#f0ead0" fill-opacity="0.9" stroke="#3a5a3a" stroke-width="1.8" stroke-linecap="round"/>
+  <ellipse cx="9.5" cy="28.5" rx="1.8" ry="2.2" fill="#1a2a1a"/>
+  <circle cx="8.8" cy="27.5" r="0.7" fill="#fff"/>
+  <!-- Nostril -->
+  <ellipse cx="3" cy="30" rx="1" ry="0.8" fill="#3a5a3a" fill-opacity="0.5"/>
+  <!-- Mouth - determined expression -->
+  <path d="M2 34 C6 38, 12 40, 16 38" fill="none" stroke="#3a5a3a" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Neck wrinkles -->
+  <path class="detail" d="M14 36 C16 38, 18 38, 20 36" opacity="0.4"/>
+  <path class="detail" d="M10 38 C12 40, 14 40, 16 38" opacity="0.4"/>
+  <!-- Motion dust -->
+  <circle cx="90" cy="68" r="1.5" fill="#8a7a5a" fill-opacity="0.2"/>
+  <circle cx="94" cy="72" r="1" fill="#8a7a5a" fill-opacity="0.15"/>
+  <circle cx="92" cy="66" r="1" fill="#8a7a5a" fill-opacity="0.15"/>
+  <!-- Ground line hint -->
+  <path d="M6 78 C20 80, 40 80, 60 78 C72 76, 82 78, 92 80" fill="none" stroke="#3a5a3a" stroke-width="1" stroke-linecap="round" opacity="0.2"/>
+</svg>

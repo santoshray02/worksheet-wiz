@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Octopus - Swimming View -->
+  <g stroke="#6b3a5a" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Head/mantle - elongated for swimming -->
+    <path d="M55,15 C65,14 75,18 80,28 C84,38 82,48 75,52 C68,56 58,54 52,48 C46,42 46,22 55,15 Z"
+          fill="#c4756e" fill-opacity="0.8" stroke-width="2.5"/>
+    <!-- Double stroke on head -->
+    <path d="M60,18 C70,18 78,24 80,32" fill="none" stroke-width="1.2" opacity="0.35"/>
+    <!-- Eyes -->
+    <ellipse cx="68" cy="32" rx="4" ry="5" fill="white" fill-opacity="0.9" stroke-width="2"/>
+    <circle cx="69" cy="33" r="2.5" fill="#2a3a4a" stroke-width="1"/>
+    <circle cx="70" cy="32" r="0.8" fill="white" stroke="none"/>
+    <ellipse cx="60" cy="38" rx="3.5" ry="4.5" fill="white" fill-opacity="0.9" stroke-width="2"/>
+    <circle cx="60" cy="39" r="2.5" fill="#2a3a4a" stroke-width="1"/>
+    <circle cx="61" cy="38" r="0.8" fill="white" stroke="none"/>
+    <!-- Tentacles streaming behind -->
+    <path d="M52,48 C42,54 30,58 20,60 C14,62 8,60 6,58" fill="none"
+          stroke="#c4756e" stroke-width="2.5" opacity="0.9"/>
+    <path d="M54,50 C44,58 32,64 22,68 C16,70 10,70 8,68" fill="none"
+          stroke="#c4756e" stroke-width="2.5" opacity="0.9"/>
+    <path d="M56,52 C48,62 38,70 26,76 C20,78 14,78 12,76" fill="none"
+          stroke="#c4756e" stroke-width="2.5" opacity="0.9"/>
+    <path d="M58,52 C52,64 44,74 34,82 C28,86 22,86 18,84" fill="none"
+          stroke="#c4756e" stroke-width="2.5" opacity="0.9"/>
+    <path d="M62,52 C58,64 52,76 44,84 C38,88 32,90 28,88" fill="none"
+          stroke="#c4756e" stroke-width="2.5" opacity="0.9"/>
+    <path d="M66,52 C64,62 60,74 54,82 C48,88 42,90 38,88" fill="none"
+          stroke="#c4756e" stroke-width="2.5" opacity="0.9"/>
+    <path d="M70,50 C70,60 68,72 64,80 C60,86 54,88 50,86" fill="none"
+          stroke="#c4756e" stroke-width="2.5" opacity="0.9"/>
+    <path d="M74,48 C76,56 76,66 72,74 C68,80 62,82 58,80" fill="none"
+          stroke="#c4756e" stroke-width="2.5" opacity="0.9"/>
+    <!-- Sucker details on tentacles -->
+    <circle cx="30" cy="60" r="1" fill="none" stroke-width="1" opacity="0.4"/>
+    <circle cx="32" cy="68" r="1" fill="none" stroke-width="1" opacity="0.4"/>
+    <circle cx="38" cy="72" r="1" fill="none" stroke-width="1" opacity="0.4"/>
+    <circle cx="48" cy="74" r="1" fill="none" stroke-width="1" opacity="0.4"/>
+    <circle cx="56" cy="70" r="1" fill="none" stroke-width="1" opacity="0.4"/>
+    <!-- Bubbles -->
+    <circle cx="88" cy="22" r="2" fill="none" stroke-width="1" stroke="#6b9dba" opacity="0.5"/>
+    <circle cx="92" cy="16" r="1.5" fill="none" stroke-width="1" stroke="#6b9dba" opacity="0.4"/>
+    <circle cx="90" cy="10" r="1" fill="none" stroke-width="1" stroke="#6b9dba" opacity="0.3"/>
+  </g>
+</svg>

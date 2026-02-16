@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Body -->
+  <rect x="10" y="30" width="80" height="40" rx="8" ry="8" fill="#FFD233" stroke="#E6A817" stroke-width="2"/>
+  <!-- Roof highlight -->
+  <rect x="14" y="33" width="72" height="8" rx="4" fill="#FFE680" opacity="0.6"/>
+  <!-- Windows -->
+  <rect x="18" y="40" width="14" height="12" rx="3" fill="#B8E4FF" stroke="#E6A817" stroke-width="1.5"/>
+  <rect x="36" y="40" width="14" height="12" rx="3" fill="#B8E4FF" stroke="#E6A817" stroke-width="1.5"/>
+  <rect x="54" y="40" width="14" height="12" rx="3" fill="#B8E4FF" stroke="#E6A817" stroke-width="1.5"/>
+  <!-- Windshield -->
+  <rect x="72" y="38" width="14" height="16" rx="3" fill="#B8E4FF" stroke="#E6A817" stroke-width="1.5"/>
+  <!-- Window shine -->
+  <line x1="20" y1="42" x2="20" y2="48" stroke="white" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+  <line x1="38" y1="42" x2="38" y2="48" stroke="white" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+  <line x1="56" y1="42" x2="56" y2="48" stroke="white" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+  <line x1="74" y1="40" x2="74" y2="50" stroke="white" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+  <!-- Red stripe -->
+  <rect x="10" y="56" width="80" height="5" fill="#FF6B6B"/>
+  <!-- Bumper -->
+  <rect x="8" y="64" width="84" height="5" rx="2" fill="#CCC" stroke="#AAA" stroke-width="1"/>
+  <!-- Headlight -->
+  <circle cx="88" cy="52" r="3" fill="#FFFDE0" stroke="#E6A817" stroke-width="1"/>
+  <!-- Tail light -->
+  <circle cx="12" cy="52" r="3" fill="#FF4444" stroke="#CC0000" stroke-width="1"/>
+  <!-- Wheels -->
+  <circle cx="28" cy="72" r="8" fill="#555" stroke="#333" stroke-width="2"/>
+  <circle cx="28" cy="72" r="4" fill="#888"/>
+  <circle cx="28" cy="72" r="1.5" fill="#AAA"/>
+  <circle cx="72" cy="72" r="8" fill="#555" stroke="#333" stroke-width="2"/>
+  <circle cx="72" cy="72" r="4" fill="#888"/>
+  <circle cx="72" cy="72" r="1.5" fill="#AAA"/>
+  <!-- Stop sign -->
+  <rect x="12" y="22" width="2" height="10" fill="#CC0000"/>
+  <polygon points="13,18 17,20 17,24 13,26 9,24 9,20" fill="#FF0000" stroke="#CC0000" stroke-width="0.5"/>
+  <!-- SCHOOL text -->
+  <text x="50" y="67" text-anchor="middle" font-size="5" font-family="Arial, sans-serif" font-weight="bold" fill="#333">SCHOOL BUS</text>
+</svg>

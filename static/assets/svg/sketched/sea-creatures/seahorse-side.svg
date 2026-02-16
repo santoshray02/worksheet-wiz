@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Seahorse - Side View -->
+  <g stroke="#7a6b3a" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Curled tail -->
+    <path d="M42,80 C38,84 34,88 32,90 C28,92 26,90 26,86 C26,82 30,80 32,82 C34,84 32,86 30,86"
+          fill="none" stroke="#d4a76a" stroke-width="2.5"/>
+    <!-- Body -->
+    <path d="M48,32 C52,36 54,42 54,50 C54,58 52,66 48,74 C46,78 44,82 42,80
+             C40,74 38,66 38,58 C38,50 40,42 44,36 C46,34 48,32 48,32 Z"
+          fill="#d4a76a" fill-opacity="0.8" stroke-width="2.5"/>
+    <!-- Double stroke on body -->
+    <path d="M50,38 C52,44 52,52 50,60" fill="none" stroke-width="1.2" opacity="0.35"/>
+    <!-- Belly texture -->
+    <path d="M42,40 C40,48 40,56 42,64" fill="none" stroke-width="1.5" opacity="0.3"/>
+    <!-- Head -->
+    <path d="M44,32 C42,26 44,18 50,14 C56,12 62,16 64,22 C66,28 62,34 56,36 C52,38 48,36 44,32 Z"
+          fill="#d4a76a" fill-opacity="0.8" stroke-width="2.5"/>
+    <!-- Double stroke on head -->
+    <path d="M48,20 C52,14 58,14 62,18" fill="none" stroke-width="1.2" opacity="0.35"/>
+    <!-- Long snout (side profile) -->
+    <path d="M50,14 C48,10 44,6 40,4 C42,6 44,8 46,12" fill="none" stroke-width="2.5"/>
+    <path d="M40,4 C38,2 36,2 34,4" fill="none" stroke-width="1.8"/>
+    <!-- Crown -->
+    <path d="M56,14 C56,8 58,4 62,2 C64,4 66,8 64,14" fill="#d4a76a" fill-opacity="0.7" stroke-width="2"/>
+    <path d="M58,6 C60,2 62,6" fill="none" stroke-width="1.5"/>
+    <!-- Eye -->
+    <circle cx="56" cy="22" r="3.5" fill="white" fill-opacity="0.9" stroke-width="1.5"/>
+    <circle cx="57" cy="22" r="2" fill="#2a3a4a" stroke-width="1"/>
+    <circle cx="58" cy="21" r="0.7" fill="white" stroke="none"/>
+    <!-- Body segment ridges -->
+    <path d="M42,40 C46,38 52,40" fill="none" stroke-width="1" opacity="0.4"/>
+    <path d="M40,46 C44,44 52,46" fill="none" stroke-width="1" opacity="0.4"/>
+    <path d="M40,52 C44,50 52,52" fill="none" stroke-width="1" opacity="0.4"/>
+    <path d="M40,58 C44,56 52,58" fill="none" stroke-width="1" opacity="0.4"/>
+    <path d="M42,64 C44,62 50,64" fill="none" stroke-width="1" opacity="0.4"/>
+    <path d="M44,70 C46,68 48,70" fill="none" stroke-width="1" opacity="0.4"/>
+    <!-- Dorsal fin -->
+    <path d="M54,42 C60,40 64,42 64,48 C64,52 60,54 56,52" fill="#d4a76a" fill-opacity="0.6" stroke-width="1.5"/>
+    <path d="M58,44 C60,42 62,44" fill="none" stroke-width="1" opacity="0.3"/>
+    <path d="M58,48 C60,46 62,48" fill="none" stroke-width="1" opacity="0.3"/>
+    <!-- Pectoral fin -->
+    <path d="M42,36 C36,34 34,38 38,40" fill="none" stroke-width="1.5" opacity="0.6"/>
+    <!-- Bubbles -->
+    <circle cx="34" cy="2" r="1.5" fill="none" stroke-width="1" stroke="#6b9dba" opacity="0.5"/>
+    <circle cx="30" cy="6" r="1" fill="none" stroke-width="1" stroke="#6b9dba" opacity="0.4"/>
+    <circle cx="28" cy="10" r="1.8" fill="none" stroke-width="1" stroke="#6b9dba" opacity="0.3"/>
+  </g>
+</svg>

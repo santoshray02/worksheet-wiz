@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <g stroke="#3a3a3a" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- Fuselage top view -->
+    <path d="M50,5 C53,5 55,8 56,14 C57,22 57,35 57,50 C57,65 57,78 56,86 C55,92 53,95 50,95 C47,95 45,92 44,86 C43,78 43,65 43,50 C43,35 43,22 44,14 C45,8 47,5 50,5 Z"
+          fill="#e8e8e8" fill-opacity="0.85" stroke-width="2.2"/>
+    <!-- Left wing -->
+    <path d="M43,38 C35,40 20,44 10,47 C7,48 6,49 7,50 C8,51 10,52 15,52 C22,51 35,48 43,46"
+          fill="#5b8cc7" fill-opacity="0.7" stroke-width="2"/>
+    <!-- Right wing -->
+    <path d="M57,38 C65,40 80,44 90,47 C93,48 94,49 93,50 C92,51 90,52 85,52 C78,51 65,48 57,46"
+          fill="#5b8cc7" fill-opacity="0.7" stroke-width="2"/>
+    <!-- Left tail wing -->
+    <path d="M44,80 C38,82 28,85 22,86 C20,87 20,88 21,88 C24,88 32,86 44,83"
+          fill="#5b8cc7" fill-opacity="0.6" stroke-width="1.5"/>
+    <!-- Right tail wing -->
+    <path d="M56,80 C62,82 72,85 78,86 C80,87 80,88 79,88 C76,88 68,86 56,83"
+          fill="#5b8cc7" fill-opacity="0.6" stroke-width="1.5"/>
+    <!-- Tail fin (top view - thin line) -->
+    <path d="M50,82 L50,96" stroke-width="2" stroke="#c75b5b"/>
+    <!-- Cockpit -->
+    <ellipse cx="50" cy="12" rx="4" ry="6" fill="#87ceeb" fill-opacity="0.75" stroke-width="1.3"/>
+    <!-- Left engine -->
+    <ellipse cx="30" cy="46" rx="4" ry="3" fill="#888" fill-opacity="0.6" stroke-width="1.3"/>
+    <!-- Right engine -->
+    <ellipse cx="70" cy="46" rx="4" ry="3" fill="#888" fill-opacity="0.6" stroke-width="1.3"/>
+    <!-- Wing stripe -->
+    <path d="M10,49 L43,42" stroke="#c75b5b" stroke-width="1" opacity="0.5"/>
+    <path d="M90,49 L57,42" stroke="#c75b5b" stroke-width="1" opacity="0.5"/>
+    <!-- Fuselage center line -->
+    <path d="M50,20 L50,78" stroke-width="0.8" opacity="0.2"/>
+  </g>
+</svg>

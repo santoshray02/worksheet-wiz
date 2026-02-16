@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Drum front view - hand sketched style (snare drum) -->
+  <!-- Drum body -->
+  <path d="M 18 35 Q 17.5 34 18 33 Q 25 28 50 28 Q 75 28 82 33 Q 82.5 34 82 35 L 82 68 Q 82.5 69 82 70 Q 75 75 50 75 Q 25 75 18 70 Q 17.5 69 18 68 Z" fill="#c75b5b" fill-opacity="0.75" stroke="#8b3a3a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Top head (ellipse) -->
+  <ellipse cx="50" cy="31" rx="32" ry="7" fill="#f5f0e0" fill-opacity="0.85" stroke="#8b7355" stroke-width="2" stroke-linecap="round"/>
+  <!-- Bottom rim hint -->
+  <ellipse cx="50" cy="72" rx="32" ry="7" fill="none" stroke="#8b3a3a" stroke-width="2" stroke-linecap="round"/>
+  <!-- Metal rim top -->
+  <ellipse cx="50" cy="33" rx="33" ry="7.5" fill="none" stroke="#999" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Tension rods / lugs -->
+  <line x1="20" y1="35" x2="20" y2="68" stroke="#999" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="30" y1="32" x2="28" y2="72" stroke="#999" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="50" y1="30" x2="50" y2="72" stroke="#999" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="70" y1="32" x2="72" y2="72" stroke="#999" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="80" y1="35" x2="80" y2="68" stroke="#999" stroke-width="1.2" stroke-linecap="round"/>
+  <!-- Lug details -->
+  <rect x="18" y="45" width="4" height="6" rx="1" fill="#bbb" fill-opacity="0.7" stroke="#888" stroke-width="0.8"/>
+  <rect x="78" y="45" width="4" height="6" rx="1" fill="#bbb" fill-opacity="0.7" stroke="#888" stroke-width="0.8"/>
+  <rect x="48" y="46" width="4" height="6" rx="1" fill="#bbb" fill-opacity="0.7" stroke="#888" stroke-width="0.8"/>
+  <!-- Decorative stripes on body -->
+  <path d="M 19 42 Q 50 38 81 42" stroke="#f5f0e0" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.6"/>
+  <path d="M 19 60 Q 50 64 81 60" stroke="#f5f0e0" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.6"/>
+  <!-- Drumsticks crossed on top -->
+  <line x1="30" y1="15" x2="65" y2="30" stroke="#b87d4a" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="65" cy="30" r="2.5" fill="#b87d4a" fill-opacity="0.8" stroke="#8b5e3c" stroke-width="1"/>
+  <line x1="70" y1="15" x2="35" y2="30" stroke="#b87d4a" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="35" cy="30" r="2.5" fill="#b87d4a" fill-opacity="0.8" stroke="#8b5e3c" stroke-width="1"/>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Main tube -->
+  <rect x="5" y="42" width="88" height="14" rx="7" fill="#C0C0C0" stroke="#808080" stroke-width="1.5"/>
+  <!-- Top highlight -->
+  <rect x="10" y="44" width="78" height="4" rx="2" fill="white" opacity="0.4"/>
+  <!-- Bottom shadow -->
+  <rect x="10" y="52" width="78" height="2" rx="1" fill="#808080" opacity="0.3"/>
+  <!-- Head joint -->
+  <rect x="3" y="41" width="15" height="16" rx="7" fill="#D4D4D4" stroke="#909090" stroke-width="1.2"/>
+  <!-- Embouchure hole -->
+  <ellipse cx="12" cy="49" rx="3" ry="2.5" fill="#606060" stroke="#505050" stroke-width="0.8"/>
+  <ellipse cx="12" cy="48.5" rx="1.5" ry="1" fill="white" opacity="0.3"/>
+  <!-- Foot joint end -->
+  <rect x="85" y="41" width="10" height="16" rx="5" fill="#D4D4D4" stroke="#909090" stroke-width="1.2"/>
+  <!-- Keys - round pads -->
+  <circle cx="28" cy="49" r="4" fill="#E8E8E8" stroke="#A0A0A0" stroke-width="1"/>
+  <circle cx="28" cy="49" r="2" fill="white" opacity="0.4"/>
+  <circle cx="40" cy="49" r="4" fill="#E8E8E8" stroke="#A0A0A0" stroke-width="1"/>
+  <circle cx="40" cy="49" r="2" fill="white" opacity="0.4"/>
+  <circle cx="52" cy="49" r="4" fill="#E8E8E8" stroke="#A0A0A0" stroke-width="1"/>
+  <circle cx="52" cy="49" r="2" fill="white" opacity="0.4"/>
+  <circle cx="63" cy="49" r="3.5" fill="#E8E8E8" stroke="#A0A0A0" stroke-width="1"/>
+  <circle cx="63" cy="49" r="1.8" fill="white" opacity="0.4"/>
+  <circle cx="73" cy="49" r="3.5" fill="#E8E8E8" stroke="#A0A0A0" stroke-width="1"/>
+  <circle cx="73" cy="49" r="1.8" fill="white" opacity="0.4"/>
+  <!-- Key mechanisms (little rods on top) -->
+  <line x1="26" y1="42" x2="30" y2="42" stroke="#A0A0A0" stroke-width="1"/>
+  <line x1="38" y1="42" x2="42" y2="42" stroke="#A0A0A0" stroke-width="1"/>
+  <line x1="50" y1="42" x2="54" y2="42" stroke="#A0A0A0" stroke-width="1"/>
+  <line x1="61" y1="42" x2="65" y2="42" stroke="#A0A0A0" stroke-width="1"/>
+  <line x1="71" y1="42" x2="75" y2="42" stroke="#A0A0A0" stroke-width="1"/>
+  <!-- Connecting rod along top -->
+  <line x1="25" y1="42" x2="76" y2="42" stroke="#B0B0B0" stroke-width="0.6"/>
+  <!-- Music notes -->
+  <text x="20" y="35" font-size="9" fill="#6BCB77" font-family="serif">&#9834;</text>
+  <text x="50" y="30" font-size="8" fill="#4DA8DA" font-family="serif">&#9835;</text>
+  <text x="72" y="35" font-size="7" fill="#FF6B9D" font-family="serif">&#9833;</text>
+  <!-- Sparkle highlights -->
+  <circle cx="22" cy="45" r="1" fill="white" opacity="0.6"/>
+  <circle cx="58" cy="45" r="1" fill="white" opacity="0.6"/>
+  <circle cx="82" cy="45" r="1" fill="white" opacity="0.6"/>
+</svg>

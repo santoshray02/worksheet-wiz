@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <g stroke="#3a3a3a" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- Rocket body -->
+    <path d="M45,8 C46,5 48,3 50,3 C52,3 54,5 55,8 L58,30 L60,55 L60,72 C60,74 58,76 56,76 L44,76 C42,76 40,74 40,72 L40,55 L42,30 Z"
+          fill="#e8e8e8" fill-opacity="0.85" stroke-width="2.5"/>
+    <!-- Nose cone tip -->
+    <path d="M48,6 C49,4 50,3.5 50,3 C50,3.5 51,4 52,6"
+          fill="#c75b5b" fill-opacity="0.8" stroke-width="1.5"/>
+    <!-- Nose cone color -->
+    <path d="M45,15 C46,10 48,5 50,3 C52,5 54,10 55,15 L55,20 L45,20 Z"
+          fill="#c75b5b" fill-opacity="0.75" stroke-width="1.5"/>
+    <!-- Window/porthole -->
+    <circle cx="50" cy="30" r="5" fill="#87ceeb" fill-opacity="0.75" stroke-width="1.3"/>
+    <circle cx="50" cy="30" r="3" fill="#5b8cc7" fill-opacity="0.4" stroke-width="0.8"/>
+    <!-- Body stripe -->
+    <path d="M42,45 L58,45" stroke="#c75b5b" stroke-width="2" opacity="0.5"/>
+    <path d="M41,50 L59,50" stroke="#c75b5b" stroke-width="2" opacity="0.5"/>
+    <!-- Left fin -->
+    <path d="M40,60 L28,78 C27,80 27,82 29,82 L40,76"
+          fill="#c75b5b" fill-opacity="0.75" stroke-width="2"/>
+    <!-- Right fin -->
+    <path d="M60,60 L72,78 C73,80 73,82 71,82 L60,76"
+          fill="#c75b5b" fill-opacity="0.75" stroke-width="2"/>
+    <!-- Center fin (back) -->
+    <path d="M48,65 L48,80 L52,80 L52,65"
+          fill="#c75b5b" fill-opacity="0.6" stroke-width="1.5"/>
+    <!-- Engine nozzle -->
+    <path d="M44,76 L42,82 C41,84 43,85 46,85 L54,85 C57,85 59,84 58,82 L56,76"
+          fill="#888" fill-opacity="0.6" stroke-width="1.5"/>
+    <!-- Rivets/details -->
+    <circle cx="46" cy="40" r="0.8" fill="#888" fill-opacity="0.4"/>
+    <circle cx="54" cy="40" r="0.8" fill="#888" fill-opacity="0.4"/>
+    <circle cx="46" cy="55" r="0.8" fill="#888" fill-opacity="0.4"/>
+    <circle cx="54" cy="55" r="0.8" fill="#888" fill-opacity="0.4"/>
+    <!-- USA text area -->
+    <path d="M47,58 L47,64" stroke="#5b8cc7" stroke-width="1" opacity="0.5"/>
+    <path d="M50,58 L50,64" stroke="#5b8cc7" stroke-width="1" opacity="0.5"/>
+    <path d="M53,58 L53,64" stroke="#5b8cc7" stroke-width="1" opacity="0.5"/>
+  </g>
+</svg>

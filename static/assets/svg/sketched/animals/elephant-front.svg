@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <style>
+    .outline { fill: none; stroke: #3a3a3a; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+    .detail { fill: none; stroke: #3a3a3a; stroke-width: 1.2; stroke-linecap: round; stroke-linejoin: round; }
+    .fill-body { fill: #8a9baa; fill-opacity: 0.78; }
+    .fill-inner { fill: #b8a8c4; fill-opacity: 0.75; }
+    .fill-tusk { fill: #e8e0d0; fill-opacity: 0.85; }
+  </style>
+  <!-- Left ear -->
+  <path class="fill-body" d="M18 38 C8 32, 2 40, 4 52 C6 62, 14 68, 22 64 C24 60, 24 48, 22 42Z" />
+  <path class="outline" d="M18 38 C8 32, 2 40, 4 52 C6 62, 14 68, 22 64 C24 60, 24 48, 22 42Z" />
+  <path class="fill-inner" d="M16 42 C10 38, 8 44, 9 52 C10 58, 16 62, 20 60 C21 56, 20 48, 18 44Z" />
+  <!-- Right ear -->
+  <path class="fill-body" d="M82 38 C92 32, 98 40, 96 52 C94 62, 86 68, 78 64 C76 60, 76 48, 78 42Z" />
+  <path class="outline" d="M82 38 C92 32, 98 40, 96 52 C94 62, 86 68, 78 64 C76 60, 76 48, 78 42Z" />
+  <path class="fill-inner" d="M84 42 C90 38, 92 44, 91 52 C90 58, 84 62, 80 60 C79 56, 80 48, 82 44Z" />
+  <!-- Body -->
+  <path class="fill-body" d="M30 56 C26 56, 22 64, 22 74 C22 84, 28 92, 40 94 L60 94 C72 92, 78 84, 78 74 C78 64, 74 56, 70 56Z" />
+  <path class="outline" d="M30 56 C26 56, 22 64, 22 74 C22 84, 28 92, 40 94 L60 94 C72 92, 78 84, 78 74 C78 64, 74 56, 70 56Z" />
+  <!-- Head -->
+  <path class="fill-body" d="M26 28 C26 16, 36 8, 50 8 C64 8, 74 16, 74 28 C74 40, 70 52, 66 56 L34 56 C30 52, 26 40, 26 28Z" />
+  <path class="outline" d="M26 28 C26 16, 36 8, 50 8 C64 8, 74 16, 74 28 C74 40, 70 52, 66 56 L34 56 C30 52, 26 40, 26 28Z" />
+  <!-- Eyes -->
+  <ellipse cx="38" cy="30" rx="4" ry="4.5" fill="#4a4a5a" fill-opacity="0.85" />
+  <ellipse cx="38" cy="30" rx="4" ry="4.5" class="outline" />
+  <circle cx="37.5" cy="29.5" r="2.2" fill="#1a1a1a" />
+  <circle cx="36.8" cy="28.8" r="1" fill="white" fill-opacity="0.9" />
+  <ellipse cx="62" cy="30" rx="4" ry="4.5" fill="#4a4a5a" fill-opacity="0.85" />
+  <ellipse cx="62" cy="30" rx="4" ry="4.5" class="outline" />
+  <circle cx="62.5" cy="29.5" r="2.2" fill="#1a1a1a" />
+  <circle cx="61.8" cy="28.8" r="1" fill="white" fill-opacity="0.9" />
+  <!-- Eyebrows (friendly) -->
+  <path class="detail" d="M33 24 C35 22, 39 22, 42 24" />
+  <path class="detail" d="M58 24 C60 22, 64 22, 67 24" />
+  <!-- Trunk -->
+  <path class="fill-body" d="M44 40 C42 42, 40 48, 42 54 C44 60, 44 66, 42 72 C40 76, 42 80, 46 80 C50 80, 54 80, 58 80 C62 80, 60 76, 58 72 C56 66, 56 60, 58 54 C60 48, 58 42, 56 40Z" />
+  <path class="outline" d="M44 40 C42 42, 40 48, 42 54 C44 60, 44 66, 42 72 C40 76, 42 80, 46 80 C50 80, 54 80, 58 80 C62 80, 60 76, 58 72 C56 66, 56 60, 58 54 C60 48, 58 42, 56 40Z" />
+  <!-- Trunk wrinkle details -->
+  <path class="detail" d="M43 50 C47 48, 53 48, 57 50" opacity="0.6" />
+  <path class="detail" d="M43 56 C47 54, 53 54, 57 56" opacity="0.6" />
+  <path class="detail" d="M43 62 C46 60, 54 60, 57 62" opacity="0.6" />
+  <path class="detail" d="M42 68 C45 66, 55 66, 58 68" opacity="0.6" />
+  <!-- Trunk tip curl -->
+  <path class="detail" d="M44 78 C43 80, 44 82, 46 80" />
+  <path class="detail" d="M56 78 C57 80, 56 82, 54 80" />
+  <!-- Tusks -->
+  <path class="fill-tusk" d="M38 46 C34 48, 30 54, 28 60 C28 62, 30 62, 32 60 C34 56, 36 50, 40 48Z" />
+  <path class="outline" d="M38 46 C34 48, 30 54, 28 60" style="stroke-width:2" />
+  <path class="fill-tusk" d="M62 46 C66 48, 70 54, 72 60 C72 62, 70 62, 68 60 C66 56, 64 50, 60 48Z" />
+  <path class="outline" d="M62 46 C66 48, 70 54, 72 60" style="stroke-width:2" />
+  <!-- Front legs -->
+  <path class="fill-body" d="M30 82 C29 88, 28 92, 28 95 C28 97, 36 97, 36 95 C36 92, 36 88, 36 82Z" />
+  <path class="outline" d="M30 82 C29 88, 28 92, 28 95 C28 97, 36 97, 36 95 C36 92, 36 88, 36 82Z" />
+  <path class="fill-body" d="M64 82 C64 88, 64 92, 64 95 C64 97, 72 97, 72 95 C72 92, 71 88, 70 82Z" />
+  <path class="outline" d="M64 82 C64 88, 64 92, 64 95 C64 97, 72 97, 72 95 C72 92, 71 88, 70 82Z" />
+  <!-- Toenail details -->
+  <path class="detail" d="M29 95 C30 93, 32 93, 33 95" opacity="0.5" />
+  <path class="detail" d="M33 95 C34 93, 35 93, 36 95" opacity="0.5" />
+  <path class="detail" d="M65 95 C66 93, 68 93, 69 95" opacity="0.5" />
+  <path class="detail" d="M69 95 C70 93, 71 93, 72 95" opacity="0.5" />
+  <!-- Wrinkle details on head -->
+  <path class="detail" d="M34 18 C38 16, 44 15, 50 15" opacity="0.4" />
+  <path class="detail" d="M50 15 C56 15, 62 16, 66 18" opacity="0.4" />
+  <!-- Double stroke accent -->
+  <path d="M30 22 C36 14, 44 10, 50 10" fill="none" stroke="#3a3a3a" stroke-width="0.8" stroke-linecap="round" opacity="0.3" />
+</svg>

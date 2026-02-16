@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Carrot chopped - hand sketched style, showing cut rounds -->
+  <!-- Standing carrot piece (top half) -->
+  <path d="M15 30 C12 42, 12 55, 15 65 L35 65 C38 55, 38 42, 35 30 C30 28, 20 28, 15 30Z"
+    fill="#d48c5b" fill-opacity="0.82" stroke="#b06830" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Cut face of standing piece (top ellipse) -->
+  <ellipse cx="25" cy="65" rx="11" ry="4"
+    fill="#e8a870" fill-opacity="0.8" stroke="#b06830" stroke-width="2" stroke-linecap="round"/>
+  <!-- Core ring on cut face -->
+  <ellipse cx="25" cy="65" rx="5" ry="2"
+    fill="#f0c090" fill-opacity="0.6" stroke="#c08050" stroke-width="1" stroke-linecap="round"/>
+  <!-- Green top on standing piece -->
+  <path d="M25 30 C23 22, 20 14, 18 8"
+    fill="none" stroke="#4a8a4a" stroke-width="2" stroke-linecap="round"/>
+  <path d="M25 30 C25 22, 26 14, 28 6"
+    fill="none" stroke="#5a9a5a" stroke-width="2" stroke-linecap="round"/>
+  <!-- Horizontal texture on standing piece -->
+  <path d="M16 40 C20 39, 30 39, 34 40"
+    fill="none" stroke="#c07838" stroke-width="1" stroke-linecap="round" stroke-opacity="0.4"/>
+  <path d="M14 52 C20 51, 30 51, 36 52"
+    fill="none" stroke="#c07838" stroke-width="1" stroke-linecap="round" stroke-opacity="0.4"/>
+  <!-- Round slice 1 (flat on surface) -->
+  <ellipse cx="58" cy="60" rx="10" ry="12"
+    fill="#d48c5b" fill-opacity="0.82" stroke="#b06830" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Core of slice 1 -->
+  <ellipse cx="58" cy="60" rx="4.5" ry="5.5"
+    fill="#e8a870" fill-opacity="0.7" stroke="#c08050" stroke-width="1.2" stroke-linecap="round"/>
+  <!-- Center dot -->
+  <circle cx="58" cy="60" r="1.5" fill="#f0c090" fill-opacity="0.6"/>
+  <!-- Round slice 2 -->
+  <ellipse cx="82" cy="55" rx="9" ry="11"
+    fill="#d48c5b" fill-opacity="0.8" stroke="#b06830" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Core of slice 2 -->
+  <ellipse cx="82" cy="55" rx="4" ry="5"
+    fill="#e8a870" fill-opacity="0.7" stroke="#c08050" stroke-width="1.2" stroke-linecap="round"/>
+  <circle cx="82" cy="55" r="1.5" fill="#f0c090" fill-opacity="0.6"/>
+  <!-- Small round slice 3 -->
+  <ellipse cx="70" cy="78" rx="7" ry="8.5"
+    fill="#d48c5b" fill-opacity="0.78" stroke="#b06830" stroke-width="2.5" stroke-linecap="round"/>
+  <ellipse cx="70" cy="78" rx="3" ry="3.8"
+    fill="#e8a870" fill-opacity="0.7" stroke="#c08050" stroke-width="1" stroke-linecap="round"/>
+</svg>

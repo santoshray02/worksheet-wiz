@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <style>
+    .outline { fill: none; stroke: #3a3a3a; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+    .detail { fill: none; stroke: #3a3a3a; stroke-width: 1.2; stroke-linecap: round; stroke-linejoin: round; }
+    .fill-body { fill: #8a9baa; fill-opacity: 0.78; }
+    .fill-inner { fill: #b8a8c4; fill-opacity: 0.75; }
+    .fill-tusk { fill: #e8e0d0; fill-opacity: 0.85; }
+  </style>
+  <!-- Tail -->
+  <path d="M88 46 C92 44, 94 40, 92 36" fill="none" stroke="#8a9baa" stroke-width="3" stroke-linecap="round" opacity="0.8" />
+  <path class="outline" d="M88 46 C92 44, 94 40, 92 36" style="fill:none; stroke-width:1.5" />
+  <!-- Tail tuft -->
+  <path class="detail" d="M92 36 C90 34, 92 32, 94 34" />
+  <path class="detail" d="M92 36 C94 34, 94 32, 92 33" />
+  <!-- Body -->
+  <path class="fill-body" d="M30 36 C20 38, 14 46, 14 56 C14 68, 22 78, 36 80 L72 80 C84 78, 90 68, 90 56 C90 46, 84 38, 76 36Z" />
+  <path class="outline" d="M30 36 C20 38, 14 46, 14 56 C14 68, 22 78, 36 80 L72 80 C84 78, 90 68, 90 56 C90 46, 84 38, 76 36Z" />
+  <!-- Ear -->
+  <path class="fill-body" d="M32 22 C24 18, 16 22, 14 30 C12 38, 16 44, 24 44 C28 44, 30 40, 30 34Z" />
+  <path class="outline" d="M32 22 C24 18, 16 22, 14 30 C12 38, 16 44, 24 44 C28 44, 30 40, 30 34Z" />
+  <path class="fill-inner" d="M30 24 C24 22, 20 26, 18 32 C16 38, 20 42, 24 40 C26 38, 28 34, 28 28Z" />
+  <!-- Head -->
+  <path class="fill-body" d="M24 16 C24 8, 34 2, 44 4 C54 6, 56 14, 54 24 C52 32, 46 38, 38 40 C30 42, 24 36, 22 28Z" />
+  <path class="outline" d="M24 16 C24 8, 34 2, 44 4 C54 6, 56 14, 54 24 C52 32, 46 38, 38 40 C30 42, 24 36, 22 28Z" />
+  <!-- Eye -->
+  <ellipse cx="36" cy="18" rx="3.5" ry="4" fill="#4a4a5a" fill-opacity="0.85" />
+  <ellipse cx="36" cy="18" rx="3.5" ry="4" class="outline" />
+  <circle cx="36" cy="17.5" r="2" fill="#1a1a1a" />
+  <circle cx="35.2" cy="16.8" r="0.9" fill="white" fill-opacity="0.9" />
+  <!-- Eyebrow -->
+  <path class="detail" d="M32 13 C34 11, 38 11, 40 13" />
+  <!-- Trunk -->
+  <path class="fill-body" d="M38 34 C34 38, 28 44, 22 50 C18 56, 14 62, 10 68 C8 72, 6 74, 4 76 C2 78, 4 80, 8 78 C10 76, 14 72, 18 66 C22 60, 26 54, 30 48 C32 44, 36 42, 40 38Z" />
+  <path class="outline" d="M38 34 C34 38, 28 44, 22 50 C18 56, 14 62, 10 68 C8 72, 6 74, 4 76 C2 78, 4 80, 8 78" />
+  <!-- Trunk wrinkles -->
+  <path class="detail" d="M32 42 C30 44, 28 42, 26 44" opacity="0.6" />
+  <path class="detail" d="M26 50 C24 52, 22 50, 20 52" opacity="0.6" />
+  <path class="detail" d="M20 58 C18 60, 16 58, 14 60" opacity="0.6" />
+  <path class="detail" d="M14 66 C12 68, 10 66, 8 68" opacity="0.6" />
+  <!-- Trunk tip curl -->
+  <path class="detail" d="M6 78 C4 76, 6 74, 8 76" />
+  <!-- Tusk -->
+  <path class="fill-tusk" d="M34 38 C30 42, 24 44, 20 42 C18 40, 20 38, 24 38 C28 38, 32 36, 34 38Z" />
+  <path class="outline" d="M30 40 C26 42, 22 42, 20 40" style="stroke-width:2" />
+  <!-- Front legs -->
+  <path class="fill-body" d="M28 72 C27 80, 26 86, 25 92 C25 95, 33 95, 33 92 C33 86, 33 80, 33 72Z" />
+  <path class="outline" d="M28 72 C27 80, 26 86, 25 92 C25 95, 33 95, 33 92 C33 86, 33 80, 33 72Z" />
+  <path class="fill-body" d="M38 74 C37 80, 36 86, 35 92 C35 95, 43 95, 43 92 C43 86, 43 80, 43 74Z" />
+  <path class="outline" d="M38 74 C37 80, 36 86, 35 92 C35 95, 43 95, 43 92 C43 86, 43 80, 43 74Z" />
+  <!-- Back legs -->
+  <path class="fill-body" d="M62 74 C61 80, 60 86, 59 92 C59 95, 67 95, 67 92 C67 86, 67 80, 67 74Z" />
+  <path class="outline" d="M62 74 C61 80, 60 86, 59 92 C59 95, 67 95, 67 92 C67 86, 67 80, 67 74Z" />
+  <path class="fill-body" d="M72 72 C72 80, 71 86, 70 92 C70 95, 78 95, 78 92 C78 86, 78 80, 78 72Z" />
+  <path class="outline" d="M72 72 C72 80, 71 86, 70 92 C70 95, 78 95, 78 92 C78 86, 78 80, 78 72Z" />
+  <!-- Toenail details -->
+  <path class="detail" d="M26 93 C27 91, 29 91, 30 93" opacity="0.5" />
+  <path class="detail" d="M30 93 C31 91, 32 91, 33 93" opacity="0.5" />
+  <path class="detail" d="M36 93 C37 91, 39 91, 40 93" opacity="0.5" />
+  <path class="detail" d="M40 93 C41 91, 42 91, 43 93" opacity="0.5" />
+  <path class="detail" d="M60 93 C61 91, 63 91, 64 93" opacity="0.5" />
+  <path class="detail" d="M64 93 C65 91, 66 91, 67 93" opacity="0.5" />
+  <path class="detail" d="M71 93 C72 91, 74 91, 75 93" opacity="0.5" />
+  <path class="detail" d="M75 93 C76 91, 77 91, 78 93" opacity="0.5" />
+  <!-- Body wrinkle details -->
+  <path class="detail" d="M48 44 C52 42, 56 44, 60 42" opacity="0.4" />
+  <path class="detail" d="M52 50 C56 48, 60 50, 64 48" opacity="0.4" />
+  <path class="detail" d="M56 56 C60 54, 64 56, 68 54" opacity="0.4" />
+  <!-- Double stroke accent -->
+  <path d="M28 12 C34 6, 42 4, 48 6" fill="none" stroke="#3a3a3a" stroke-width="0.8" stroke-linecap="round" opacity="0.3" />
+</svg>

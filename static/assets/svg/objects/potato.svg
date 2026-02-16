@@ -1,0 +1,15 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Potato body (irregular rounded shape) -->
+  <path d="M22,50 Q18,30 35,24 Q50,18 68,22 Q82,28 84,48 Q86,65 72,74 Q55,82 38,78 Q20,72 22,50Z" fill="#BC8F6B" stroke="#795548" stroke-width="2"/>
+  <!-- Spots/eyes -->
+  <ellipse cx="38" cy="40" rx="2.5" ry="2" fill="#8D6E63" opacity="0.6"/>
+  <ellipse cx="55" cy="35" rx="2" ry="1.5" fill="#8D6E63" opacity="0.5"/>
+  <ellipse cx="65" cy="48" rx="2" ry="2" fill="#8D6E63" opacity="0.5"/>
+  <ellipse cx="45" cy="60" rx="2.5" ry="1.5" fill="#8D6E63" opacity="0.5"/>
+  <ellipse cx="60" cy="64" rx="2" ry="1.5" fill="#8D6E63" opacity="0.4"/>
+  <!-- Small sprout from one eye -->
+  <path d="M55,35 Q54,30 52,27" fill="none" stroke="#8BC34A" stroke-width="1.5" stroke-linecap="round"/>
+  <circle cx="52" cy="26" r="1.5" fill="#AED581"/>
+  <!-- Highlight -->
+  <ellipse cx="40" cy="34" rx="8" ry="6" fill="white" opacity="0.18" transform="rotate(-15,40,34)"/>
+</svg>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Jellyfish - Floating View (slightly tilted, more relaxed pose) -->
+  <g stroke="#5a5a8b" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Bell/dome - slightly squished, relaxed -->
+    <path d="M14,38 C12,26 20,16 50,14 C80,16 88,26 86,38 C84,44 72,48 50,48 C28,48 16,44 14,38 Z"
+          fill="#8b9dca" fill-opacity="0.75" stroke-width="2.5"/>
+    <!-- Double stroke on dome -->
+    <path d="M22,22 C34,16 62,14 78,20" fill="none" stroke-width="1.2" opacity="0.3"/>
+    <!-- Dome highlight -->
+    <path d="M28,24 C40,20 56,18 68,22" fill="none" stroke-width="1.5" opacity="0.2" stroke="white"/>
+    <!-- Dome inner texture -->
+    <path d="M24,30 C38,26 60,26 76,30" fill="none" stroke-width="1" opacity="0.25"/>
+    <!-- Frilly edge - more spread out -->
+    <path d="M14,38 C18,44 24,40 30,44 C36,48 40,44 46,48 C50,50 54,48 58,50 C62,48 68,50 72,46 C76,42 80,46 84,42 C86,40 86,38"
+          fill="none" stroke-width="2" opacity="0.6"/>
+    <!-- Sleepy/content eyes -->
+    <circle cx="38" cy="28" r="3.5" fill="white" fill-opacity="0.9" stroke-width="1.5"/>
+    <circle cx="38" cy="29" r="2" fill="#2a3a5a" stroke-width="1"/>
+    <circle cx="39" cy="28" r="0.7" fill="white" stroke="none"/>
+    <circle cx="62" cy="28" r="3.5" fill="white" fill-opacity="0.9" stroke-width="1.5"/>
+    <circle cx="62" cy="29" r="2" fill="#2a3a5a" stroke-width="1"/>
+    <circle cx="63" cy="28" r="0.7" fill="white" stroke="none"/>
+    <!-- Peaceful smile -->
+    <path d="M44,36 C47,40 53,40 56,36" fill="none" stroke-width="1.5"/>
+    <!-- Cheek blush -->
+    <ellipse cx="34" cy="34" rx="3" ry="2" fill="#c4756e" fill-opacity="0.3" stroke="none"/>
+    <ellipse cx="66" cy="34" rx="3" ry="2" fill="#c4756e" fill-opacity="0.3" stroke="none"/>
+    <!-- Tentacles - gently drifting, spread out -->
+    <path d="M20,46 C16,54 18,62 14,68 C10,74 12,82 10,88 C8,92 10,96 12,98"
+          fill="none" stroke="#8b9dca" stroke-width="2" opacity="0.6"/>
+    <path d="M30,48 C28,56 32,64 28,72 C26,78 28,84 26,90"
+          fill="none" stroke="#8b9dca" stroke-width="1.5" opacity="0.5"/>
+    <path d="M38,50 C36,58 40,66 36,74 C34,80 36,86 34,92 C32,96 34,98 36,98"
+          fill="none" stroke="#8b9dca" stroke-width="2" opacity="0.6"/>
+    <path d="M50,50 C50,60 48,68 50,76 C52,82 50,88 50,94"
+          fill="none" stroke="#8b9dca" stroke-width="2" opacity="0.65"/>
+    <path d="M62,50 C64,58 60,66 64,74 C66,80 64,86 66,92 C68,96 66,98 64,98"
+          fill="none" stroke="#8b9dca" stroke-width="2" opacity="0.6"/>
+    <path d="M70,48 C72,56 68,64 72,72 C74,78 72,84 74,90"
+          fill="none" stroke="#8b9dca" stroke-width="1.5" opacity="0.5"/>
+    <path d="M80,46 C84,54 82,62 86,68 C90,74 88,82 90,88 C92,92 90,96 88,98"
+          fill="none" stroke="#8b9dca" stroke-width="2" opacity="0.6"/>
+    <!-- Bubbles rising -->
+    <circle cx="6" cy="30" r="2" fill="none" stroke-width="1" stroke="#6b9dba" opacity="0.5"/>
+    <circle cx="8" cy="22" r="1.5" fill="none" stroke-width="1" stroke="#6b9dba" opacity="0.4"/>
+    <circle cx="4" cy="14" r="1" fill="none" stroke-width="1" stroke="#6b9dba" opacity="0.3"/>
+  </g>
+</svg>

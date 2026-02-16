@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Book open view - hand sketched style (bird's eye, open flat) -->
+  <!-- Left page -->
+  <path d="M 50 20 Q 48 18 10 22 Q 8 23 8 25 L 8 82 Q 8 84 10 84 L 50 80" fill="#f5f0e0" fill-opacity="0.9" stroke="#bbb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Right page -->
+  <path d="M 50 20 Q 52 18 90 22 Q 92 23 92 25 L 92 82 Q 92 84 90 84 L 50 80" fill="#f5f0e0" fill-opacity="0.9" stroke="#bbb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Left cover (visible behind pages) -->
+  <path d="M 50 20 Q 46 16 8 20 Q 5 21 5 23 L 5 84 Q 5 86 8 86 L 50 82" fill="#5b8cc7" fill-opacity="0.7" stroke="#4070a0" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Right cover -->
+  <path d="M 50 20 Q 54 16 92 20 Q 95 21 95 23 L 95 84 Q 95 86 92 86 L 50 82" fill="#5b8cc7" fill-opacity="0.7" stroke="#4070a0" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Left page (on top of cover) -->
+  <path d="M 50 20 Q 48 18 10 22 Q 8 23 8 25 L 8 82 Q 8 84 10 84 L 50 80 Z" fill="#f5f0e0" fill-opacity="0.92" stroke="#ccc" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Right page -->
+  <path d="M 50 20 Q 52 18 90 22 Q 92 23 92 25 L 92 82 Q 92 84 90 84 L 50 80 Z" fill="#f5f0e0" fill-opacity="0.92" stroke="#ccc" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Spine/center fold -->
+  <line x1="50" y1="20" x2="50" y2="80" stroke="#bbb" stroke-width="2" stroke-linecap="round"/>
+  <!-- Left page text lines -->
+  <line x1="15" y1="30" x2="45" y2="28" stroke="#ccc" stroke-width="1" stroke-linecap="round"/>
+  <line x1="15" y1="36" x2="45" y2="34" stroke="#ccc" stroke-width="1" stroke-linecap="round"/>
+  <line x1="15" y1="42" x2="45" y2="40" stroke="#ccc" stroke-width="1" stroke-linecap="round"/>
+  <line x1="15" y1="48" x2="45" y2="46" stroke="#ccc" stroke-width="1" stroke-linecap="round"/>
+  <line x1="15" y1="54" x2="40" y2="52" stroke="#ccc" stroke-width="1" stroke-linecap="round"/>
+  <line x1="15" y1="60" x2="45" y2="58" stroke="#ccc" stroke-width="1" stroke-linecap="round"/>
+  <line x1="15" y1="66" x2="42" y2="64" stroke="#ccc" stroke-width="1" stroke-linecap="round"/>
+  <line x1="15" y1="72" x2="45" y2="70" stroke="#ccc" stroke-width="1" stroke-linecap="round"/>
+  <!-- Right page text lines -->
+  <line x1="55" y1="28" x2="85" y2="30" stroke="#ccc" stroke-width="1" stroke-linecap="round"/>
+  <line x1="55" y1="34" x2="85" y2="36" stroke="#ccc" stroke-width="1" stroke-linecap="round"/>
+  <line x1="55" y1="40" x2="85" y2="42" stroke="#ccc" stroke-width="1" stroke-linecap="round"/>
+  <line x1="55" y1="46" x2="85" y2="48" stroke="#ccc" stroke-width="1" stroke-linecap="round"/>
+  <line x1="55" y1="52" x2="80" y2="54" stroke="#ccc" stroke-width="1" stroke-linecap="round"/>
+  <line x1="55" y1="58" x2="85" y2="60" stroke="#ccc" stroke-width="1" stroke-linecap="round"/>
+  <line x1="55" y1="64" x2="82" y2="66" stroke="#ccc" stroke-width="1" stroke-linecap="round"/>
+  <line x1="55" y1="70" x2="85" y2="72" stroke="#ccc" stroke-width="1" stroke-linecap="round"/>
+  <!-- Page curl hint bottom-right -->
+  <path d="M 88 80 Q 86 78 88 76 Q 90 78 88 80" fill="#eee" fill-opacity="0.8" stroke="#ccc" stroke-width="0.8" stroke-linecap="round"/>
+</svg>

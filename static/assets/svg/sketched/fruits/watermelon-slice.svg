@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Watermelon slice - hand sketched style, triangular wedge -->
+  <!-- Rind (outer green) -->
+  <path d="M10 70 C30 72, 55 73, 90 70 C85 75, 75 80, 50 82 C25 80, 15 75, 10 70Z"
+    fill="#4a8a4a" fill-opacity="0.8" stroke="#2a5a2a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- White rind layer -->
+  <path d="M12 68 C32 70, 58 71, 88 68 C85 72, 75 76, 50 78 C25 76, 15 72, 12 68Z"
+    fill="#d8e8c8" fill-opacity="0.7" stroke="#8aaa7a" stroke-width="1" stroke-linecap="round"/>
+  <!-- Red flesh - triangular shape -->
+  <path d="M50 20 C35 40, 18 58, 14 66 C34 68, 56 69, 86 66 C82 58, 65 40, 50 20Z"
+    fill="#c75b5b" fill-opacity="0.82" stroke="#8b3a3a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Seeds -->
+  <ellipse cx="40" cy="50" rx="2" ry="3" transform="rotate(15,40,50)"
+    fill="#2a2a2a" fill-opacity="0.7" stroke="#1a1a1a" stroke-width="0.8"/>
+  <ellipse cx="55" cy="48" rx="2" ry="3" transform="rotate(-10,55,48)"
+    fill="#2a2a2a" fill-opacity="0.7" stroke="#1a1a1a" stroke-width="0.8"/>
+  <ellipse cx="48" cy="58" rx="2" ry="3" transform="rotate(5,48,58)"
+    fill="#2a2a2a" fill-opacity="0.7" stroke="#1a1a1a" stroke-width="0.8"/>
+  <ellipse cx="62" cy="55" rx="2" ry="3" transform="rotate(-15,62,55)"
+    fill="#2a2a2a" fill-opacity="0.7" stroke="#1a1a1a" stroke-width="0.8"/>
+  <ellipse cx="35" cy="58" rx="2" ry="3" transform="rotate(10,35,58)"
+    fill="#2a2a2a" fill-opacity="0.7" stroke="#1a1a1a" stroke-width="0.8"/>
+  <ellipse cx="70" cy="58" rx="1.8" ry="2.8" transform="rotate(-5,70,58)"
+    fill="#2a2a2a" fill-opacity="0.7" stroke="#1a1a1a" stroke-width="0.8"/>
+  <ellipse cx="50" cy="40" rx="1.8" ry="2.8" transform="rotate(8,50,40)"
+    fill="#2a2a2a" fill-opacity="0.65" stroke="#1a1a1a" stroke-width="0.8"/>
+  <!-- Juice drip detail -->
+  <path d="M45 66 C44 68, 44 70, 45 72"
+    fill="none" stroke="#c75b5b" stroke-width="1" stroke-linecap="round" stroke-opacity="0.4"/>
+</svg>

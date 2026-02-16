@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <style>
+    .outline { fill: none; stroke: #3a3a3a; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+    .detail { fill: none; stroke: #3a3a3a; stroke-width: 1.2; stroke-linecap: round; stroke-linejoin: round; }
+    .fill-body { fill: #c45a5a; fill-opacity: 0.75; }
+    .fill-belly { fill: #e8c4a8; fill-opacity: 0.82; }
+    .fill-beak { fill: #d4a44e; fill-opacity: 0.85; }
+    .fill-wing { fill: #a84848; fill-opacity: 0.7; }
+    .fill-tail { fill: #8c3838; fill-opacity: 0.7; }
+  </style>
+  <!-- Tail feathers -->
+  <path class="fill-tail" d="M78 54 C84 48, 90 44, 94 42 C90 48, 88 52, 86 56 C90 56, 94 54, 96 52 C92 56, 88 58, 84 58 C86 62, 90 66, 92 68 C86 64, 82 60, 78 58Z" />
+  <path class="outline" d="M78 54 C84 48, 90 44, 94 42" />
+  <path class="outline" d="M80 56 C86 54, 92 52, 96 52" />
+  <path class="outline" d="M78 58 C84 62, 88 66, 92 68" />
+  <!-- Body -->
+  <ellipse class="fill-body" cx="52" cy="52" rx="28" ry="22" />
+  <ellipse class="outline" cx="52" cy="52" rx="28" ry="22" />
+  <!-- Belly -->
+  <path class="fill-belly" d="M30 56 C34 66, 44 72, 56 72 C64 72, 70 68, 74 60 C70 64, 62 66, 52 66 C42 66, 34 62, 30 56Z" />
+  <!-- Wing -->
+  <path class="fill-wing" d="M40 42 C36 48, 34 56, 36 64 C38 70, 44 72, 50 70 C56 68, 62 62, 66 54 C68 48, 66 42, 60 40 C54 38, 46 38, 40 42Z" />
+  <path class="outline" d="M40 42 C36 48, 34 56, 36 64 C38 70, 44 72, 50 70 C56 68, 62 62, 66 54 C68 48, 66 42, 60 40 C54 38, 46 38, 40 42Z" />
+  <!-- Wing feather details -->
+  <path class="detail" d="M42 46 C40 52, 38 58, 38 64" opacity="0.5" />
+  <path class="detail" d="M48 44 C46 50, 44 56, 44 64" opacity="0.5" />
+  <path class="detail" d="M54 42 C52 48, 50 56, 48 66" opacity="0.5" />
+  <path class="detail" d="M60 44 C58 50, 56 58, 54 66" opacity="0.5" />
+  <!-- Head -->
+  <ellipse class="fill-body" cx="20" cy="34" rx="16" ry="14" />
+  <ellipse class="outline" cx="20" cy="34" rx="16" ry="14" />
+  <!-- Head tuft -->
+  <path class="fill-body" d="M22 22 C20 16, 24 10, 26 14 C28 10, 30 16, 28 22Z" />
+  <path class="outline" d="M22 22 C20 16, 24 10, 26 14 C28 10, 30 16, 28 22Z" />
+  <!-- Eye -->
+  <circle cx="14" cy="32" r="4.5" fill="white" fill-opacity="0.9" />
+  <circle cx="14" cy="32" r="4.5" class="outline" />
+  <circle cx="13.5" cy="31.5" r="2.5" fill="#2a2a2a" />
+  <circle cx="12.8" cy="30.8" r="1" fill="white" fill-opacity="0.9" />
+  <!-- Beak -->
+  <path class="fill-beak" d="M6 36 C4 34, 2 36, 2 38 L6 38 C8 36, 8 38, 6 40 L2 40 C2 42, 4 44, 6 42 Z" />
+  <path class="outline" d="M6 36 L2 38 L6 38" />
+  <path class="outline" d="M6 40 L2 40 L6 42" />
+  <!-- Beak line -->
+  <path class="detail" d="M2 38 L6 39 L2 40" />
+  <!-- Cheek blush -->
+  <ellipse cx="18" cy="38" rx="3" ry="2" fill="#d47a7a" fill-opacity="0.4" />
+  <!-- Legs -->
+  <line x1="44" y1="70" x2="42" y2="86" stroke="#d4a44e" stroke-width="2.5" stroke-linecap="round" />
+  <line x1="54" y1="72" x2="56" y2="86" stroke="#d4a44e" stroke-width="2.5" stroke-linecap="round" />
+  <!-- Feet -->
+  <path d="M36 86 L42 86 L46 88" fill="none" stroke="#d4a44e" stroke-width="2" stroke-linecap="round" />
+  <path d="M42 86 L40 90" fill="none" stroke="#d4a44e" stroke-width="2" stroke-linecap="round" />
+  <path d="M50 86 L56 86 L60 88" fill="none" stroke="#d4a44e" stroke-width="2" stroke-linecap="round" />
+  <path d="M56 86 L54 90" fill="none" stroke="#d4a44e" stroke-width="2" stroke-linecap="round" />
+  <!-- Body feather texture -->
+  <path class="detail" d="M62 46 C64 44, 66 46, 68 44" opacity="0.4" />
+  <path class="detail" d="M66 52 C68 50, 70 52, 72 50" opacity="0.4" />
+  <!-- Double stroke -->
+  <path d="M10 26 C14 22, 20 20, 26 22" fill="none" stroke="#3a3a3a" stroke-width="0.8" stroke-linecap="round" opacity="0.35" />
+</svg>

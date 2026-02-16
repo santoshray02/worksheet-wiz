@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Orange whole - hand sketched style -->
+  <!-- Main body -->
+  <path d="M50 15 C30 15, 14 32, 14 50 C14 70, 30 86, 50 86 C70 86, 86 70, 86 50 C86 32, 70 15, 50 15Z"
+    fill="#d48c5b" fill-opacity="0.82" stroke="#b06830" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Stem nub -->
+  <circle cx="50" cy="15" r="3" fill="#5a8a3a" fill-opacity="0.8" stroke="#3a6a2a" stroke-width="1.5"/>
+  <!-- Small leaf -->
+  <path d="M53 14 C57 10, 64 9, 68 11 C64 13, 57 14, 53 14Z"
+    fill="#7ba87b" fill-opacity="0.75" stroke="#4a7a4a" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Texture dimples -->
+  <circle cx="35" cy="40" r="0.8" fill="#c07838" fill-opacity="0.3"/>
+  <circle cx="42" cy="35" r="0.7" fill="#c07838" fill-opacity="0.3"/>
+  <circle cx="60" cy="42" r="0.9" fill="#c07838" fill-opacity="0.3"/>
+  <circle cx="55" cy="55" r="0.7" fill="#c07838" fill-opacity="0.25"/>
+  <circle cx="40" cy="60" r="0.8" fill="#c07838" fill-opacity="0.3"/>
+  <circle cx="65" cy="58" r="0.7" fill="#c07838" fill-opacity="0.25"/>
+  <circle cx="48" cy="72" r="0.8" fill="#c07838" fill-opacity="0.3"/>
+  <circle cx="58" cy="68" r="0.7" fill="#c07838" fill-opacity="0.25"/>
+  <circle cx="35" cy="52" r="0.6" fill="#c07838" fill-opacity="0.3"/>
+  <circle cx="68" cy="48" r="0.8" fill="#c07838" fill-opacity="0.25"/>
+  <!-- Highlight -->
+  <path d="M32 35 C34 30, 38 27, 42 26"
+    fill="none" stroke="#e8a878" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.5"/>
+  <!-- Navel at bottom -->
+  <circle cx="50" cy="83" r="2.5" fill="none" stroke="#b06830" stroke-width="1" stroke-opacity="0.5"/>
+</svg>

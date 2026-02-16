@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <style>
+    .outline { fill: none; stroke: #3a3a3a; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+    .detail { fill: none; stroke: #3a3a3a; stroke-width: 1.2; stroke-linecap: round; stroke-linejoin: round; }
+    .fill-body { fill: #d4956a; fill-opacity: 0.78; }
+    .fill-inner { fill: #e8c4a8; fill-opacity: 0.8; }
+    .fill-nose { fill: #c47a6c; fill-opacity: 0.85; }
+  </style>
+  <!-- Tail wrapping around -->
+  <path d="M68 82 C78 78, 84 72, 82 65 C80 60, 74 62, 72 67" fill="none" stroke="#d4956a" stroke-width="5" stroke-linecap="round" opacity="0.7" />
+  <path class="outline" d="M68 82 C78 78, 84 72, 82 65 C80 60, 74 62, 72 67" style="fill:none;" />
+  <!-- Body (sitting - more upright pear shape) -->
+  <path class="fill-body" d="M32 88 C28 88, 24 82, 24 74 C24 64, 30 56, 38 52 C42 50, 46 49, 50 49 C54 49, 58 50, 62 52 C70 56, 76 64, 76 74 C76 82, 72 88, 68 88Z" />
+  <path class="outline" d="M32 88 C28 88, 24 82, 24 74 C24 64, 30 56, 38 52 C42 50, 46 49, 50 49 C54 49, 58 50, 62 52 C70 56, 76 64, 76 74 C76 82, 72 88, 68 88Z" />
+  <!-- Head -->
+  <ellipse class="fill-body" cx="50" cy="34" rx="21" ry="18" />
+  <ellipse class="outline" cx="50" cy="34" rx="21" ry="18" />
+  <!-- Left ear -->
+  <path class="fill-body" d="M32 22 C29 13, 33 5, 36 7 C39 9, 38 16, 36 22Z" />
+  <path class="outline" d="M32 22 C29 13, 33 5, 36 7 C39 9, 38 16, 36 22Z" />
+  <path class="fill-inner" d="M33 20 C31.5 14, 34 9, 36 10 C37 11, 36.5 16, 35.5 20Z" />
+  <!-- Right ear -->
+  <path class="fill-body" d="M68 22 C71 13, 67 5, 64 7 C61 9, 62 16, 64 22Z" />
+  <path class="outline" d="M68 22 C71 13, 67 5, 64 7 C61 9, 62 16, 64 22Z" />
+  <path class="fill-inner" d="M67 20 C68.5 14, 66 9, 64 10 C63 11, 63.5 16, 64.5 20Z" />
+  <!-- Eyes (slightly closed/content) -->
+  <path d="M38 32 C39 29, 44 29, 45 32" fill="#4a7a5c" fill-opacity="0.8" stroke="#3a3a3a" stroke-width="2" stroke-linecap="round" />
+  <path d="M55 32 C56 29, 61 29, 62 32" fill="#4a7a5c" fill-opacity="0.8" stroke="#3a3a3a" stroke-width="2" stroke-linecap="round" />
+  <!-- Pupils -->
+  <ellipse cx="41.5" cy="31.5" rx="1.5" ry="2.2" fill="#2a2a2a" />
+  <ellipse cx="58.5" cy="31.5" rx="1.5" ry="2.2" fill="#2a2a2a" />
+  <!-- Eye shine -->
+  <circle cx="40.5" cy="30.5" r="0.8" fill="white" fill-opacity="0.9" />
+  <circle cx="57.5" cy="30.5" r="0.8" fill="white" fill-opacity="0.9" />
+  <!-- Nose -->
+  <path class="fill-nose" d="M48 38 C48 36.5, 50 36, 50 36 C50 36, 52 36.5, 52 38 C52 39.5, 50 40.5, 50 40.5 C50 40.5, 48 39.5, 48 38Z" />
+  <!-- Mouth -->
+  <path class="detail" d="M50 40.5 L50 42" />
+  <path class="detail" d="M50 42 C47.5 44, 45 43, 44 42" />
+  <path class="detail" d="M50 42 C52.5 44, 55 43, 56 42" />
+  <!-- Whiskers -->
+  <line class="detail" x1="39" y1="38" x2="22" y2="34" />
+  <line class="detail" x1="39" y1="40" x2="21" y2="39" />
+  <line class="detail" x1="39" y1="42" x2="23" y2="44" />
+  <line class="detail" x1="61" y1="38" x2="78" y2="34" />
+  <line class="detail" x1="61" y1="40" x2="79" y2="39" />
+  <line class="detail" x1="61" y1="42" x2="77" y2="44" />
+  <!-- Front paws (tucked in) -->
+  <ellipse class="fill-body" cx="39" cy="86" rx="8" ry="4.5" />
+  <ellipse class="outline" cx="39" cy="86" rx="8" ry="4.5" />
+  <path class="detail" d="M35 86 L35 84" />
+  <path class="detail" d="M39 85.5 L39 83.5" />
+  <path class="detail" d="M43 86 L43 84" />
+  <ellipse class="fill-body" cx="61" cy="86" rx="8" ry="4.5" />
+  <ellipse class="outline" cx="61" cy="86" rx="8" ry="4.5" />
+  <path class="detail" d="M57 86 L57 84" />
+  <path class="detail" d="M61 85.5 L61 83.5" />
+  <path class="detail" d="M65 86 L65 84" />
+  <!-- Chest/belly fur -->
+  <path class="fill-inner" d="M42 54 C44 52, 50 51, 56 52 C60 54, 62 60, 60 66 C58 72, 54 76, 50 76 C46 76, 42 72, 40 66 C38 60, 40 56, 42 54Z" />
+  <path class="detail" d="M44 58 C47 56, 53 56, 56 58" />
+  <path class="detail" d="M43 64 C46 62, 54 62, 57 64" />
+  <!-- Double stroke accents -->
+  <path d="M34 28 C38 22, 44 19, 50 18" fill="none" stroke="#3a3a3a" stroke-width="0.8" stroke-linecap="round" opacity="0.35" />
+  <path d="M30 70 C32 62, 38 56, 44 53" fill="none" stroke="#3a3a3a" stroke-width="0.8" stroke-linecap="round" opacity="0.3" />
+</svg>

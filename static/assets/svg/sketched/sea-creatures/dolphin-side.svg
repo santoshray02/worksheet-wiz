@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Dolphin - Side View -->
+  <g stroke="#2a5a7b" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Body -->
+    <path d="M8,48 C12,38 22,32 35,30 C50,28 65,32 78,38 C85,42 90,48 92,50 C90,52 85,56 78,58 C65,62 50,64 35,62 C22,60 12,56 8,48 Z"
+          fill="#8fbcbb" fill-opacity="0.8" stroke-width="2.5"/>
+    <!-- Beak/snout -->
+    <path d="M92,50 C95,49 98,48 99,48" fill="none" stroke-width="2.5"/>
+    <path d="M92,50 C95,51 98,52 99,52" fill="none" stroke-width="2"/>
+    <!-- Double stroke on top -->
+    <path d="M18,36 C32,30 52,30 72,36" fill="none" stroke-width="1.2" opacity="0.35"/>
+    <!-- Belly lighter area -->
+    <path d="M20,52 C35,58 55,60 75,54" fill="none" stroke-width="1.5" opacity="0.4"/>
+    <!-- Dorsal fin -->
+    <path d="M45,30 C43,22 46,16 50,14 C52,16 54,22 52,30" fill="#7aacaa" fill-opacity="0.75" stroke-width="2"/>
+    <!-- Tail -->
+    <path d="M8,48 C4,42 1,36 0,32 C4,36 6,40 8,44" fill="none" stroke-width="2.5"/>
+    <path d="M8,48 C4,54 1,60 0,64 C4,60 6,56 8,52" fill="none" stroke-width="2.5"/>
+    <path d="M0,32 C2,42 2,54 0,64" fill="#8fbcbb" fill-opacity="0.6" stroke-width="1.5"/>
+    <!-- Pectoral fin -->
+    <path d="M55,56 C52,64 54,70 58,68 C60,66 58,60 57,56" fill="#7aacaa" fill-opacity="0.7" stroke-width="2"/>
+    <!-- Eye -->
+    <circle cx="82" cy="45" r="2.5" fill="#2a3a4a" stroke-width="1.5"/>
+    <circle cx="83" cy="44" r="0.8" fill="white" stroke="none"/>
+    <!-- Smile -->
+    <path d="M90,52 C92,53 94,53" fill="none" stroke-width="1.5"/>
+    <!-- Blowhole -->
+    <path d="M60,30 C60,28 61,28 61,30" fill="none" stroke-width="1.5"/>
+    <!-- Detail sketch lines -->
+    <path d="M65,38 C66,40" fill="none" stroke-width="1" opacity="0.3"/>
+    <path d="M70,40 C71,42" fill="none" stroke-width="1" opacity="0.3"/>
+    <!-- Bubbles -->
+    <circle cx="96" cy="40" r="1.5" fill="none" stroke-width="1" stroke="#5a8aa9" opacity="0.5"/>
+    <circle cx="98" cy="35" r="1" fill="none" stroke-width="1" stroke="#5a8aa9" opacity="0.4"/>
+    <circle cx="95" cy="32" r="1.8" fill="none" stroke-width="1" stroke="#5a8aa9" opacity="0.3"/>
+  </g>
+</svg>

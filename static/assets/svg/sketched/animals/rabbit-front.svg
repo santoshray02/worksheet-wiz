@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <style>
+    .outline { fill: none; stroke: #6b5a4a; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+    .detail { fill: none; stroke: #6b5a4a; stroke-width: 1.2; stroke-linecap: round; stroke-linejoin: round; }
+    .fur { fill: #d4c8b8; fill-opacity: 0.8; stroke: #6b5a4a; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+    .inner-ear { fill: #d4a0a0; fill-opacity: 0.7; stroke: #6b5a4a; stroke-width: 1.2; stroke-linecap: round; stroke-linejoin: round; }
+    .belly { fill: #e8e0d4; fill-opacity: 0.85; stroke: #6b5a4a; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+  </style>
+  <!-- Left ear -->
+  <path class="fur" d="M36 8 C34 4, 32 2, 30 4 C26 8, 28 22, 32 32 C34 34, 38 32, 38 28 C40 20, 38 12, 36 8Z"/>
+  <path class="inner-ear" d="M34 10 C33 8, 31 8, 30 10 C28 16, 30 24, 33 28 C34 26, 36 22, 36 16 C36 14, 35 12, 34 10Z"/>
+  <!-- Right ear -->
+  <path class="fur" d="M64 8 C66 4, 68 2, 70 4 C74 8, 72 22, 68 32 C66 34, 62 32, 62 28 C60 20, 62 12, 64 8Z"/>
+  <path class="inner-ear" d="M66 10 C67 8, 69 8, 70 10 C72 16, 70 24, 67 28 C66 26, 64 22, 64 16 C64 14, 65 12, 66 10Z"/>
+  <!-- Head -->
+  <path class="fur" d="M50 26 C62 25, 74 32, 74 44 C74 52, 68 58, 62 60 C58 62, 54 62, 50 62 C46 62, 42 62, 38 60 C32 58, 26 52, 26 44 C26 32, 38 25, 50 26Z"/>
+  <!-- Cheeks - fluffy -->
+  <path class="detail" d="M28 46 C26 48, 24 46, 26 44"/>
+  <path class="detail" d="M72 46 C74 48, 76 46, 74 44"/>
+  <!-- Eyes -->
+  <ellipse cx="40" cy="42" rx="5" ry="5.5" fill="#f5f0e0" fill-opacity="0.9" stroke="#6b5a4a" stroke-width="2" stroke-linecap="round"/>
+  <ellipse cx="60" cy="42" rx="5" ry="5.5" fill="#f5f0e0" fill-opacity="0.9" stroke="#6b5a4a" stroke-width="2" stroke-linecap="round"/>
+  <ellipse cx="41" cy="42.5" rx="2.5" ry="3" fill="#4a3028"/>
+  <ellipse cx="61" cy="42.5" rx="2.5" ry="3" fill="#4a3028"/>
+  <circle cx="42.5" cy="41" r="1" fill="#fff"/>
+  <circle cx="62.5" cy="41" r="1" fill="#fff"/>
+  <!-- Nose -->
+  <path d="M48 50 C49 48, 51 48, 52 50 C53 51, 51 53, 50 53 C49 53, 47 51, 48 50Z" fill="#d4a0a0" fill-opacity="0.85" stroke="#6b5a4a" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Mouth -->
+  <path class="detail" d="M50 53 L50 56"/>
+  <path class="detail" d="M50 56 C48 58, 45 57, 44 55"/>
+  <path class="detail" d="M50 56 C52 58, 55 57, 56 55"/>
+  <!-- Whiskers -->
+  <path class="detail" d="M38 50 C32 48, 24 47, 18 48"/>
+  <path class="detail" d="M38 52 C32 53, 24 54, 18 55"/>
+  <path class="detail" d="M62 50 C68 48, 76 47, 82 48"/>
+  <path class="detail" d="M62 52 C68 53, 76 54, 82 55"/>
+  <!-- Body -->
+  <path class="belly" d="M38 60 C38 58, 42 56, 50 57 C58 56, 62 58, 62 60 L66 72 C68 80, 64 88, 56 88 L56 84 C56 82, 54 82, 54 84 L54 88 C52 89, 48 89, 46 88 L46 84 C46 82, 44 82, 44 84 L44 88 C36 88, 32 80, 34 72Z"/>
+  <!-- Belly fluff -->
+  <ellipse cx="50" cy="72" rx="10" ry="8" fill="#e8e0d4" fill-opacity="0.5" stroke="none"/>
+  <path class="detail" d="M44 68 C46 72, 48 74, 50 74 C52 74, 54 72, 56 68" opacity="0.5"/>
+  <!-- Paw details -->
+  <path class="detail" d="M36 86 L38 86"/>
+  <path class="detail" d="M40 86 L42 86"/>
+  <path class="detail" d="M58 86 L60 86"/>
+  <path class="detail" d="M62 86 L64 86"/>
+  <!-- Tail puff -->
+  <ellipse cx="50" cy="88" rx="4" ry="3" fill="#e8e0d4" fill-opacity="0.8" stroke="#6b5a4a" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Fur texture on head -->
+  <path class="detail" d="M42 28 C44 30, 46 30, 48 28" opacity="0.5"/>
+  <path class="detail" d="M52 28 C54 30, 56 30, 58 28" opacity="0.5"/>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Flower bloom view - hand sketched style -->
+  <!-- Stem -->
+  <path d="M 50 55 Q 49 65 48 75 Q 47 85 48 95" stroke="#3a7a3a" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  <!-- Leaves on stem -->
+  <path d="M 48 70 Q 38 65 32 62 Q 36 68 42 72 Q 46 73 48 72" fill="#5bc75b" fill-opacity="0.75" stroke="#3a7a3a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Leaf vein -->
+  <path d="M 47 71 Q 42 68 35 64" stroke="#3a7a3a" stroke-width="0.8" stroke-linecap="round" fill="none" opacity="0.5"/>
+  <path d="M 49 78 Q 58 73 65 70 Q 60 76 54 80 Q 51 81 49 79" fill="#5bc75b" fill-opacity="0.75" stroke="#3a7a3a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 49 79 Q 56 75 62 72" stroke="#3a7a3a" stroke-width="0.8" stroke-linecap="round" fill="none" opacity="0.5"/>
+  <!-- Petals (5 rounded petals around center) -->
+  <!-- Top petal -->
+  <path d="M 50 35 Q 45 22 42 15 Q 44 10 50 10 Q 56 10 58 15 Q 55 22 50 35" fill="#c75b8a" fill-opacity="0.8" stroke="#a04070" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Top-right petal -->
+  <path d="M 50 35 Q 58 25 65 20 Q 70 20 72 25 Q 72 32 65 35 Q 58 38 50 35" fill="#c75b8a" fill-opacity="0.75" stroke="#a04070" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Bottom-right petal -->
+  <path d="M 50 35 Q 60 38 68 42 Q 72 46 70 52 Q 66 55 60 50 Q 55 44 50 35" fill="#c75b8a" fill-opacity="0.7" stroke="#a04070" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Bottom-left petal -->
+  <path d="M 50 35 Q 40 38 32 42 Q 28 46 30 52 Q 34 55 40 50 Q 45 44 50 35" fill="#c75b8a" fill-opacity="0.7" stroke="#a04070" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Top-left petal -->
+  <path d="M 50 35 Q 42 25 35 20 Q 30 20 28 25 Q 28 32 35 35 Q 42 38 50 35" fill="#c75b8a" fill-opacity="0.75" stroke="#a04070" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Center -->
+  <circle cx="50" cy="35" r="6" fill="#c7c75b" fill-opacity="0.85" stroke="#a0a040" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Center texture (dots for pollen) -->
+  <circle cx="48" cy="33" r="1" fill="#8b8b2e" fill-opacity="0.6"/>
+  <circle cx="52" cy="33" r="1" fill="#8b8b2e" fill-opacity="0.6"/>
+  <circle cx="50" cy="37" r="1" fill="#8b8b2e" fill-opacity="0.6"/>
+  <circle cx="48" cy="36" r="0.8" fill="#8b8b2e" fill-opacity="0.5"/>
+  <circle cx="52" cy="36" r="0.8" fill="#8b8b2e" fill-opacity="0.5"/>
+</svg>

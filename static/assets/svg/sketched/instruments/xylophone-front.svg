@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Xylophone front view - hand sketched style -->
+  <!-- Frame / rails -->
+  <path d="M 8 78 Q 10 76 15 75 L 85 75 Q 90 76 92 78" stroke="#8b5e3c" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <path d="M 8 82 Q 10 84 15 85 L 85 85 Q 90 84 92 82" stroke="#8b5e3c" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <!-- Frame connectors -->
+  <line x1="8" y1="78" x2="8" y2="82" stroke="#8b5e3c" stroke-width="2" stroke-linecap="round"/>
+  <line x1="92" y1="78" x2="92" y2="82" stroke="#8b5e3c" stroke-width="2" stroke-linecap="round"/>
+  <!-- Legs -->
+  <line x1="15" y1="85" x2="12" y2="96" stroke="#8b5e3c" stroke-width="2" stroke-linecap="round"/>
+  <line x1="85" y1="85" x2="88" y2="96" stroke="#8b5e3c" stroke-width="2" stroke-linecap="round"/>
+  <line x1="45" y1="85" x2="43" y2="96" stroke="#8b5e3c" stroke-width="2" stroke-linecap="round"/>
+  <line x1="55" y1="85" x2="57" y2="96" stroke="#8b5e3c" stroke-width="2" stroke-linecap="round"/>
+  <!-- Bars (longest to shortest, left to right) - colorful like a kid's xylophone -->
+  <!-- Bar 1 - C (red) -->
+  <rect x="10" y="22" width="10" height="52" rx="2" fill="#c75b5b" fill-opacity="0.8" stroke="#a04040" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Bar 2 - D (orange) -->
+  <rect x="21" y="26" width="10" height="48" rx="2" fill="#d4884a" fill-opacity="0.8" stroke="#b06830" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Bar 3 - E (yellow) -->
+  <rect x="32" y="30" width="10" height="44" rx="2" fill="#c7c75b" fill-opacity="0.8" stroke="#a0a040" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Bar 4 - F (green) -->
+  <rect x="43" y="34" width="10" height="40" rx="2" fill="#5bc75b" fill-opacity="0.8" stroke="#40a040" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Bar 5 - G (blue) -->
+  <rect x="54" y="38" width="10" height="36" rx="2" fill="#5b8cc7" fill-opacity="0.8" stroke="#4070a0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Bar 6 - A (indigo) -->
+  <rect x="65" y="42" width="10" height="32" rx="2" fill="#7b5bc7" fill-opacity="0.8" stroke="#6040a0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Bar 7 - B (violet) -->
+  <rect x="76" y="46" width="10" height="28" rx="2" fill="#c75bb8" fill-opacity="0.8" stroke="#a040a0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Bar 8 - high C (pink) -->
+  <rect x="87" y="50" width="8" height="24" rx="2" fill="#c75b7b" fill-opacity="0.8" stroke="#a04060" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Mallet 1 -->
+  <line x1="25" y1="5" x2="38" y2="28" stroke="#b87d4a" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="25" cy="5" r="3.5" fill="#c75b5b" fill-opacity="0.8" stroke="#a04040" stroke-width="1.2"/>
+  <!-- Mallet 2 -->
+  <line x1="72" y1="8" x2="60" y2="36" stroke="#b87d4a" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="72" cy="8" r="3.5" fill="#5b8cc7" fill-opacity="0.8" stroke="#4070a0" stroke-width="1.2"/>
+</svg>

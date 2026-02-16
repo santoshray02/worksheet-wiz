@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <g stroke="#3a3a3a" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- Rear wheel -->
+    <ellipse cx="25" cy="65" rx="15" ry="14.5" fill="none" stroke-width="2.2"/>
+    <ellipse cx="25" cy="65" rx="2.5" ry="2.3" fill="#888" fill-opacity="0.5" stroke-width="1"/>
+    <!-- Rear spokes -->
+    <line x1="25" y1="51" x2="25" y2="79" stroke-width="0.7" opacity="0.4"/>
+    <line x1="11" y1="65" x2="39" y2="65" stroke-width="0.7" opacity="0.4"/>
+    <line x1="15" y1="55" x2="35" y2="75" stroke-width="0.7" opacity="0.4"/>
+    <line x1="35" y1="55" x2="15" y2="75" stroke-width="0.7" opacity="0.4"/>
+    <!-- Front wheel -->
+    <ellipse cx="75" cy="65" rx="15" ry="14.5" fill="none" stroke-width="2.2"/>
+    <ellipse cx="75" cy="65" rx="2.5" ry="2.3" fill="#888" fill-opacity="0.5" stroke-width="1"/>
+    <!-- Front spokes -->
+    <line x1="75" y1="51" x2="75" y2="79" stroke-width="0.7" opacity="0.4"/>
+    <line x1="61" y1="65" x2="89" y2="65" stroke-width="0.7" opacity="0.4"/>
+    <line x1="65" y1="55" x2="85" y2="75" stroke-width="0.7" opacity="0.4"/>
+    <line x1="85" y1="55" x2="65" y2="75" stroke-width="0.7" opacity="0.4"/>
+    <!-- Frame - main triangle -->
+    <path d="M25,65 L48,40 L75,65" stroke="#c75b5b" stroke-width="2.5"/>
+    <path d="M25,65 L48,65 L48,40" stroke="#c75b5b" stroke-width="2.5"/>
+    <!-- Seat tube to rear -->
+    <path d="M48,65 L75,65" stroke="#c75b5b" stroke-width="2"/>
+    <!-- Fork -->
+    <path d="M68,42 L75,65" stroke="#c75b5b" stroke-width="2.2"/>
+    <!-- Top tube -->
+    <path d="M48,40 L68,42" stroke="#c75b5b" stroke-width="2"/>
+    <!-- Handlebars -->
+    <path d="M65,36 C67,34 70,33 72,34 C74,35 73,38 71,40"
+          stroke-width="2" fill="none"/>
+    <!-- Handlebar stem -->
+    <path d="M68,42 L68,36" stroke-width="2"/>
+    <!-- Seat -->
+    <path d="M43,37 C45,35 48,35 52,36 C53,36.5 52,38 50,38 L44,38 C43,38 42,38 43,37 Z"
+          fill="#4a4a4a" fill-opacity="0.7" stroke-width="1.3"/>
+    <!-- Seat post -->
+    <line x1="48" y1="38" x2="48" y2="40" stroke-width="1.5"/>
+    <!-- Pedal area -->
+    <circle cx="48" cy="65" r="3" fill="#888" fill-opacity="0.4" stroke-width="1.2"/>
+    <!-- Pedals -->
+    <path d="M45,63 L42,61" stroke-width="1.5"/>
+    <path d="M51,67 L54,69" stroke-width="1.5"/>
+    <!-- Chain hint -->
+    <path d="M48,68 C55,70 65,68 75,67" stroke-width="0.8" opacity="0.3"/>
+    <!-- Ground line -->
+    <path d="M3,81 C20,80.5 50,81.2 75,80.7 C90,81 97,80.8 97,81" stroke-width="1" opacity="0.3"/>
+  </g>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Mushroom side view - hand sketched style -->
+  <!-- Cap (dome from side) -->
+  <path d="M10 55 C10 35, 22 15, 50 12 C78 15, 90 35, 90 55 L10 55Z"
+    fill="#c4a060" fill-opacity="0.8" stroke="#8a7040" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Cap underside (gills visible) -->
+  <path d="M10 55 C15 58, 30 60, 42 60 L42 58 C30 58, 16 56, 10 55Z"
+    fill="#e0d0b0" fill-opacity="0.5" stroke="#a08858" stroke-width="1" stroke-linecap="round"/>
+  <path d="M90 55 C85 58, 70 60, 58 60 L58 58 C70 58, 84 56, 90 55Z"
+    fill="#e0d0b0" fill-opacity="0.5" stroke="#a08858" stroke-width="1" stroke-linecap="round"/>
+  <!-- Gill lines under cap -->
+  <line x1="18" y1="56" x2="18" y2="59" stroke="#b09868" stroke-width="0.8" stroke-linecap="round" stroke-opacity="0.4"/>
+  <line x1="24" y1="56" x2="24" y2="60" stroke="#b09868" stroke-width="0.8" stroke-linecap="round" stroke-opacity="0.4"/>
+  <line x1="30" y1="56" x2="30" y2="60" stroke="#b09868" stroke-width="0.8" stroke-linecap="round" stroke-opacity="0.4"/>
+  <line x1="36" y1="57" x2="36" y2="60" stroke="#b09868" stroke-width="0.8" stroke-linecap="round" stroke-opacity="0.4"/>
+  <line x1="64" y1="57" x2="64" y2="60" stroke="#b09868" stroke-width="0.8" stroke-linecap="round" stroke-opacity="0.4"/>
+  <line x1="70" y1="56" x2="70" y2="60" stroke="#b09868" stroke-width="0.8" stroke-linecap="round" stroke-opacity="0.4"/>
+  <line x1="76" y1="56" x2="76" y2="60" stroke="#b09868" stroke-width="0.8" stroke-linecap="round" stroke-opacity="0.4"/>
+  <line x1="82" y1="56" x2="82" y2="59" stroke="#b09868" stroke-width="0.8" stroke-linecap="round" stroke-opacity="0.4"/>
+  <!-- Stem -->
+  <path d="M42 60 C40 68, 38 78, 38 88 C38 92, 42 95, 50 96 C58 95, 62 92, 62 88 C62 78, 60 68, 58 60Z"
+    fill="#f0e0c0" fill-opacity="0.8" stroke="#a08858" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Stem texture -->
+  <path d="M44 68 C46 67, 54 67, 56 68"
+    fill="none" stroke="#c0b088" stroke-width="1" stroke-linecap="round" stroke-opacity="0.3"/>
+  <path d="M42 76 C45 75, 55 75, 58 76"
+    fill="none" stroke="#c0b088" stroke-width="1" stroke-linecap="round" stroke-opacity="0.3"/>
+  <path d="M40 84 C44 83, 56 83, 60 84"
+    fill="none" stroke="#c0b088" stroke-width="1" stroke-linecap="round" stroke-opacity="0.3"/>
+  <!-- Ring/annulus on stem -->
+  <path d="M40 65 C44 63, 56 63, 60 65 C56 67, 44 67, 40 65Z"
+    fill="#e0d0b0" fill-opacity="0.5" stroke="#a08858" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Cap texture -->
+  <path d="M30 30 C35 24, 42 18, 48 16"
+    fill="none" stroke="#d8c088" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.4"/>
+  <path d="M50 14 C50 28, 50 40, 50 52"
+    fill="none" stroke="#a08048" stroke-width="1" stroke-linecap="round" stroke-opacity="0.2"/>
+</svg>

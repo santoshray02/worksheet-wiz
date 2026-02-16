@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <style>
+    .outline { fill: none; stroke: #5a4a2a; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+    .detail { fill: none; stroke: #5a4a2a; stroke-width: 1.2; stroke-linecap: round; stroke-linejoin: round; }
+    .mane { fill: #c4a24d; fill-opacity: 0.8; stroke: #8a7030; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+    .face { fill: #e8cc7a; fill-opacity: 0.85; stroke: #5a4a2a; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+    .body { fill: #d4b45a; fill-opacity: 0.75; stroke: #5a4a2a; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+    .nose { fill: #a0704a; fill-opacity: 0.85; stroke: #5a4a2a; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+  </style>
+  <!-- Mane -->
+  <path class="mane" d="M50 12 C62 10, 76 16, 78 28 C81 38, 79 46, 76 50 C80 56, 78 66, 72 70 C66 74, 58 73, 54 72 C52 74, 48 74, 46 72 C42 73, 34 74, 28 70 C22 66, 20 56, 24 50 C21 46, 19 38, 22 28 C24 16, 38 10, 50 12Z"/>
+  <!-- Mane texture lines -->
+  <path class="detail" d="M36 15 C34 20, 33 26, 34 30"/>
+  <path class="detail" d="M64 15 C66 20, 67 26, 66 30"/>
+  <path class="detail" d="M78 34 C74 36, 72 40, 73 44"/>
+  <path class="detail" d="M22 34 C26 36, 28 40, 27 44"/>
+  <path class="detail" d="M26 60 C30 62, 33 65, 34 68"/>
+  <path class="detail" d="M74 60 C70 62, 67 65, 66 68"/>
+  <path class="detail" d="M42 13 C41 18, 40 22, 41 25"/>
+  <path class="detail" d="M58 13 C59 18, 60 22, 59 25"/>
+  <!-- Face -->
+  <path class="face" d="M50 24 C60 23, 70 30, 70 42 C70 54, 62 62, 50 63 C38 62, 30 54, 30 42 C30 30, 40 23, 50 24Z"/>
+  <!-- Eyes -->
+  <ellipse cx="40" cy="39" rx="4.5" ry="5" fill="#f5f0e0" fill-opacity="0.9" stroke="#5a4a2a" stroke-width="2" stroke-linecap="round"/>
+  <ellipse cx="60" cy="39" rx="4.5" ry="5" fill="#f5f0e0" fill-opacity="0.9" stroke="#5a4a2a" stroke-width="2" stroke-linecap="round"/>
+  <ellipse cx="41" cy="39.5" rx="2.2" ry="2.8" fill="#3a3020"/>
+  <ellipse cx="61" cy="39.5" rx="2.2" ry="2.8" fill="#3a3020"/>
+  <circle cx="42.2" cy="38" r="0.8" fill="#fff"/>
+  <circle cx="62.2" cy="38" r="0.8" fill="#fff"/>
+  <!-- Nose -->
+  <path class="nose" d="M47 47 C48 45, 52 45, 53 47 C54 49, 52 51, 50 51 C48 51, 46 49, 47 47Z"/>
+  <!-- Mouth -->
+  <path class="detail" d="M50 51 L50 55"/>
+  <path class="detail" d="M50 55 C47 57, 44 56, 43 54"/>
+  <path class="detail" d="M50 55 C53 57, 56 56, 57 54"/>
+  <!-- Whiskers -->
+  <path class="detail" d="M36 48 C30 46, 22 46, 18 47"/>
+  <path class="detail" d="M36 50 C30 51, 23 52, 19 53"/>
+  <path class="detail" d="M64 48 C70 46, 78 46, 82 47"/>
+  <path class="detail" d="M64 50 C70 51, 77 52, 81 53"/>
+  <!-- Body -->
+  <path class="body" d="M38 68 C38 63, 42 62, 50 63 C58 62, 62 63, 62 68 L64 82 C64 86, 60 88, 56 87 L56 84 C56 82, 54 82, 54 84 L54 87 C52 88, 48 88, 46 87 L46 84 C46 82, 44 82, 44 84 L44 87 C40 88, 36 86, 36 82Z"/>
+  <!-- Paw lines -->
+  <path class="detail" d="M38 85 L40 85"/>
+  <path class="detail" d="M42 85 L44 85"/>
+  <path class="detail" d="M56 85 L58 85"/>
+  <path class="detail" d="M60 85 L62 85"/>
+  <!-- Tail hint -->
+  <path class="detail" d="M62 75 C66 74, 72 72, 74 68 C75 66, 76 67, 75 69" stroke="#5a4a2a" stroke-width="2"/>
+  <ellipse cx="75" cy="68" rx="2.5" ry="3" fill="#c4a24d" fill-opacity="0.8" stroke="#5a4a2a" stroke-width="1.5" stroke-linecap="round"/>
+</svg>

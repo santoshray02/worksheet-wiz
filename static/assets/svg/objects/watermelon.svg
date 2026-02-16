@@ -1,0 +1,19 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- rind (outer green) -->
+  <path d="M15,70 Q15,15 85,70 Z" fill="#66BB6A" stroke="#2E7D32" stroke-width="2"/>
+  <!-- white layer -->
+  <path d="M20,70 Q20,25 80,70 Z" fill="#E8F5E9"/>
+  <!-- red flesh -->
+  <path d="M23,70 Q23,30 77,70 Z" fill="#EF5350" stroke="#C62828" stroke-width="1"/>
+  <!-- seeds -->
+  <ellipse cx="38" cy="58" rx="2" ry="3" fill="#5D4037" transform="rotate(-20 38 58)"/>
+  <ellipse cx="50" cy="52" rx="2" ry="3" fill="#5D4037" transform="rotate(5 50 52)"/>
+  <ellipse cx="62" cy="58" rx="2" ry="3" fill="#5D4037" transform="rotate(20 62 58)"/>
+  <ellipse cx="45" cy="45" rx="2" ry="3" fill="#5D4037" transform="rotate(-10 45 45)"/>
+  <ellipse cx="56" cy="44" rx="2" ry="3" fill="#5D4037" transform="rotate(10 56 44)"/>
+  <ellipse cx="50" cy="63" rx="2" ry="3" fill="#5D4037"/>
+  <ellipse cx="35" cy="65" rx="2" ry="3" fill="#5D4037" transform="rotate(-15 35 65)"/>
+  <ellipse cx="65" cy="65" rx="2" ry="3" fill="#5D4037" transform="rotate(15 65 65)"/>
+  <!-- highlight -->
+  <ellipse cx="35" cy="42" rx="5" ry="8" fill="white" opacity="0.2" transform="rotate(-30 35 42)"/>
+</svg>

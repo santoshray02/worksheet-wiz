@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Tomato whole - hand sketched style -->
+  <!-- Main body -->
+  <path d="M50 82 C30 82, 14 68, 14 50 C14 34, 26 20, 42 18 C46 17, 50 18, 50 18 C50 18, 54 17, 58 18 C74 20, 86 34, 86 50 C86 68, 70 82, 50 82Z"
+    fill="#c75b5b" fill-opacity="0.82" stroke="#8b3a3a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Slight lobes/segment lines -->
+  <path d="M50 18 C48 30, 46 50, 48 80"
+    fill="none" stroke="#a84848" stroke-width="1.2" stroke-linecap="round" stroke-opacity="0.3"/>
+  <path d="M35 22 C30 35, 28 55, 32 78"
+    fill="none" stroke="#a84848" stroke-width="1" stroke-linecap="round" stroke-opacity="0.25"/>
+  <path d="M65 22 C70 35, 72 55, 68 78"
+    fill="none" stroke="#a84848" stroke-width="1" stroke-linecap="round" stroke-opacity="0.25"/>
+  <!-- Calyx (green star-shaped top) -->
+  <path d="M50 18 C46 12, 40 8, 36 10 C38 14, 44 17, 50 18Z"
+    fill="#7ba87b" fill-opacity="0.8" stroke="#4a7a4a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M50 18 C54 12, 60 8, 64 10 C62 14, 56 17, 50 18Z"
+    fill="#7ba87b" fill-opacity="0.8" stroke="#4a7a4a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M50 18 C48 10, 46 4, 48 2 C50 4, 52 10, 50 18Z"
+    fill="#7ba87b" fill-opacity="0.75" stroke="#4a7a4a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M50 18 C42 14, 34 12, 30 15 C34 16, 42 17, 50 18Z"
+    fill="#6a9a6a" fill-opacity="0.7" stroke="#4a7a4a" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M50 18 C58 14, 66 12, 70 15 C66 16, 58 17, 50 18Z"
+    fill="#6a9a6a" fill-opacity="0.7" stroke="#4a7a4a" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Stem -->
+  <path d="M50 18 C50 14, 51 10, 50 7"
+    fill="none" stroke="#4a7a4a" stroke-width="2" stroke-linecap="round"/>
+  <!-- Highlight -->
+  <path d="M30 38 C33 32, 38 28, 42 26"
+    fill="none" stroke="#d88888" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.5"/>
+</svg>

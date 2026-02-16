@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Bell/dome -->
+  <path d="M20 50 Q20 18 50 18 Q80 18 80 50 Q70 46 60 50 Q55 52 50 48 Q45 44 40 50 Q30 54 20 50Z" fill="#C39BD3" stroke="#8E44AD" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Dome highlight -->
+  <ellipse cx="45" cy="30" rx="14" ry="7" fill="white" opacity="0.2"/>
+  <!-- Inner dome pattern -->
+  <path d="M30 40 Q40 35 50 40 Q60 35 70 40" fill="none" stroke="#AF7AC5" stroke-width="0.8" opacity="0.5"/>
+  <!-- Frilly edge -->
+  <path d="M20 50 Q25 54 30 50 Q35 46 40 50 Q45 54 50 48 Q55 44 60 50 Q65 54 70 48 Q75 44 80 50" fill="none" stroke="#8E44AD" stroke-width="1" stroke-linecap="round"/>
+  <!-- Tentacles -->
+  <path d="M28 52 Q24 62 28 72 Q32 82 28 90" fill="none" stroke="#D7BDE2" stroke-width="2" stroke-linecap="round"/>
+  <path d="M38 50 Q34 60 38 70 Q42 80 38 88" fill="none" stroke="#C39BD3" stroke-width="2" stroke-linecap="round"/>
+  <path d="M50 48 Q46 58 50 68 Q54 78 50 88" fill="none" stroke="#D7BDE2" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M62 50 Q66 60 62 70 Q58 80 62 88" fill="none" stroke="#C39BD3" stroke-width="2" stroke-linecap="round"/>
+  <path d="M72 50 Q76 60 72 70 Q68 80 72 90" fill="none" stroke="#D7BDE2" stroke-width="2" stroke-linecap="round"/>
+  <!-- Short inner tentacles -->
+  <path d="M33 52 Q31 60 34 66" fill="none" stroke="#E8DAEF" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M44 50 Q42 58 45 64" fill="none" stroke="#E8DAEF" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M56 50 Q58 58 55 64" fill="none" stroke="#E8DAEF" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M67 50 Q69 58 66 64" fill="none" stroke="#E8DAEF" stroke-width="1.2" stroke-linecap="round"/>
+  <!-- Left eye -->
+  <circle cx="40" cy="36" r="4" fill="white" stroke="#8E44AD" stroke-width="0.8"/>
+  <circle cx="39.5" cy="35.5" r="2" fill="#1A1A2E"/>
+  <circle cx="39" cy="35" r="0.8" fill="white"/>
+  <!-- Right eye -->
+  <circle cx="60" cy="36" r="4" fill="white" stroke="#8E44AD" stroke-width="0.8"/>
+  <circle cx="59.5" cy="35.5" r="2" fill="#1A1A2E"/>
+  <circle cx="59" cy="35" r="0.8" fill="white"/>
+  <!-- Smile -->
+  <path d="M46 42 Q50 46 54 42" fill="none" stroke="#8E44AD" stroke-width="1.2" stroke-linecap="round"/>
+  <!-- Cheek blushes -->
+  <circle cx="35" cy="41" r="3" fill="#F1948A" opacity="0.3"/>
+  <circle cx="65" cy="41" r="3" fill="#F1948A" opacity="0.3"/>
+  <!-- Sparkle dots -->
+  <circle cx="32" cy="28" r="1" fill="white" opacity="0.5"/>
+  <circle cx="65" cy="25" r="0.8" fill="white" opacity="0.4"/>
+</svg>

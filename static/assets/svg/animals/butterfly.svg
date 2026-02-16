@@ -1,0 +1,34 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Upper left wing -->
+  <ellipse cx="30" cy="38" rx="22" ry="20" fill="#E91E63" stroke="#880E4F" stroke-width="2" transform="rotate(-15 30 38)"/>
+  <ellipse cx="28" cy="35" rx="12" ry="11" fill="#F48FB1" opacity="0.7"/>
+  <circle cx="28" cy="35" r="5" fill="#FCE4EC" opacity="0.6"/>
+  <!-- Upper right wing -->
+  <ellipse cx="70" cy="38" rx="22" ry="20" fill="#E91E63" stroke="#880E4F" stroke-width="2" transform="rotate(15 70 38)"/>
+  <ellipse cx="72" cy="35" rx="12" ry="11" fill="#F48FB1" opacity="0.7"/>
+  <circle cx="72" cy="35" r="5" fill="#FCE4EC" opacity="0.6"/>
+  <!-- Lower left wing -->
+  <ellipse cx="28" cy="62" rx="18" ry="15" fill="#7B1FA2" stroke="#4A148C" stroke-width="2" transform="rotate(10 28 62)"/>
+  <ellipse cx="27" cy="62" rx="10" ry="8" fill="#CE93D8" opacity="0.6"/>
+  <circle cx="27" cy="62" r="4" fill="#F3E5F5" opacity="0.5"/>
+  <!-- Lower right wing -->
+  <ellipse cx="72" cy="62" rx="18" ry="15" fill="#7B1FA2" stroke="#4A148C" stroke-width="2" transform="rotate(-10 72 62)"/>
+  <ellipse cx="73" cy="62" rx="10" ry="8" fill="#CE93D8" opacity="0.6"/>
+  <circle cx="73" cy="62" r="4" fill="#F3E5F5" opacity="0.5"/>
+  <!-- Body -->
+  <ellipse cx="50" cy="52" rx="5" ry="22" fill="#5D4037" stroke="#3E2723" stroke-width="1.5"/>
+  <!-- Head -->
+  <circle cx="50" cy="26" r="7" fill="#5D4037" stroke="#3E2723" stroke-width="1.5"/>
+  <!-- Eyes -->
+  <circle cx="47" cy="25" r="2" fill="white"/>
+  <circle cx="53" cy="25" r="2" fill="white"/>
+  <circle cx="47.5" cy="25.5" r="1" fill="#333"/>
+  <circle cx="53.5" cy="25.5" r="1" fill="#333"/>
+  <!-- Antennae -->
+  <path d="M47,20 Q40,8 35,5" fill="none" stroke="#5D4037" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M53,20 Q60,8 65,5" fill="none" stroke="#5D4037" stroke-width="1.5" stroke-linecap="round"/>
+  <circle cx="35" cy="5" r="2.5" fill="#FF9800"/>
+  <circle cx="65" cy="5" r="2.5" fill="#FF9800"/>
+  <!-- Smile -->
+  <path d="M47,28 Q50,31 53,28" fill="none" stroke="#3E2723" stroke-width="1" stroke-linecap="round"/>
+</svg>

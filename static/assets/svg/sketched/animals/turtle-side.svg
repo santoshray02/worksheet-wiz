@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <style>
+    .detail { fill: none; stroke: #3a5a3a; stroke-width: 1.2; stroke-linecap: round; stroke-linejoin: round; }
+    .shell { fill: #8a7a5a; fill-opacity: 0.8; stroke: #3a5a3a; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+    .shell-pattern { fill: #7a6a4a; fill-opacity: 0.4; stroke: #3a5a3a; stroke-width: 1.2; stroke-linecap: round; stroke-linejoin: round; }
+    .skin { fill: #7ba87b; fill-opacity: 0.8; stroke: #3a5a3a; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+    .belly-shell { fill: #c4b47a; fill-opacity: 0.75; stroke: #3a5a3a; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+  </style>
+  <!-- Tail -->
+  <path d="M82 62 C86 60, 90 58, 92 56 C93 55, 92 54, 91 55 C88 58, 86 60, 82 62" fill="none" stroke="#3a5a3a" stroke-width="2" stroke-linecap="round"/>
+  <!-- Back leg (far) -->
+  <path d="M72 62 C74 66, 76 72, 74 76 L72 78 C70 78, 70 76, 72 74 C72 70, 70 66, 68 64" fill="#6a9a6a" fill-opacity="0.6" stroke="#3a5a3a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Shell -->
+  <path class="shell" d="M26 36 C32 22, 50 16, 68 20 C82 24, 88 36, 86 50 C84 62, 76 70, 60 72 C44 74, 30 70, 22 60 C18 54, 18 44, 26 36Z"/>
+  <!-- Shell pattern segments -->
+  <path class="shell-pattern" d="M50 20 C58 20, 66 24, 68 32 C70 38, 66 44, 58 46 C52 48, 46 46, 42 42 C38 38, 38 30, 42 24 C44 22, 48 20, 50 20Z"/>
+  <path class="shell-pattern" d="M42 42 C38 44, 32 48, 28 54 C26 58, 28 64, 34 66 C38 68, 44 66, 46 62 C48 58, 46 52, 44 48"/>
+  <path class="shell-pattern" d="M58 46 C62 48, 68 52, 72 58 C74 62, 72 66, 66 68 C62 70, 56 68, 54 64 C52 58, 54 52, 56 48"/>
+  <path class="shell-pattern" d="M68 32 C74 30, 80 34, 82 40 C84 46, 82 52, 78 56 C74 58, 70 56, 68 52 C66 48, 68 42, 70 38"/>
+  <path class="shell-pattern" d="M42 24 C36 24, 30 28, 26 36 C24 42, 26 48, 30 50 C34 52, 38 50, 40 46 C42 42, 42 36, 42 30"/>
+  <!-- Shell rim/edge -->
+  <path class="belly-shell" d="M24 58 C28 66, 38 72, 50 72 C62 72, 72 68, 80 60 L82 62 C76 70, 64 76, 50 76 C36 76, 26 70, 22 62Z"/>
+  <!-- Front leg (far) -->
+  <path d="M30 58 C28 62, 24 68, 22 72 L20 74 C18 74, 18 72, 20 70 C22 66, 26 60, 28 58" fill="#6a9a6a" fill-opacity="0.6" stroke="#3a5a3a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Back leg (near) -->
+  <path d="M68 60 C72 64, 76 70, 74 76 L72 80 C70 80, 70 78, 72 76 C74 72, 72 66, 68 62" fill="#7ba87b" fill-opacity="0.8" stroke="#3a5a3a" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Front leg (near) -->
+  <path d="M32 56 C28 60, 22 66, 18 72 L16 76 C14 76, 14 74, 16 72 C20 66, 26 58, 30 56" fill="#7ba87b" fill-opacity="0.8" stroke="#3a5a3a" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Foot toes -->
+  <path class="detail" d="M16 76 L14 78"/>
+  <path class="detail" d="M17 76 L16 79"/>
+  <path class="detail" d="M18 75 L20 78"/>
+  <path class="detail" d="M72 80 L70 82"/>
+  <path class="detail" d="M73 80 L72 83"/>
+  <path class="detail" d="M74 79 L76 82"/>
+  <!-- Neck -->
+  <path class="skin" d="M26 42 C22 38, 16 34, 12 34 C8 34, 6 38, 8 42 C10 46, 16 48, 22 48 C24 48, 26 46, 26 44"/>
+  <!-- Head -->
+  <path class="skin" d="M8 30 C10 24, 16 22, 22 24 C26 26, 28 30, 26 36 C24 40, 20 42, 14 42 C8 42, 4 38, 4 34 C3 32, 4 30, 8 30Z"/>
+  <!-- Eye -->
+  <ellipse cx="14" cy="30" rx="3.5" ry="3.5" fill="#f0ead0" fill-opacity="0.9" stroke="#3a5a3a" stroke-width="1.8" stroke-linecap="round"/>
+  <ellipse cx="13.5" cy="30.5" rx="1.8" ry="2.2" fill="#1a2a1a"/>
+  <circle cx="12.8" cy="29.5" r="0.7" fill="#fff"/>
+  <!-- Nostril -->
+  <ellipse cx="7" cy="32" rx="1" ry="0.8" fill="#3a5a3a" fill-opacity="0.5"/>
+  <!-- Mouth -->
+  <path d="M6 36 C10 40, 16 42, 20 40" fill="none" stroke="#3a5a3a" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Skin wrinkles on neck -->
+  <path class="detail" d="M18 38 C20 40, 22 40, 24 38" opacity="0.4"/>
+  <path class="detail" d="M14 40 C16 42, 18 42, 20 40" opacity="0.4"/>
+  <!-- Skin texture on legs -->
+  <path class="detail" d="M20 66 C22 68, 24 68, 26 66" opacity="0.3"/>
+  <path class="detail" d="M68 68 C70 70, 72 70, 74 68" opacity="0.3"/>
+</svg>

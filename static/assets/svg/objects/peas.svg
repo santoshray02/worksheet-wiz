@@ -1,0 +1,18 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Stem -->
+  <path d="M72,25 Q78,18 82,12" fill="none" stroke="#558B2F" stroke-width="2" stroke-linecap="round"/>
+  <!-- Small leaf -->
+  <path d="M76,20 Q82,14 86,16 Q84,22 78,22Z" fill="#81C784" stroke="#388E3C" stroke-width="1.5"/>
+  <!-- Pod (opened shape) -->
+  <path d="M18,52 Q12,38 30,28 Q55,18 75,28 Q82,34 78,48 Q72,42 55,38 Q35,38 22,48Z" fill="#8BC34A" stroke="#558B2F" stroke-width="2"/>
+  <!-- Pod bottom -->
+  <path d="M18,52 Q14,60 28,68 Q48,78 70,68 Q82,60 78,48 Q72,56 55,60 Q35,60 22,52Z" fill="#7CB342" stroke="#558B2F" stroke-width="2"/>
+  <!-- Peas (round) -->
+  <circle cx="34" cy="48" r="10" fill="#66BB6A" stroke="#2E7D32" stroke-width="2"/>
+  <circle cx="52" cy="46" r="10" fill="#66BB6A" stroke="#2E7D32" stroke-width="2"/>
+  <circle cx="69" cy="46" r="9" fill="#66BB6A" stroke="#2E7D32" stroke-width="2"/>
+  <!-- Pea highlights -->
+  <circle cx="31" cy="44" r="3" fill="white" opacity="0.3"/>
+  <circle cx="49" cy="42" r="3" fill="white" opacity="0.3"/>
+  <circle cx="66" cy="42" r="2.5" fill="white" opacity="0.3"/>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Trumpet side view - hand sketched style -->
+  <!-- Bell -->
+  <path d="M 78 38 Q 85 35 90 30 Q 94 25 95 38 Q 96 50 95 62 Q 94 75 90 70 Q 85 65 78 62" stroke="#c7a832" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="#d4b84a" fill-opacity="0.75"/>
+  <!-- Main tube -->
+  <path d="M 10 42 Q 12 41 20 42 L 78 38 L 78 62 L 20 58 Q 12 59 10 58 Z" fill="#d4b84a" fill-opacity="0.75" stroke="#c7a832" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Mouthpiece -->
+  <path d="M 10 42 Q 6 40 5 44 Q 4 50 5 56 Q 6 60 10 58" stroke="#c7a832" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="#d4b84a" fill-opacity="0.8"/>
+  <!-- Valve casings -->
+  <rect x="35" y="28" width="7" height="16" rx="2" fill="#c7a832" fill-opacity="0.8" stroke="#a08620" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="46" y="26" width="7" height="18" rx="2" fill="#c7a832" fill-opacity="0.8" stroke="#a08620" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="57" y="27" width="7" height="17" rx="2" fill="#c7a832" fill-opacity="0.8" stroke="#a08620" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Valve buttons -->
+  <ellipse cx="38.5" cy="27" rx="2.5" ry="1.5" fill="#e8d066" fill-opacity="0.85" stroke="#a08620" stroke-width="1" stroke-linecap="round"/>
+  <ellipse cx="49.5" cy="25" rx="2.5" ry="1.5" fill="#e8d066" fill-opacity="0.85" stroke="#a08620" stroke-width="1" stroke-linecap="round"/>
+  <ellipse cx="60.5" cy="26" rx="2.5" ry="1.5" fill="#e8d066" fill-opacity="0.85" stroke="#a08620" stroke-width="1" stroke-linecap="round"/>
+  <!-- Valve stems -->
+  <line x1="38.5" y1="25.5" x2="38.5" y2="21" stroke="#a08620" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="49.5" y1="23.5" x2="49.5" y2="19" stroke="#a08620" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="60.5" y1="24.5" x2="60.5" y2="20" stroke="#a08620" stroke-width="1.2" stroke-linecap="round"/>
+  <!-- Finger rings / caps -->
+  <circle cx="38.5" cy="20" r="1.5" fill="none" stroke="#a08620" stroke-width="1" stroke-linecap="round"/>
+  <circle cx="49.5" cy="18" r="1.5" fill="none" stroke="#a08620" stroke-width="1" stroke-linecap="round"/>
+  <circle cx="60.5" cy="19" r="1.5" fill="none" stroke="#a08620" stroke-width="1" stroke-linecap="round"/>
+  <!-- Lower tubing -->
+  <path d="M 35 58 Q 35 68 40 72 Q 45 75 55 75 Q 65 75 68 72 Q 72 68 72 62" stroke="#c7a832" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <path d="M 37 58 Q 37 66 41 70 Q 45 72 55 72 Q 65 72 68 70 Q 71 66 71 60" stroke="#c7a832" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <!-- Bell rim highlight -->
+  <path d="M 92 34 Q 93 42 93 50 Q 93 58 92 66" stroke="#e8d066" stroke-width="1" stroke-linecap="round" fill="none" opacity="0.6"/>
+  <!-- Water key -->
+  <circle cx="25" cy="60" r="1.5" fill="#c7a832" fill-opacity="0.8" stroke="#a08620" stroke-width="0.8"/>
+</svg>

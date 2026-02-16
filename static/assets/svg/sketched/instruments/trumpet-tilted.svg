@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Trumpet tilted view - hand sketched style (angled upward) -->
+  <g transform="rotate(-25, 50, 55)">
+    <!-- Bell -->
+    <path d="M 80 40 Q 87 36 92 30 Q 95 24 96 38 Q 97 50 96 62 Q 95 74 92 68 Q 87 64 80 60" stroke="#c7a832" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="#d4b84a" fill-opacity="0.75"/>
+    <!-- Main tube -->
+    <path d="M 12 44 Q 14 43 22 44 L 80 40 L 80 60 L 22 56 Q 14 57 12 56 Z" fill="#d4b84a" fill-opacity="0.75" stroke="#c7a832" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Mouthpiece -->
+    <path d="M 12 44 Q 8 42 7 46 Q 6 50 7 54 Q 8 58 12 56" stroke="#c7a832" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="#d4b84a" fill-opacity="0.8"/>
+    <!-- Valve casings -->
+    <rect x="38" y="30" width="6.5" height="15" rx="2" fill="#c7a832" fill-opacity="0.8" stroke="#a08620" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="48" y="28" width="6.5" height="17" rx="2" fill="#c7a832" fill-opacity="0.8" stroke="#a08620" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="58" y="29" width="6.5" height="16" rx="2" fill="#c7a832" fill-opacity="0.8" stroke="#a08620" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Valve buttons -->
+    <ellipse cx="41.3" cy="29" rx="2.2" ry="1.4" fill="#e8d066" fill-opacity="0.85" stroke="#a08620" stroke-width="1"/>
+    <ellipse cx="51.3" cy="27" rx="2.2" ry="1.4" fill="#e8d066" fill-opacity="0.85" stroke="#a08620" stroke-width="1"/>
+    <ellipse cx="61.3" cy="28" rx="2.2" ry="1.4" fill="#e8d066" fill-opacity="0.85" stroke="#a08620" stroke-width="1"/>
+    <!-- Lower tubing -->
+    <path d="M 38 56 Q 38 66 43 70 Q 48 73 55 73 Q 62 73 66 70 Q 70 66 70 60" stroke="#c7a832" stroke-width="1.8" stroke-linecap="round" fill="none"/>
+    <path d="M 40 56 Q 40 64 44 68 Q 48 70 55 70 Q 62 70 65 68 Q 68 64 68 58" stroke="#c7a832" stroke-width="1.8" stroke-linecap="round" fill="none"/>
+    <!-- Bell rim highlight -->
+    <path d="M 93 34 Q 94 44 94 50 Q 94 56 93 64" stroke="#e8d066" stroke-width="1" stroke-linecap="round" fill="none" opacity="0.5"/>
+  </g>
+</svg>

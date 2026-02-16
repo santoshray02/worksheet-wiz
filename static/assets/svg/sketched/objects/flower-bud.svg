@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Flower bud view - hand sketched style -->
+  <!-- Stem (slightly curved) -->
+  <path d="M 50 50 Q 48 60 47 72 Q 46 82 46 95" stroke="#3a7a3a" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  <!-- Leaves -->
+  <path d="M 47 68 Q 36 62 28 58 Q 32 66 40 72 Q 44 73 47 70" fill="#5bc75b" fill-opacity="0.75" stroke="#3a7a3a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 47 68 Q 38 63 30 60" stroke="#3a7a3a" stroke-width="0.8" stroke-linecap="round" fill="none" opacity="0.5"/>
+  <path d="M 48 80 Q 56 74 64 70 Q 60 78 52 83 Q 49 84 48 82" fill="#5bc75b" fill-opacity="0.75" stroke="#3a7a3a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 48 81 Q 55 76 62 72" stroke="#3a7a3a" stroke-width="0.8" stroke-linecap="round" fill="none" opacity="0.5"/>
+  <!-- Bud - closed petals forming an oval/teardrop -->
+  <!-- Outer sepals (green wrapping) -->
+  <path d="M 50 50 Q 44 45 43 38 Q 42 30 45 25 Q 48 22 50 20" stroke="#3a7a3a" stroke-width="2" stroke-linecap="round" fill="#5bc75b" fill-opacity="0.6" stroke-linejoin="round"/>
+  <path d="M 50 50 Q 56 45 57 38 Q 58 30 55 25 Q 52 22 50 20" stroke="#3a7a3a" stroke-width="2" stroke-linecap="round" fill="#5bc75b" fill-opacity="0.6" stroke-linejoin="round"/>
+  <!-- Inner bud (pinkish, peeking through) -->
+  <path d="M 50 48 Q 46 42 45 35 Q 44 28 47 23 Q 49 21 50 20" fill="#c75b8a" fill-opacity="0.7" stroke="#a04070" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 50 48 Q 54 42 55 35 Q 56 28 53 23 Q 51 21 50 20" fill="#c75b8a" fill-opacity="0.65" stroke="#a04070" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Bud tip hint -->
+  <path d="M 48 22 Q 50 18 52 22" stroke="#d07090" stroke-width="1" stroke-linecap="round" fill="none" opacity="0.6"/>
+  <!-- Sepal tips -->
+  <path d="M 43 38 Q 40 36 38 38" stroke="#3a7a3a" stroke-width="1.2" stroke-linecap="round" fill="none"/>
+  <path d="M 57 38 Q 60 36 62 38" stroke="#3a7a3a" stroke-width="1.2" stroke-linecap="round" fill="none"/>
+  <!-- Small sepal at base -->
+  <path d="M 48 50 Q 44 48 42 50 Q 44 52 48 51" fill="#5bc75b" fill-opacity="0.5" stroke="#3a7a3a" stroke-width="1" stroke-linecap="round"/>
+  <path d="M 52 50 Q 56 48 58 50 Q 56 52 52 51" fill="#5bc75b" fill-opacity="0.5" stroke="#3a7a3a" stroke-width="1" stroke-linecap="round"/>
+</svg>

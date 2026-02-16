@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Carrot whole - hand sketched style -->
+  <!-- Main carrot body -->
+  <path d="M42 28 C38 40, 35 55, 38 68 C40 78, 44 86, 50 94 C52 88, 54 80, 55 70 C57 58, 56 42, 54 28 C50 26, 46 26, 42 28Z"
+    fill="#d48c5b" fill-opacity="0.82" stroke="#b06830" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Horizontal lines (texture) -->
+  <path d="M40 38 C44 37, 50 37, 54 38"
+    fill="none" stroke="#c07838" stroke-width="1" stroke-linecap="round" stroke-opacity="0.5"/>
+  <path d="M39 48 C43 47, 50 47, 55 48"
+    fill="none" stroke="#c07838" stroke-width="1" stroke-linecap="round" stroke-opacity="0.5"/>
+  <path d="M39 58 C43 57, 50 57, 55 58"
+    fill="none" stroke="#c07838" stroke-width="1" stroke-linecap="round" stroke-opacity="0.5"/>
+  <path d="M40 68 C43 67, 49 67, 53 68"
+    fill="none" stroke="#c07838" stroke-width="1" stroke-linecap="round" stroke-opacity="0.5"/>
+  <path d="M42 78 C45 77, 49 77, 52 78"
+    fill="none" stroke="#c07838" stroke-width="1" stroke-linecap="round" stroke-opacity="0.5"/>
+  <!-- Green top/leaves -->
+  <path d="M48 28 C46 20, 42 12, 38 5"
+    fill="none" stroke="#4a8a4a" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M48 28 C48 18, 48 10, 50 3"
+    fill="none" stroke="#5a9a5a" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M48 28 C50 20, 54 12, 58 6"
+    fill="none" stroke="#4a8a4a" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Leaf details -->
+  <path d="M40 12 C38 10, 36 8, 38 5"
+    fill="none" stroke="#7ba87b" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M56 10 C58 8, 60 7, 58 6"
+    fill="none" stroke="#7ba87b" stroke-width="1.2" stroke-linecap="round"/>
+  <!-- Tip -->
+  <path d="M50 94 C50 96, 49 97, 49 98"
+    fill="none" stroke="#b06830" stroke-width="1.5" stroke-linecap="round"/>
+</svg>

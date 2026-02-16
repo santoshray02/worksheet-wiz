@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Strawberry half - hand sketched cross section -->
+  <!-- Outer skin left half -->
+  <path d="M50 88 C38 78, 22 62, 20 48 C18 35, 24 22, 35 18 C42 15, 48 16, 50 18 L50 88Z"
+    fill="#c75b5b" fill-opacity="0.82" stroke="#8b3a3a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Inner flesh right half -->
+  <path d="M50 18 C52 16, 58 15, 65 18 C76 22, 82 35, 80 48 C78 62, 62 78, 50 88 L50 18Z"
+    fill="#e8a0a0" fill-opacity="0.8" stroke="#8b3a3a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Cut line -->
+  <line x1="50" y1="18" x2="50" y2="88" stroke="#8b3a3a" stroke-width="2" stroke-linecap="round"/>
+  <!-- Inner core/white center -->
+  <path d="M50 22 C54 30, 58 42, 58 55 C58 65, 55 75, 50 85"
+    fill="none" stroke="#f0c8c8" stroke-width="2" stroke-linecap="round" stroke-opacity="0.7"/>
+  <!-- Inner seeds on cut face -->
+  <ellipse cx="55" cy="35" rx="1.5" ry="2" fill="#d4a24d" fill-opacity="0.6" stroke="#a07830" stroke-width="0.8"/>
+  <ellipse cx="57" cy="50" rx="1.5" ry="2" fill="#d4a24d" fill-opacity="0.6" stroke="#a07830" stroke-width="0.8"/>
+  <ellipse cx="56" cy="65" rx="1.5" ry="2" fill="#d4a24d" fill-opacity="0.6" stroke="#a07830" stroke-width="0.8"/>
+  <!-- Outer seeds on skin side -->
+  <ellipse cx="32" cy="42" rx="1.5" ry="2" fill="#d4a24d" fill-opacity="0.7" stroke="#a07830" stroke-width="0.8"/>
+  <ellipse cx="28" cy="56" rx="1.5" ry="2" fill="#d4a24d" fill-opacity="0.7" stroke="#a07830" stroke-width="0.8"/>
+  <ellipse cx="35" cy="68" rx="1.5" ry="2" fill="#d4a24d" fill-opacity="0.7" stroke="#a07830" stroke-width="0.8"/>
+  <!-- Calyx leaves -->
+  <path d="M50 20 C45 14, 38 10, 32 14 C36 16, 42 18, 50 20Z"
+    fill="#7ba87b" fill-opacity="0.8" stroke="#4a7a4a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M50 20 C55 14, 62 10, 68 14 C64 16, 58 18, 50 20Z"
+    fill="#7ba87b" fill-opacity="0.8" stroke="#4a7a4a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Shark - Side View -->
+  <g stroke="#3a5a6b" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Body -->
+    <path d="M5,50 C8,40 18,34 32,32 C48,30 65,32 80,38 C88,42 94,46 96,50
+             C94,54 88,58 80,60 C65,64 48,66 32,64 C18,62 8,58 5,50 Z"
+          fill="#6b8a9d" fill-opacity="0.8" stroke-width="2.5"/>
+    <!-- Double stroke on top -->
+    <path d="M14,38 C28,32 52,30 72,34" fill="none" stroke-width="1.2" opacity="0.35"/>
+    <!-- Belly - lighter area -->
+    <path d="M15,54 C30,60 55,62 78,56" fill="none" stroke-width="1.5" opacity="0.3"/>
+    <path d="M12,52 C30,58 55,60 82,54" fill="#a8bcc8" fill-opacity="0.4" stroke="none"/>
+    <!-- Snout -->
+    <path d="M96,50 C98,49 99,50 98,51" fill="none" stroke-width="2"/>
+    <!-- Dorsal fin (iconic!) -->
+    <path d="M48,32 C46,20 50,10 55,8 C58,12 58,20 56,30"
+          fill="#6b8a9d" fill-opacity="0.85" stroke-width="2.5"/>
+    <!-- Double stroke on fin -->
+    <path d="M50,18 C52,12 54,10" fill="none" stroke-width="1.2" opacity="0.3"/>
+    <!-- Tail -->
+    <path d="M5,50 C2,42 0,34 -1,28 C3,34 6,38 8,44" fill="none" stroke-width="2.5"/>
+    <path d="M5,50 C2,56 0,62 -1,68 C3,62 6,58 8,54" fill="none" stroke-width="2.5"/>
+    <path d="M-1,28 C1,38 1,52 -1,68" fill="#6b8a9d" fill-opacity="0.6" stroke-width="1.5"/>
+    <!-- Pectoral fin -->
+    <path d="M60,58 C56,66 58,74 62,72 C64,70 62,64 62,58" fill="#5a7a8d" fill-opacity="0.7" stroke-width="2"/>
+    <!-- Second smaller dorsal fin -->
+    <path d="M22,34 C22,28 24,26 26,28 C28,30 26,34 24,36" fill="#6b8a9d" fill-opacity="0.7" stroke-width="1.5"/>
+    <!-- Eye -->
+    <circle cx="84" cy="46" r="3" fill="white" fill-opacity="0.9" stroke-width="1.5"/>
+    <circle cx="84" cy="46" r="1.8" fill="#1a2a3a" stroke-width="1"/>
+    <circle cx="85" cy="45" r="0.6" fill="white" stroke="none"/>
+    <!-- Mouth/jaw line -->
+    <path d="M88,54 C92,56 95,54 96,52" fill="none" stroke-width="2"/>
+    <!-- Gill slits -->
+    <path d="M72,42 C72,46 72,50" fill="none" stroke-width="1.5" opacity="0.5"/>
+    <path d="M68,42 C68,46 68,50" fill="none" stroke-width="1.5" opacity="0.5"/>
+    <path d="M64,42 C64,46 64,50" fill="none" stroke-width="1.5" opacity="0.5"/>
+    <!-- Detail scale texture -->
+    <path d="M40,40 C42,42" fill="none" stroke-width="1" opacity="0.2"/>
+    <path d="M45,42 C47,44" fill="none" stroke-width="1" opacity="0.2"/>
+    <path d="M35,44 C37,46" fill="none" stroke-width="1" opacity="0.2"/>
+    <!-- Bubbles -->
+    <circle cx="92" cy="36" r="1.5" fill="none" stroke-width="1" stroke="#5a8aa9" opacity="0.5"/>
+    <circle cx="96" cy="30" r="1" fill="none" stroke-width="1" stroke="#5a8aa9" opacity="0.4"/>
+    <circle cx="90" cy="28" r="1.8" fill="none" stroke-width="1" stroke="#5a8aa9" opacity="0.3"/>
+  </g>
+</svg>

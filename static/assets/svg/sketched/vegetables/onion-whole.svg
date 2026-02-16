@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Onion whole - hand sketched style -->
+  <!-- Main body -->
+  <path d="M50 20 C34 22, 18 36, 16 52 C14 68, 24 82, 38 86 C44 88, 50 88, 50 88 C50 88, 56 88, 62 86 C76 82, 86 68, 84 52 C82 36, 66 22, 50 20Z"
+    fill="#d4a870" fill-opacity="0.78" stroke="#a07840" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Layer lines (vertical curves showing onion layers) -->
+  <path d="M38 24 C30 34, 24 50, 26 66 C28 76, 32 82, 38 86"
+    fill="none" stroke="#b89058" stroke-width="1.2" stroke-linecap="round" stroke-opacity="0.4"/>
+  <path d="M62 24 C70 34, 76 50, 74 66 C72 76, 68 82, 62 86"
+    fill="none" stroke="#b89058" stroke-width="1.2" stroke-linecap="round" stroke-opacity="0.4"/>
+  <path d="M50 20 C48 35, 46 55, 48 75 C49 82, 50 86, 50 88"
+    fill="none" stroke="#b89058" stroke-width="1" stroke-linecap="round" stroke-opacity="0.35"/>
+  <!-- Root wisps at bottom -->
+  <path d="M46 88 C44 92, 42 96, 40 98"
+    fill="none" stroke="#a08858" stroke-width="1.2" stroke-linecap="round" stroke-opacity="0.5"/>
+  <path d="M50 88 C50 93, 50 96, 50 99"
+    fill="none" stroke="#a08858" stroke-width="1.2" stroke-linecap="round" stroke-opacity="0.5"/>
+  <path d="M54 88 C56 92, 58 96, 60 98"
+    fill="none" stroke="#a08858" stroke-width="1.2" stroke-linecap="round" stroke-opacity="0.5"/>
+  <!-- Top sprout -->
+  <path d="M48 20 C47 14, 46 8, 48 4"
+    fill="none" stroke="#8a7040" stroke-width="2" stroke-linecap="round"/>
+  <path d="M52 20 C53 14, 54 8, 52 4"
+    fill="none" stroke="#8a7040" stroke-width="2" stroke-linecap="round"/>
+  <!-- Papery skin texture -->
+  <path d="M28 44 C30 42, 32 42, 34 44"
+    fill="none" stroke="#c09860" stroke-width="0.8" stroke-linecap="round" stroke-opacity="0.3"/>
+  <path d="M66 48 C68 46, 70 46, 72 48"
+    fill="none" stroke="#c09860" stroke-width="0.8" stroke-linecap="round" stroke-opacity="0.3"/>
+  <!-- Highlight -->
+  <path d="M32 38 C36 32, 42 28, 46 26"
+    fill="none" stroke="#e0c890" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.4"/>
+</svg>

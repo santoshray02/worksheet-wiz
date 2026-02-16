@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Flute side view - hand sketched style (horizontal) -->
+  <!-- Main tube -->
+  <path d="M 5 46 Q 4 44 6 43 L 94 43 Q 96 44 96 47 Q 96 50 94 51 L 6 51 Q 4 50 5 48 Z" fill="#c0c0c0" fill-opacity="0.75" stroke="#888" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Head joint end cap -->
+  <path d="M 6 43 Q 4 43 3 45 Q 2 47 3 49 Q 4 51 6 51" stroke="#888" stroke-width="2" stroke-linecap="round" fill="#aaa" fill-opacity="0.7"/>
+  <!-- Embouchure hole -->
+  <ellipse cx="18" cy="47" rx="3.5" ry="2" fill="#555" fill-opacity="0.7" stroke="#666" stroke-width="1.2" stroke-linecap="round"/>
+  <!-- Lip plate -->
+  <path d="M 13 44 Q 12 46 13 49 Q 14 51 15 51 L 23 51 Q 24 51 24 49 Q 25 46 24 44 L 15 44 Q 14 44 13 44" stroke="#999" stroke-width="1" stroke-linecap="round" fill="#d0d0d0" fill-opacity="0.5"/>
+  <!-- Tone holes / keys -->
+  <circle cx="32" cy="47" r="2" fill="#ddd" fill-opacity="0.7" stroke="#888" stroke-width="1" stroke-linecap="round"/>
+  <circle cx="40" cy="47" r="2" fill="#ddd" fill-opacity="0.7" stroke="#888" stroke-width="1" stroke-linecap="round"/>
+  <circle cx="48" cy="47" r="2.2" fill="#ddd" fill-opacity="0.7" stroke="#888" stroke-width="1" stroke-linecap="round"/>
+  <circle cx="56" cy="47" r="2" fill="#ddd" fill-opacity="0.7" stroke="#888" stroke-width="1" stroke-linecap="round"/>
+  <circle cx="63" cy="47" r="1.8" fill="#ddd" fill-opacity="0.7" stroke="#888" stroke-width="1" stroke-linecap="round"/>
+  <circle cx="70" cy="47" r="2" fill="#ddd" fill-opacity="0.7" stroke="#888" stroke-width="1" stroke-linecap="round"/>
+  <circle cx="77" cy="47" r="1.8" fill="#ddd" fill-opacity="0.7" stroke="#888" stroke-width="1" stroke-linecap="round"/>
+  <!-- Key mechanisms (little rods) -->
+  <line x1="32" y1="43" x2="32" y2="44.5" stroke="#999" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="40" y1="43" x2="40" y2="44.5" stroke="#999" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="48" y1="43" x2="48" y2="44.3" stroke="#999" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="56" y1="43" x2="56" y2="44.5" stroke="#999" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="63" y1="43" x2="63" y2="44.7" stroke="#999" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="70" y1="43" x2="70" y2="44.5" stroke="#999" stroke-width="0.8" stroke-linecap="round"/>
+  <!-- Key rods running along top -->
+  <line x1="30" y1="42.5" x2="80" y2="42.5" stroke="#aaa" stroke-width="0.6" stroke-linecap="round"/>
+  <!-- Trill keys -->
+  <ellipse cx="84" cy="46" rx="1.5" ry="2.5" fill="#ddd" fill-opacity="0.6" stroke="#888" stroke-width="0.8" stroke-linecap="round"/>
+  <ellipse cx="88" cy="46" rx="1.5" ry="2.5" fill="#ddd" fill-opacity="0.6" stroke="#888" stroke-width="0.8" stroke-linecap="round"/>
+  <!-- Highlight along tube -->
+  <line x1="10" y1="44.5" x2="92" y2="44.5" stroke="#eee" stroke-width="0.8" stroke-linecap="round" opacity="0.5"/>
+  <!-- Joint rings -->
+  <line x1="27" y1="43" x2="27" y2="51" stroke="#999" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="60" y1="43" x2="60" y2="51" stroke="#999" stroke-width="1.2" stroke-linecap="round"/>
+</svg>

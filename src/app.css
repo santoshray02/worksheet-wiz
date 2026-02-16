@@ -1,0 +1,68 @@
+@import 'tailwindcss';
+
+@theme {
+	--color-primary: #6366f1;
+	--color-primary-light: #818cf8;
+	--color-primary-dark: #4f46e5;
+	--color-secondary: #f59e0b;
+	--color-secondary-light: #fbbf24;
+	--color-accent: #10b981;
+	--color-surface: #f8fafc;
+	--color-surface-dark: #e2e8f0;
+	--font-display: 'Fredoka', sans-serif;
+	--font-handwriting: 'Caveat', cursive;
+	--font-body: 'Comic Neue', 'Inter', sans-serif;
+}
+
+@layer base {
+	body {
+		font-family: var(--font-body);
+		background-color: var(--color-surface);
+	}
+}
+
+/* A4 Print Styles */
+@media print {
+	@page {
+		size: A4 portrait;
+		margin: 0;
+	}
+
+	body {
+		margin: 0;
+		padding: 0;
+		background: white;
+	}
+
+	.no-print {
+		display: none !important;
+	}
+
+	.print-only {
+		display: block !important;
+	}
+
+	.a4-page {
+		width: 210mm;
+		height: 297mm;
+		margin: 0;
+		padding: 0;
+		page-break-after: always;
+		box-shadow: none;
+		border: none;
+	}
+}
+
+/* A4 Preview styles */
+.a4-page {
+	width: 210mm;
+	height: 297mm;
+	background: white;
+	box-shadow: 0 4px 24px rgba(0, 0, 0, 0.12);
+	position: relative;
+	overflow: hidden;
+}
+
+.print-only {
+	display: none;
+}

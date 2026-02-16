@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <g stroke="#3a3a3a" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- Bus body front -->
+    <path d="M18,22 L82,22 C85,22 87,24 87,27 L87,72 C87,74 85,76 83,76 L17,76 C15,76 13,74 13,72 L13,27 C13,24 15,22 18,22 Z"
+          fill="#c7c75b" fill-opacity="0.8" stroke-width="2.5"/>
+    <!-- Windshield -->
+    <path d="M22,28 L78,28 C79,28 80,29 80,30 L80,48 C80,49 79,50 78,50 L22,50 C21,50 20,49 20,48 L20,30 C20,29 21,28 22,28 Z"
+          fill="#87ceeb" fill-opacity="0.75" stroke-width="1.5"/>
+    <!-- Windshield divider -->
+    <line x1="50" y1="28" x2="50" y2="50" stroke-width="1.5"/>
+    <!-- Destination sign -->
+    <rect x="30" y="24" width="40" height="6" rx="1" fill="#333" fill-opacity="0.7" stroke-width="1"/>
+    <!-- Stripe -->
+    <path d="M13,55 L87,55" stroke="#e8a030" stroke-width="3" opacity="0.6"/>
+    <!-- Left headlight -->
+    <ellipse cx="22" cy="62" rx="4.5" ry="3.5" fill="#c7c75b" fill-opacity="0.85" stroke-width="1.3"/>
+    <!-- Right headlight -->
+    <ellipse cx="78" cy="62" rx="4.5" ry="3.5" fill="#c7c75b" fill-opacity="0.85" stroke-width="1.3"/>
+    <!-- Grille -->
+    <path d="M35,62 L65,62" stroke-width="1.3"/>
+    <path d="M37,65 L63,65" stroke-width="1"/>
+    <path d="M39,68 L61,68" stroke-width="1"/>
+    <!-- Bumper -->
+    <path d="M15,74 C30,76 50,76.5 70,76 C80,75.5 85,75 85,74" stroke-width="2.2"/>
+    <!-- Left wheel -->
+    <ellipse cx="14" cy="78" rx="5" ry="7" fill="#4a4a4a" fill-opacity="0.8" stroke-width="2"/>
+    <!-- Right wheel -->
+    <ellipse cx="86" cy="78" rx="5" ry="7" fill="#4a4a4a" fill-opacity="0.8" stroke-width="2"/>
+    <!-- Mirrors -->
+    <path d="M13,36 L8,35 C7,35 6,36 6,37 L6,42 C6,43 7,44 8,44 L13,43" stroke-width="1.3" fill="#c7c75b" fill-opacity="0.6"/>
+    <path d="M87,36 L92,35 C93,35 94,36 94,37 L94,42 C94,43 93,44 92,44 L87,43" stroke-width="1.3" fill="#c7c75b" fill-opacity="0.6"/>
+    <!-- Ground line -->
+    <path d="M3,86 C25,85.5 50,86.2 75,85.7 C90,86 97,85.8 97,86" stroke-width="1" opacity="0.3"/>
+  </g>
+</svg>

@@ -1,0 +1,36 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <ellipse cx="50" cy="65" rx="30" ry="20" fill="#66BB6A" stroke="#2E7D32" stroke-width="2"/>
+  <!-- Front legs -->
+  <ellipse cx="24" cy="75" rx="8" ry="5" fill="#66BB6A" stroke="#2E7D32" stroke-width="1.5"/>
+  <ellipse cx="76" cy="75" rx="8" ry="5" fill="#66BB6A" stroke="#2E7D32" stroke-width="1.5"/>
+  <!-- Head -->
+  <ellipse cx="50" cy="45" rx="28" ry="22" fill="#66BB6A" stroke="#2E7D32" stroke-width="2"/>
+  <!-- Belly patch -->
+  <ellipse cx="50" cy="65" rx="20" ry="13" fill="#A5D6A7"/>
+  <!-- Eye bumps -->
+  <circle cx="35" cy="28" r="10" fill="#66BB6A" stroke="#2E7D32" stroke-width="2"/>
+  <circle cx="65" cy="28" r="10" fill="#66BB6A" stroke="#2E7D32" stroke-width="2"/>
+  <!-- Eyes (white) -->
+  <circle cx="35" cy="27" r="7" fill="white" stroke="#2E7D32" stroke-width="1.5"/>
+  <circle cx="65" cy="27" r="7" fill="white" stroke="#2E7D32" stroke-width="1.5"/>
+  <!-- Pupils -->
+  <ellipse cx="36" cy="28" rx="3.5" ry="4.5" fill="#333"/>
+  <ellipse cx="66" cy="28" rx="3.5" ry="4.5" fill="#333"/>
+  <!-- Eye shine -->
+  <circle cx="38" cy="26" r="1.5" fill="white"/>
+  <circle cx="68" cy="26" r="1.5" fill="white"/>
+  <!-- Nostrils -->
+  <circle cx="44" cy="43" r="1.5" fill="#2E7D32"/>
+  <circle cx="56" cy="43" r="1.5" fill="#2E7D32"/>
+  <!-- Mouth (big happy smile) -->
+  <path d="M30,50 Q50,62 70,50" fill="none" stroke="#2E7D32" stroke-width="2" stroke-linecap="round"/>
+  <!-- Cheek blush -->
+  <circle cx="30" cy="48" r="4" fill="#F48FB1" opacity="0.35"/>
+  <circle cx="70" cy="48" r="4" fill="#F48FB1" opacity="0.35"/>
+  <!-- Toes on front legs -->
+  <circle cx="17" cy="73" r="2" fill="#4CAF50" stroke="#2E7D32" stroke-width="1"/>
+  <circle cx="19" cy="77" r="2" fill="#4CAF50" stroke="#2E7D32" stroke-width="1"/>
+  <circle cx="83" cy="73" r="2" fill="#4CAF50" stroke="#2E7D32" stroke-width="1"/>
+  <circle cx="81" cy="77" r="2" fill="#4CAF50" stroke="#2E7D32" stroke-width="1"/>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <g stroke="#3a3a3a" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- Front wheel (front view - thin oval) -->
+    <ellipse cx="50" cy="68" rx="3.5" ry="18" fill="none" stroke-width="2.2"/>
+    <!-- Wheel hub -->
+    <ellipse cx="50" cy="68" rx="1.5" ry="3" fill="#888" fill-opacity="0.5" stroke-width="1"/>
+    <!-- Spokes -->
+    <line x1="50" y1="50" x2="50" y2="86" stroke-width="0.7" opacity="0.4"/>
+    <line x1="47" y1="55" x2="53" y2="81" stroke-width="0.7" opacity="0.4"/>
+    <line x1="53" y1="55" x2="47" y2="81" stroke-width="0.7" opacity="0.4"/>
+    <!-- Fork (front view) -->
+    <path d="M46,52 L48,38 L50,30 L52,38 L54,52"
+          stroke="#c75b5b" stroke-width="2.2"/>
+    <!-- Handlebar (front view - across) -->
+    <path d="M30,34 C35,30 40,28 45,28 L55,28 C60,28 65,30 70,34"
+          stroke-width="2.5"/>
+    <!-- Handlebar grips -->
+    <path d="M28,35 C29,33 30,33 31,34" stroke-width="2.5"/>
+    <path d="M69,34 C70,33 71,33 72,35" stroke-width="2.5"/>
+    <!-- Stem -->
+    <line x1="50" y1="28" x2="50" y2="30" stroke-width="2"/>
+    <!-- Headlight -->
+    <ellipse cx="50" cy="42" rx="3" ry="2.5" fill="#c7c75b" fill-opacity="0.7" stroke-width="1.2"/>
+    <!-- Seat (visible behind, higher) -->
+    <path d="M44,22 C46,20 50,19 54,20 C56,20.5 55,22 53,22 L47,22 C45,22 44,22 44,22 Z"
+          fill="#4a4a4a" fill-opacity="0.6" stroke-width="1.2"/>
+    <!-- Seat post -->
+    <line x1="50" y1="22" x2="50" y2="28" stroke-width="1.5" opacity="0.5"/>
+    <!-- Frame tubes visible behind wheel -->
+    <path d="M48,38 L44,60" stroke="#c75b5b" stroke-width="1.5" opacity="0.4"/>
+    <path d="M52,38 L56,60" stroke="#c75b5b" stroke-width="1.5" opacity="0.4"/>
+    <!-- Pedal hints (sides) -->
+    <path d="M38,68 L42,68" stroke-width="1.5" opacity="0.5"/>
+    <path d="M58,68 L62,68" stroke-width="1.5" opacity="0.5"/>
+    <!-- Ground line -->
+    <path d="M15,88 C30,87.5 50,88.2 70,87.7 C85,88 90,87.8 90,88" stroke-width="1" opacity="0.3"/>
+  </g>
+</svg>

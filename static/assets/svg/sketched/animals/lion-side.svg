@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <style>
+    .outline { fill: none; stroke: #5a4a2a; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+    .detail { fill: none; stroke: #5a4a2a; stroke-width: 1.2; stroke-linecap: round; stroke-linejoin: round; }
+    .mane { fill: #c4a24d; fill-opacity: 0.8; stroke: #8a7030; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+    .face { fill: #e8cc7a; fill-opacity: 0.85; stroke: #5a4a2a; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+    .body { fill: #d4b45a; fill-opacity: 0.75; stroke: #5a4a2a; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+  </style>
+  <!-- Tail -->
+  <path d="M82 48 C88 44, 93 38, 94 32 C95 30, 96 31, 95 33 C94 38, 90 44, 86 48" fill="none" stroke="#5a4a2a" stroke-width="2" stroke-linecap="round"/>
+  <ellipse cx="94" cy="31" rx="2.5" ry="3" fill="#c4a24d" fill-opacity="0.8" stroke="#5a4a2a" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Body -->
+  <path class="body" d="M30 42 C36 34, 50 32, 62 34 C74 36, 82 42, 84 50 C85 58, 82 64, 78 68 L76 80 C76 84, 72 85, 70 82 L70 72 C66 74, 56 75, 50 74 L48 82 C48 85, 44 85, 43 82 L44 72 C40 70, 36 66, 34 62 L32 80 C32 84, 28 85, 27 82 L28 68 C24 62, 23 54, 24 48Z"/>
+  <!-- Back leg -->
+  <path d="M72 68 L74 80 C74 84, 70 85, 69 82 L68 72" fill="#c8a84e" fill-opacity="0.7" stroke="#5a4a2a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Front leg behind -->
+  <path d="M32 64 L30 80 C30 84, 26 85, 25 82 L26 68" fill="#c8a84e" fill-opacity="0.7" stroke="#5a4a2a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Paw details -->
+  <path class="detail" d="M26 83 L29 83"/>
+  <path class="detail" d="M43 83 L46 83"/>
+  <path class="detail" d="M69 83 L72 83"/>
+  <path class="detail" d="M76 83 L79 83"/>
+  <!-- Mane -->
+  <path class="mane" d="M22 24 C26 14, 38 10, 44 14 C48 10, 52 12, 52 16 C56 12, 60 16, 58 22 C62 24, 62 30, 58 34 C62 38, 60 44, 56 46 C58 50, 54 54, 48 52 C46 56, 40 56, 38 52 C34 54, 28 52, 28 48 C24 50, 20 46, 22 42 C18 40, 16 34, 20 30 C16 26, 18 20, 22 24Z"/>
+  <!-- Mane texture -->
+  <path class="detail" d="M30 16 C30 22, 28 26, 30 30"/>
+  <path class="detail" d="M48 14 C50 18, 52 22, 50 26"/>
+  <path class="detail" d="M58 28 C56 32, 56 36, 58 38"/>
+  <path class="detail" d="M24 36 C26 38, 26 42, 24 44"/>
+  <path class="detail" d="M36 52 C36 48, 38 46, 40 44"/>
+  <!-- Face -->
+  <path class="face" d="M24 28 C26 22, 36 18, 44 22 C50 24, 52 30, 50 38 C48 44, 42 50, 34 50 C26 50, 22 44, 22 38 C21 34, 22 30, 24 28Z"/>
+  <!-- Eye -->
+  <ellipse cx="38" cy="32" rx="3.5" ry="4" fill="#f5f0e0" fill-opacity="0.9" stroke="#5a4a2a" stroke-width="1.8" stroke-linecap="round"/>
+  <ellipse cx="39" cy="32.5" rx="1.8" ry="2.4" fill="#3a3020"/>
+  <circle cx="39.8" cy="31.5" r="0.7" fill="#fff"/>
+  <!-- Ear -->
+  <path d="M40 18 C42 14, 46 14, 46 18 C46 20, 44 22, 42 22" fill="#e8cc7a" fill-opacity="0.8" stroke="#5a4a2a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path class="detail" d="M42 16 C43 17, 44 18, 44 20"/>
+  <!-- Nose -->
+  <path d="M26 38 C25 36, 26 34, 28 34 C29 34, 30 36, 29 38Z" fill="#a0704a" fill-opacity="0.85" stroke="#5a4a2a" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Mouth -->
+  <path class="detail" d="M28 38 C30 42, 32 44, 34 44"/>
+  <!-- Whiskers -->
+  <path class="detail" d="M26 36 C20 34, 14 34, 10 35"/>
+  <path class="detail" d="M26 38 C20 39, 14 40, 10 42"/>
+  <path class="detail" d="M26 40 C22 42, 16 44, 12 46"/>
+  <!-- Belly line -->
+  <path class="detail" d="M38 68 C46 72, 58 72, 66 68"/>
+</svg>

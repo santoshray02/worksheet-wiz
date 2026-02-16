@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <g stroke="#3a3a3a" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- Truck cab front -->
+    <path d="M18,25 L82,25 C85,25 88,28 88,31 L88,72 C88,74 86,76 84,76 L16,76 C14,76 12,74 12,72 L12,31 C12,28 15,25 18,25 Z"
+          fill="#c75b5b" fill-opacity="0.8" stroke-width="2.5"/>
+    <!-- Windshield -->
+    <path d="M22,30 L78,30 C79,30 80,31 80,32 L80,50 C80,51 79,52 78,52 L22,52 C21,52 20,51 20,50 L20,32 C20,31 21,30 22,30 Z"
+          fill="#87ceeb" fill-opacity="0.75" stroke-width="1.5"/>
+    <!-- Windshield divider -->
+    <line x1="50" y1="30" x2="50" y2="52" stroke-width="1.3"/>
+    <!-- Grille area -->
+    <path d="M25,58 L75,58 L75,70 L25,70 Z" fill="#888" fill-opacity="0.3" stroke-width="1.5"/>
+    <!-- Grille lines -->
+    <line x1="25" y1="62" x2="75" y2="62" stroke-width="1"/>
+    <line x1="25" y1="66" x2="75" y2="66" stroke-width="1"/>
+    <!-- Left headlight -->
+    <ellipse cx="18" cy="62" rx="4" ry="5" fill="#c7c75b" fill-opacity="0.85" stroke-width="1.3"/>
+    <!-- Right headlight -->
+    <ellipse cx="82" cy="62" rx="4" ry="5" fill="#c7c75b" fill-opacity="0.85" stroke-width="1.3"/>
+    <!-- Bumper -->
+    <path d="M10,74 C25,76 50,77 75,76 C85,75.5 90,75 90,74" stroke-width="2.5"/>
+    <!-- Left wheel -->
+    <ellipse cx="12" cy="80" rx="6" ry="8" fill="#4a4a4a" fill-opacity="0.8" stroke-width="2"/>
+    <!-- Right wheel -->
+    <ellipse cx="88" cy="80" rx="6" ry="8" fill="#4a4a4a" fill-opacity="0.8" stroke-width="2"/>
+    <!-- Mirrors -->
+    <path d="M12,38 L5,37 C4,37 3,38 3,39 L3,46 C3,47 4,48 5,48 L12,47" stroke-width="1.5" fill="#c75b5b" fill-opacity="0.6"/>
+    <path d="M88,38 L95,37 C96,37 97,38 97,39 L97,46 C97,47 96,48 95,48 L88,47" stroke-width="1.5" fill="#c75b5b" fill-opacity="0.6"/>
+    <!-- Exhaust stacks -->
+    <path d="M22,25 L22,18 C22,16 23,15 24,15" stroke-width="1.5"/>
+    <path d="M78,25 L78,18 C78,16 77,15 76,15" stroke-width="1.5"/>
+    <!-- Ground line -->
+    <path d="M1,89 C25,88.5 50,89.2 75,88.7 C90,89 98,88.8 98,89" stroke-width="1" opacity="0.3"/>
+  </g>
+</svg>

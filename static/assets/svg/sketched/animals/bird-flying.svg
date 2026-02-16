@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <style>
+    .outline { fill: none; stroke: #3a3a3a; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+    .detail { fill: none; stroke: #3a3a3a; stroke-width: 1.2; stroke-linecap: round; stroke-linejoin: round; }
+    .fill-body { fill: #c45a5a; fill-opacity: 0.75; }
+    .fill-belly { fill: #e8c4a8; fill-opacity: 0.82; }
+    .fill-beak { fill: #d4a44e; fill-opacity: 0.85; }
+    .fill-wing { fill: #a84848; fill-opacity: 0.7; }
+    .fill-tail { fill: #8c3838; fill-opacity: 0.7; }
+  </style>
+  <!-- Left wing (spread wide, up) -->
+  <path class="fill-wing" d="M50 48 C42 40, 30 28, 16 18 C12 16, 8 18, 10 22 C14 30, 22 38, 32 44 C26 40, 16 34, 6 30 C4 30, 4 34, 8 36 C16 40, 28 44, 40 48Z" />
+  <path class="outline" d="M50 48 C42 40, 30 28, 16 18 C12 16, 8 18, 10 22 C14 30, 22 38, 32 44 C26 40, 16 34, 6 30 C4 30, 4 34, 8 36 C16 40, 28 44, 40 48" />
+  <!-- Wing feather details left -->
+  <path class="detail" d="M44 42 C36 34, 26 26, 18 22" opacity="0.5" />
+  <path class="detail" d="M42 46 C34 40, 24 34, 14 30" opacity="0.5" />
+  <path class="detail" d="M38 48 C30 44, 20 38, 10 34" opacity="0.5" />
+  <!-- Right wing (spread wide, up) -->
+  <path class="fill-wing" d="M50 48 C58 40, 70 28, 84 18 C88 16, 92 18, 90 22 C86 30, 78 38, 68 44 C74 40, 84 34, 94 30 C96 30, 96 34, 92 36 C84 40, 72 44, 60 48Z" />
+  <path class="outline" d="M50 48 C58 40, 70 28, 84 18 C88 16, 92 18, 90 22 C86 30, 78 38, 68 44 C74 40, 84 34, 94 30 C96 30, 96 34, 92 36 C84 40, 72 44, 60 48" />
+  <!-- Wing feather details right -->
+  <path class="detail" d="M56 42 C64 34, 74 26, 82 22" opacity="0.5" />
+  <path class="detail" d="M58 46 C66 40, 76 34, 86 30" opacity="0.5" />
+  <path class="detail" d="M62 48 C70 44, 80 38, 90 34" opacity="0.5" />
+  <!-- Tail feathers -->
+  <path class="fill-tail" d="M44 72 C42 78, 38 84, 36 88 C40 86, 44 82, 46 76 C46 82, 48 88, 50 92 C52 88, 54 82, 54 76 C56 82, 60 86, 64 88 C62 84, 58 78, 56 72Z" />
+  <path class="outline" d="M44 72 C42 78, 38 84, 36 88" />
+  <path class="outline" d="M50 74 C50 80, 50 86, 50 92" />
+  <path class="outline" d="M56 72 C58 78, 62 84, 64 88" />
+  <!-- Body -->
+  <ellipse class="fill-body" cx="50" cy="56" rx="16" ry="20" />
+  <ellipse class="outline" cx="50" cy="56" rx="16" ry="20" />
+  <!-- Belly -->
+  <path class="fill-belly" d="M42 58 C44 64, 48 68, 50 68 C52 68, 56 64, 58 58 C56 62, 52 64, 50 64 C48 64, 44 62, 42 58Z" />
+  <!-- Head -->
+  <ellipse class="fill-body" cx="50" cy="36" rx="12" ry="10" />
+  <ellipse class="outline" cx="50" cy="36" rx="12" ry="10" />
+  <!-- Eyes -->
+  <circle cx="44" cy="34" r="3.5" fill="white" fill-opacity="0.9" />
+  <circle cx="44" cy="34" r="3.5" class="outline" />
+  <circle cx="43.5" cy="33.5" r="2" fill="#2a2a2a" />
+  <circle cx="43" cy="33" r="0.8" fill="white" fill-opacity="0.9" />
+  <circle cx="56" cy="34" r="3.5" fill="white" fill-opacity="0.9" />
+  <circle cx="56" cy="34" r="3.5" class="outline" />
+  <circle cx="56.5" cy="33.5" r="2" fill="#2a2a2a" />
+  <circle cx="56" cy="33" r="0.8" fill="white" fill-opacity="0.9" />
+  <!-- Beak -->
+  <path class="fill-beak" d="M47 40 L50 46 L53 40Z" />
+  <path class="outline" d="M47 40 L50 46 L53 40Z" />
+  <!-- Cheek blush -->
+  <ellipse cx="42" cy="38" rx="2.5" ry="1.5" fill="#d47a7a" fill-opacity="0.4" />
+  <ellipse cx="58" cy="38" rx="2.5" ry="1.5" fill="#d47a7a" fill-opacity="0.4" />
+  <!-- Feet (tucked) -->
+  <path d="M44 74 C42 76, 40 78, 38 78" fill="none" stroke="#d4a44e" stroke-width="2" stroke-linecap="round" />
+  <path d="M56 74 C58 76, 60 78, 62 78" fill="none" stroke="#d4a44e" stroke-width="2" stroke-linecap="round" />
+  <!-- Motion lines -->
+  <path d="M26 56 C24 58, 22 56, 20 58" fill="none" stroke="#3a3a3a" stroke-width="0.8" stroke-linecap="round" opacity="0.3" />
+  <path d="M74 56 C76 58, 78 56, 80 58" fill="none" stroke="#3a3a3a" stroke-width="0.8" stroke-linecap="round" opacity="0.3" />
+  <!-- Double stroke accent -->
+  <path d="M42 30 C44 28, 48 26, 50 28" fill="none" stroke="#3a3a3a" stroke-width="0.8" stroke-linecap="round" opacity="0.35" />
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Watermelon whole - hand sketched style -->
+  <!-- Main body - large oval -->
+  <ellipse cx="50" cy="52" rx="40" ry="30"
+    fill="#4a8a4a" fill-opacity="0.8" stroke="#2a5a2a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Dark stripes -->
+  <path d="M20 38 C25 32, 35 28, 45 30 C55 32, 60 40, 58 50 C56 60, 48 68, 38 70 C28 72, 18 65, 16 55 C14 48, 16 42, 20 38"
+    fill="none" stroke="#2a5a2a" stroke-width="2.5" stroke-linecap="round" stroke-opacity="0.5"/>
+  <path d="M35 24 C42 22, 50 24, 55 28"
+    fill="none" stroke="#2a5a2a" stroke-width="3" stroke-linecap="round" stroke-opacity="0.4"/>
+  <path d="M60 26 C68 30, 75 38, 78 48"
+    fill="none" stroke="#2a5a2a" stroke-width="3" stroke-linecap="round" stroke-opacity="0.4"/>
+  <path d="M82 52 C82 60, 78 68, 72 73"
+    fill="none" stroke="#2a5a2a" stroke-width="3" stroke-linecap="round" stroke-opacity="0.4"/>
+  <path d="M28 74 C22 70, 18 64, 15 56"
+    fill="none" stroke="#2a5a2a" stroke-width="3" stroke-linecap="round" stroke-opacity="0.4"/>
+  <path d="M50 24 C50 30, 50 40, 50 50 C50 60, 50 70, 50 78"
+    fill="none" stroke="#2a5a2a" stroke-width="2.5" stroke-linecap="round" stroke-opacity="0.35"/>
+  <!-- Light stripe highlights -->
+  <path d="M30 30 C35 26, 42 25, 48 26"
+    fill="none" stroke="#6aaa6a" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.4"/>
+  <!-- Stem nub -->
+  <path d="M50 22 C50 19, 51 17, 52 16"
+    fill="none" stroke="#6b4226" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Ground shadow hint -->
+  <ellipse cx="50" cy="83" rx="30" ry="3" fill="#2a5a2a" fill-opacity="0.15"/>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <g stroke="#3a3a3a" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- Car body front -->
+    <path d="M20,58 C19,52 22,48 25,44 C28,40 32,32 35,28 C38,25 44,22 50,22 C56,22 62,25 65,28 C68,32 72,40 75,44 C78,48 81,52 80,58 L80,68 C80,70 78,72 76,72 L24,72 C22,72 20,70 20,68 Z"
+          fill="#c75b5b" fill-opacity="0.8" stroke-width="2.5"/>
+    <!-- Windshield -->
+    <path d="M32,42 C34,35 40,27 50,27 C60,27 66,35 68,42 L68,48 L32,48 Z"
+          fill="#87ceeb" fill-opacity="0.75" stroke-width="1.2"/>
+    <!-- Hood -->
+    <path d="M25,55 L75,55" stroke-width="1.5"/>
+    <!-- Left headlight -->
+    <ellipse cx="30" cy="60" rx="5" ry="3.5" fill="#c7c75b" fill-opacity="0.85" stroke-width="1.3"/>
+    <!-- Right headlight -->
+    <ellipse cx="70" cy="60" rx="5" ry="3.5" fill="#c7c75b" fill-opacity="0.85" stroke-width="1.3"/>
+    <!-- Grille -->
+    <path d="M40,62 C43,63 47,64 50,64 C53,64 57,63 60,62" stroke-width="1.3"/>
+    <path d="M42,65 C45,66 48,66 50,66 C52,66 55,66 58,65" stroke-width="1"/>
+    <!-- Bumper -->
+    <path d="M22,70 C30,72 40,73 50,73 C60,73 70,72 78,70" stroke-width="2"/>
+    <!-- Left wheel -->
+    <ellipse cx="18" cy="74" rx="6" ry="8" fill="#4a4a4a" fill-opacity="0.8" stroke-width="2"/>
+    <!-- Right wheel -->
+    <ellipse cx="82" cy="74" rx="6" ry="8" fill="#4a4a4a" fill-opacity="0.8" stroke-width="2"/>
+    <!-- Mirror left -->
+    <path d="M20,44 C17,43 15,44 15,46 C15,48 17,49 20,48" stroke-width="1.5" fill="#c75b5b" fill-opacity="0.7"/>
+    <!-- Mirror right -->
+    <path d="M80,44 C83,43 85,44 85,46 C85,48 83,49 80,48" stroke-width="1.5" fill="#c75b5b" fill-opacity="0.7"/>
+    <!-- Ground line -->
+    <path d="M5,83 C25,82.5 50,83.2 75,82.8 C90,83 97,82.7 97,83" stroke-width="1" opacity="0.3"/>
+  </g>
+</svg>

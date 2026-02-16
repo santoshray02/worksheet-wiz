@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Violin front view - hand sketched style -->
+  <!-- Scroll -->
+  <path d="M 47 5 Q 44 4 43 6 Q 42 8 44 9 Q 46 10 47 8 Q 47.5 7 47 5" stroke="#6b4226" stroke-width="1.5" stroke-linecap="round" fill="#8b5e3c" fill-opacity="0.7"/>
+  <!-- Pegbox -->
+  <path d="M 47 9 L 47 18 L 53 18 L 53 9" stroke="#6b4226" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="#8b5e3c" fill-opacity="0.8"/>
+  <!-- Tuning pegs -->
+  <line x1="44" y1="11" x2="47" y2="11" stroke="#4a2e18" stroke-width="1.8" stroke-linecap="round"/>
+  <line x1="44" y1="15" x2="47" y2="15" stroke="#4a2e18" stroke-width="1.8" stroke-linecap="round"/>
+  <line x1="53" y1="12" x2="56" y2="12" stroke="#4a2e18" stroke-width="1.8" stroke-linecap="round"/>
+  <line x1="53" y1="16" x2="56" y2="16" stroke="#4a2e18" stroke-width="1.8" stroke-linecap="round"/>
+  <!-- Neck -->
+  <path d="M 48 18 L 48 35 L 52 35 L 52 18" fill="#b87d4a" fill-opacity="0.8" stroke="#6b4226" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Upper bout -->
+  <path d="M 48 35 Q 38 37 34 42 Q 31 47 34 52 Q 37 55 48 56" stroke="#6b4226" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path d="M 52 35 Q 62 37 66 42 Q 69 47 66 52 Q 63 55 52 56" stroke="#6b4226" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- C-bouts (waist) -->
+  <path d="M 48 56 Q 42 57 40 60 Q 39 63 42 66 Q 44 67 48 68" stroke="#6b4226" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path d="M 52 56 Q 58 57 60 60 Q 61 63 58 66 Q 56 67 52 68" stroke="#6b4226" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- Lower bout -->
+  <path d="M 48 68 Q 34 70 30 78 Q 28 85 34 90 Q 40 94 50 95 Q 60 94 66 90 Q 72 85 70 78 Q 66 70 52 68" stroke="#6b4226" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- Body fill -->
+  <path d="M 48 35 Q 38 37 34 42 Q 31 47 34 52 Q 37 55 48 56 Q 42 57 40 60 Q 39 63 42 66 Q 44 67 48 68 Q 34 70 30 78 Q 28 85 34 90 Q 40 94 50 95 Q 60 94 66 90 Q 72 85 70 78 Q 66 70 52 68 Q 56 67 58 66 Q 61 63 60 60 Q 58 57 52 56 Q 63 55 66 52 Q 69 47 66 42 Q 62 37 52 35 Z" fill="#b87d4a" fill-opacity="0.75" stroke="none"/>
+  <!-- F-holes -->
+  <path d="M 42 52 Q 41 56 42 60 Q 43 64 44 68" stroke="#3d2b1f" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+  <path d="M 58 52 Q 59 56 58 60 Q 57 64 56 68" stroke="#3d2b1f" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+  <!-- F-hole dots -->
+  <circle cx="42.5" cy="60" r="1" fill="#3d2b1f" fill-opacity="0.8"/>
+  <circle cx="57.5" cy="60" r="1" fill="#3d2b1f" fill-opacity="0.8"/>
+  <!-- Bridge -->
+  <path d="M 44 72 L 46 68 L 54 68 L 56 72" stroke="#6b4226" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="#8b5e3c" fill-opacity="0.7"/>
+  <!-- Tailpiece -->
+  <path d="M 47 78 L 50 95 L 53 78 Z" fill="#3d2b1f" fill-opacity="0.7" stroke="#3d2b1f" stroke-width="1" stroke-linecap="round"/>
+  <!-- Strings -->
+  <line x1="49" y1="9" x2="48.5" y2="78" stroke="#aaa" stroke-width="0.5" stroke-linecap="round"/>
+  <line x1="50" y1="9" x2="49.8" y2="78" stroke="#aaa" stroke-width="0.5" stroke-linecap="round"/>
+  <line x1="51" y1="9" x2="50.8" y2="78" stroke="#aaa" stroke-width="0.5" stroke-linecap="round"/>
+  <line x1="52" y1="9" x2="51.5" y2="78" stroke="#aaa" stroke-width="0.5" stroke-linecap="round"/>
+  <!-- Chinrest -->
+  <path d="M 55 88 Q 58 86 60 88 Q 62 91 60 93 Q 58 94 56 92 Q 54 90 55 88" stroke="#3d2b1f" stroke-width="1.5" stroke-linecap="round" fill="#3d2b1f" fill-opacity="0.5"/>
+</svg>

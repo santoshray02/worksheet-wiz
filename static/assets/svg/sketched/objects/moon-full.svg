@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Moon full view - hand sketched style -->
+  <!-- Background stars -->
+  <circle cx="10" cy="15" r="1" fill="#c7c75b" fill-opacity="0.6"/>
+  <circle cx="88" cy="12" r="1.2" fill="#c7c75b" fill-opacity="0.5"/>
+  <circle cx="15" cy="80" r="0.8" fill="#c7c75b" fill-opacity="0.5"/>
+  <circle cx="90" cy="78" r="1" fill="#c7c75b" fill-opacity="0.6"/>
+  <circle cx="8" cy="45" r="0.8" fill="#c7c75b" fill-opacity="0.4"/>
+  <circle cx="92" cy="55" r="1" fill="#c7c75b" fill-opacity="0.5"/>
+  <!-- Twinkle stars -->
+  <path d="M 18 30 L 19 27 L 20 30 L 23 31 L 20 32 L 19 35 L 18 32 L 15 31 Z" fill="#c7c75b" fill-opacity="0.5" stroke="none"/>
+  <path d="M 82 35 L 83 32 L 84 35 L 87 36 L 84 37 L 83 40 L 82 37 L 79 36 Z" fill="#c7c75b" fill-opacity="0.4" stroke="none"/>
+  <path d="M 75 80 L 76 78 L 77 80 L 79 81 L 77 82 L 76 84 L 75 82 L 73 81 Z" fill="#c7c75b" fill-opacity="0.4" stroke="none"/>
+  <!-- Glow -->
+  <circle cx="50" cy="50" r="38" fill="#e8d88a" fill-opacity="0.15" stroke="none"/>
+  <!-- Full moon -->
+  <circle cx="50" cy="50" r="33" fill="#e8d88a" fill-opacity="0.85" stroke="#c7b050" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Crater details (maria - the dark patches) -->
+  <ellipse cx="42" cy="40" rx="6" ry="5" fill="#d4c070" fill-opacity="0.4" stroke="#c7b050" stroke-width="0.8" stroke-linecap="round"/>
+  <ellipse cx="55" cy="48" rx="8" ry="6" fill="#d4c070" fill-opacity="0.35" stroke="#c7b050" stroke-width="0.8" stroke-linecap="round"/>
+  <circle cx="40" cy="55" r="4" fill="#d4c070" fill-opacity="0.3" stroke="#c7b050" stroke-width="0.6" stroke-linecap="round"/>
+  <circle cx="58" cy="35" r="3" fill="#d4c070" fill-opacity="0.3" stroke="#c7b050" stroke-width="0.6" stroke-linecap="round"/>
+  <circle cx="48" cy="65" r="5" fill="#d4c070" fill-opacity="0.3" stroke="#c7b050" stroke-width="0.7" stroke-linecap="round"/>
+  <circle cx="62" cy="58" r="3.5" fill="#d4c070" fill-opacity="0.25" stroke="#c7b050" stroke-width="0.5" stroke-linecap="round"/>
+  <!-- Small craters -->
+  <circle cx="35" cy="45" r="1.5" fill="#c0a850" fill-opacity="0.3" stroke="#c7b050" stroke-width="0.4"/>
+  <circle cx="55" cy="62" r="2" fill="#c0a850" fill-opacity="0.3" stroke="#c7b050" stroke-width="0.4"/>
+  <circle cx="65" cy="45" r="1.5" fill="#c0a850" fill-opacity="0.25" stroke="#c7b050" stroke-width="0.4"/>
+  <!-- Highlight -->
+  <path d="M 35 30 Q 38 26 42 24" stroke="#f5f0d0" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.4"/>
+</svg>

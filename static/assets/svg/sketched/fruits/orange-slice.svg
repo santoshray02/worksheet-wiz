@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Orange slice - hand sketched style, cross section -->
+  <!-- Outer rind circle -->
+  <path d="M50 12 C28 12, 12 28, 12 50 C12 72, 28 88, 50 88 C72 88, 88 72, 88 50 C88 28, 72 12, 50 12Z"
+    fill="#d48c5b" fill-opacity="0.8" stroke="#b06830" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Inner flesh circle (pith) -->
+  <circle cx="50" cy="50" r="33" fill="#f5c878" fill-opacity="0.8" stroke="#d4a050" stroke-width="1.5"/>
+  <!-- Segment lines radiating from center -->
+  <path d="M50 50 L50 18" fill="none" stroke="#e8a050" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M50 50 L72 22" fill="none" stroke="#e8a050" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M50 50 L82 42" fill="none" stroke="#e8a050" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M50 50 L82 58" fill="none" stroke="#e8a050" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M50 50 L72 78" fill="none" stroke="#e8a050" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M50 50 L50 82" fill="none" stroke="#e8a050" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M50 50 L28 78" fill="none" stroke="#e8a050" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M50 50 L18 58" fill="none" stroke="#e8a050" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M50 50 L18 42" fill="none" stroke="#e8a050" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M50 50 L28 22" fill="none" stroke="#e8a050" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Center pip -->
+  <circle cx="50" cy="50" r="4" fill="#f5e0a0" fill-opacity="0.7" stroke="#d4a050" stroke-width="1"/>
+  <!-- Small seeds in a few segments -->
+  <ellipse cx="55" cy="30" rx="1.5" ry="2.5" fill="#f5f0d0" fill-opacity="0.6" stroke="#d4a050" stroke-width="0.8"/>
+  <ellipse cx="68" cy="60" rx="1.5" ry="2.5" transform="rotate(40,68,60)" fill="#f5f0d0" fill-opacity="0.6" stroke="#d4a050" stroke-width="0.8"/>
+</svg>

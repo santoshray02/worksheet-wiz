@@ -1,0 +1,18 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Green sprout top -->
+  <path d="M48,24 Q46,12 44,4" fill="none" stroke="#66BB6A" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M52,24 Q54,12 56,4" fill="none" stroke="#81C784" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M50,22 Q50,10 50,2" fill="none" stroke="#4CAF50" stroke-width="2" stroke-linecap="round"/>
+  <!-- Onion body -->
+  <path d="M30,48 Q26,24 50,22 Q74,24 70,48 Q72,72 60,82 Q50,88 40,82 Q28,72 30,48Z" fill="#CE93D8" stroke="#7B1FA2" stroke-width="2"/>
+  <!-- Onion layer lines -->
+  <path d="M36,40 Q36,60 42,76" fill="none" stroke="#AB47BC" stroke-width="1" opacity="0.4"/>
+  <path d="M50,24 Q50,55 50,86" fill="none" stroke="#AB47BC" stroke-width="1" opacity="0.3"/>
+  <path d="M64,40 Q64,60 58,76" fill="none" stroke="#AB47BC" stroke-width="1" opacity="0.4"/>
+  <!-- Root wisps at bottom -->
+  <path d="M46,84 Q44,90 42,95" fill="none" stroke="#A1887F" stroke-width="1" stroke-linecap="round" opacity="0.5"/>
+  <path d="M50,86 Q50,92 50,97" fill="none" stroke="#A1887F" stroke-width="1" stroke-linecap="round" opacity="0.5"/>
+  <path d="M54,84 Q56,90 58,95" fill="none" stroke="#A1887F" stroke-width="1" stroke-linecap="round" opacity="0.5"/>
+  <!-- Highlight -->
+  <ellipse cx="40" cy="42" rx="5" ry="12" fill="white" opacity="0.25"/>
+</svg>

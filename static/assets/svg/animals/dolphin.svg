@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Body -->
+  <path d="M20 55 Q10 45 15 35 Q20 28 30 30 Q40 20 55 25 Q70 22 80 35 Q88 42 85 50 Q82 58 70 60 Q55 65 40 63 Q30 62 20 55Z" fill="#6BAED6" stroke="#3A7CB8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Belly -->
+  <path d="M25 52 Q35 42 55 38 Q70 35 80 42 Q78 52 65 56 Q50 60 35 58 Q28 56 25 52Z" fill="#B8DFF0"/>
+  <!-- Snout/beak -->
+  <path d="M10 42 Q5 40 8 37 Q12 34 15 35" fill="#6BAED6" stroke="#3A7CB8" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Dorsal fin -->
+  <path d="M52 25 Q55 12 62 18 Q58 24 55 25" fill="#5A9BC7" stroke="#3A7CB8" stroke-width="1" stroke-linecap="round"/>
+  <!-- Tail -->
+  <path d="M82 45 Q90 35 96 33 Q92 42 92 45 Q92 48 96 57 Q90 55 82 45Z" fill="#6BAED6" stroke="#3A7CB8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Flipper -->
+  <path d="M38 55 Q32 68 27 65 Q30 58 38 55Z" fill="#5A9BC7" stroke="#3A7CB8" stroke-width="1" stroke-linecap="round"/>
+  <!-- Eye -->
+  <circle cx="20" cy="40" r="3.5" fill="white" stroke="#3A7CB8" stroke-width="0.8"/>
+  <circle cx="19" cy="39.5" r="1.8" fill="#1A1A2E"/>
+  <circle cx="18.5" cy="38.8" r="0.7" fill="white"/>
+  <!-- Smile -->
+  <path d="M10 42 Q14 46 20 44" fill="none" stroke="#3A7CB8" stroke-width="1" stroke-linecap="round"/>
+  <!-- Cheek blush -->
+  <circle cx="23" cy="45" r="2.5" fill="#FF9AA2" opacity="0.4"/>
+  <!-- Body highlight -->
+  <ellipse cx="45" cy="30" rx="14" ry="4" fill="white" opacity="0.2"/>
+  <!-- Water splashes -->
+  <circle cx="30" cy="72" r="1.5" fill="#87CEEB" opacity="0.6"/>
+  <circle cx="40" cy="75" r="2" fill="#87CEEB" opacity="0.5"/>
+  <circle cx="50" cy="73" r="1.5" fill="#87CEEB" opacity="0.6"/>
+  <circle cx="22" cy="70" r="1" fill="#87CEEB" opacity="0.5"/>
+  <!-- Splash curves -->
+  <path d="M18 68 Q25 65 32 68" fill="none" stroke="#87CEEB" stroke-width="1" stroke-linecap="round" opacity="0.5"/>
+  <path d="M35 70 Q45 67 55 70" fill="none" stroke="#87CEEB" stroke-width="1" stroke-linecap="round" opacity="0.5"/>
+</svg>

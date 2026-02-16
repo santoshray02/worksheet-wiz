@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <style>
+    .outline { fill: none; stroke: #3a3a3a; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+    .detail { fill: none; stroke: #3a3a3a; stroke-width: 1.2; stroke-linecap: round; stroke-linejoin: round; }
+    .fill-body { fill: #d4956a; fill-opacity: 0.78; }
+    .fill-inner { fill: #e8c4a8; fill-opacity: 0.8; }
+    .fill-nose { fill: #c47a6c; fill-opacity: 0.85; }
+  </style>
+  <!-- Body -->
+  <path class="fill-body" d="M50 92 C30 92, 22 82, 22 68 C22 58, 28 52, 35 50 C35 50, 34 48, 35 45 L50 45 L65 45 C66 48, 65 50, 65 50 C72 52, 78 58, 78 68 C78 82, 70 92, 50 92Z" />
+  <path class="outline" d="M50 92 C30 92, 22 82, 22 68 C22 58, 28 52, 35 50 C35 50, 34 48, 35 45 L50 45 L65 45 C66 48, 65 50, 65 50 C72 52, 78 58, 78 68 C78 82, 70 92, 50 92Z" />
+  <!-- Head -->
+  <ellipse class="fill-body" cx="50" cy="35" rx="22" ry="19" />
+  <ellipse class="outline" cx="50" cy="35" rx="22" ry="19" />
+  <!-- Left ear -->
+  <path class="fill-body" d="M30 24 C28 14, 32 6, 35 8 C38 10, 38 18, 36 24Z" />
+  <path class="outline" d="M30 24 C28 14, 32 6, 35 8 C38 10, 38 18, 36 24Z" />
+  <path class="fill-inner" d="M31.5 22 C30 15, 33 10, 35 11 C36.5 12, 36.5 18, 35 22Z" />
+  <!-- Right ear -->
+  <path class="fill-body" d="M70 24 C72 14, 68 6, 65 8 C62 10, 62 18, 64 24Z" />
+  <path class="outline" d="M70 24 C72 14, 68 6, 65 8 C62 10, 62 18, 64 24Z" />
+  <path class="fill-inner" d="M68.5 22 C70 15, 67 10, 65 11 C63.5 12, 63.5 18, 65 22Z" />
+  <!-- Eyes -->
+  <ellipse cx="41" cy="33" rx="4.5" ry="5" fill="#4a7a5c" fill-opacity="0.8" />
+  <ellipse cx="41" cy="33" rx="4.5" ry="5" class="outline" />
+  <ellipse cx="59" cy="33" rx="4.5" ry="5" fill="#4a7a5c" fill-opacity="0.8" />
+  <ellipse cx="59" cy="33" rx="4.5" ry="5" class="outline" />
+  <!-- Pupils -->
+  <ellipse cx="41.5" cy="33" rx="2" ry="3.5" fill="#2a2a2a" />
+  <ellipse cx="59.5" cy="33" rx="2" ry="3.5" fill="#2a2a2a" />
+  <!-- Eye shine -->
+  <circle cx="40" cy="31.5" r="1" fill="white" fill-opacity="0.9" />
+  <circle cx="58" cy="31.5" r="1" fill="white" fill-opacity="0.9" />
+  <!-- Nose -->
+  <path class="fill-nose" d="M48 39 C48 37.5, 50 37, 50 37 C50 37, 52 37.5, 52 39 C52 40.5, 50 41.5, 50 41.5 C50 41.5, 48 40.5, 48 39Z" />
+  <!-- Mouth -->
+  <path class="detail" d="M50 41.5 L50 43.5" />
+  <path class="detail" d="M50 43.5 C47 45, 44 44, 43 43" />
+  <path class="detail" d="M50 43.5 C53 45, 56 44, 57 43" />
+  <!-- Whiskers left -->
+  <line class="detail" x1="38" y1="38" x2="20" y2="35" />
+  <line class="detail" x1="38" y1="40" x2="19" y2="40" />
+  <line class="detail" x1="38" y1="42" x2="21" y2="45" />
+  <!-- Whiskers right -->
+  <line class="detail" x1="62" y1="38" x2="80" y2="35" />
+  <line class="detail" x1="62" y1="40" x2="81" y2="40" />
+  <line class="detail" x1="62" y1="42" x2="79" y2="45" />
+  <!-- Front paws -->
+  <ellipse class="fill-body" cx="38" cy="90" rx="7" ry="4" />
+  <ellipse class="outline" cx="38" cy="90" rx="7" ry="4" />
+  <path class="detail" d="M35 90 L35 88" />
+  <path class="detail" d="M38 89.5 L38 87.5" />
+  <path class="detail" d="M41 90 L41 88" />
+  <ellipse class="fill-body" cx="62" cy="90" rx="7" ry="4" />
+  <ellipse class="outline" cx="62" cy="90" rx="7" ry="4" />
+  <path class="detail" d="M59 90 L59 88" />
+  <path class="detail" d="M62 89.5 L62 87.5" />
+  <path class="detail" d="M65 90 L65 88" />
+  <!-- Chest fur detail -->
+  <path class="detail" d="M45 55 C47 58, 50 59, 53 58" />
+  <path class="detail" d="M44 60 C47 63, 53 63, 56 60" />
+  <!-- Double stroke accent on head -->
+  <path d="M32 28 C34 22, 42 18, 50 18" fill="none" stroke="#3a3a3a" stroke-width="0.8" stroke-linecap="round" opacity="0.4" />
+</svg>

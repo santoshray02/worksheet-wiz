@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Peas pod (closed) - hand sketched style -->
+  <!-- Main pod body -->
+  <path d="M12 55 C18 42, 30 35, 50 32 C70 29, 82 34, 90 42 C88 48, 80 55, 60 58 C40 61, 22 60, 12 55Z"
+    fill="#7ba87b" fill-opacity="0.8" stroke="#4a7a4a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Center seam line -->
+  <path d="M14 52 C24 46, 42 40, 58 38 C74 36, 86 38, 90 42"
+    fill="none" stroke="#4a7a4a" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.6"/>
+  <!-- Pea bumps visible through pod -->
+  <circle cx="30" cy="46" r="6" fill="none" stroke="#5a8a5a" stroke-width="1.2" stroke-linecap="round" stroke-opacity="0.4"/>
+  <circle cx="44" cy="42" r="6.5" fill="none" stroke="#5a8a5a" stroke-width="1.2" stroke-linecap="round" stroke-opacity="0.4"/>
+  <circle cx="58" cy="40" r="6.5" fill="none" stroke="#5a8a5a" stroke-width="1.2" stroke-linecap="round" stroke-opacity="0.4"/>
+  <circle cx="72" cy="40" r="6" fill="none" stroke="#5a8a5a" stroke-width="1.2" stroke-linecap="round" stroke-opacity="0.4"/>
+  <!-- Stem end -->
+  <path d="M12 55 C8 56, 5 55, 3 52"
+    fill="none" stroke="#4a7a4a" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Tip end curl -->
+  <path d="M90 42 C92 40, 95 38, 97 40"
+    fill="none" stroke="#4a7a4a" stroke-width="2" stroke-linecap="round"/>
+  <!-- Highlight -->
+  <path d="M25 40 C35 36, 50 34, 65 34"
+    fill="none" stroke="#8bc88b" stroke-width="1.2" stroke-linecap="round" stroke-opacity="0.4"/>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Potato half - hand sketched cross section -->
+  <!-- Outer skin (left half visible) -->
+  <path d="M50 25 C36 26, 24 34, 20 44 C16 56, 18 68, 24 76 C32 84, 42 86, 50 86 L50 25Z"
+    fill="#c4a060" fill-opacity="0.82" stroke="#8a7040" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Inner flesh (right side / cut face) -->
+  <path d="M50 25 C62 26, 74 34, 80 44 C86 56, 84 68, 78 76 C70 84, 58 86, 50 86 L50 25Z"
+    fill="#f0e0b0" fill-opacity="0.82" stroke="#8a7040" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Cut line -->
+  <line x1="50" y1="25" x2="50" y2="86" stroke="#8a7040" stroke-width="2" stroke-linecap="round"/>
+  <!-- Skin edge ring on cut side -->
+  <path d="M52 28 C64 30, 76 38, 80 50 C82 62, 78 74, 68 82 C60 86, 52 86, 50 86"
+    fill="none" stroke="#c4a060" stroke-width="3" stroke-linecap="round" stroke-opacity="0.5"/>
+  <!-- Inner ring (vascular ring) -->
+  <path d="M54 34 C64 36, 72 42, 74 52 C76 62, 72 72, 64 78 C58 82, 52 82, 50 82"
+    fill="none" stroke="#d4c080" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.4"/>
+  <!-- Eyes on skin side -->
+  <circle cx="32" cy="48" r="1.5" fill="#8a6a30" fill-opacity="0.4" stroke="#7a5a28" stroke-width="0.8"/>
+  <circle cx="28" cy="62" r="1.2" fill="#8a6a30" fill-opacity="0.35" stroke="#7a5a28" stroke-width="0.8"/>
+  <circle cx="36" cy="74" r="1.2" fill="#8a6a30" fill-opacity="0.35" stroke="#7a5a28" stroke-width="0.8"/>
+  <!-- Center pith area -->
+  <circle cx="62" cy="56" r="8" fill="#f5ecc8" fill-opacity="0.4" stroke="#d4c090" stroke-width="1" stroke-linecap="round" stroke-opacity="0.4"/>
+</svg>

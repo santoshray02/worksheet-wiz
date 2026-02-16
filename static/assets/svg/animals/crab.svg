@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Legs (back) -->
+  <path d="M30 60 Q20 65 15 72 Q12 76 16 78" fill="none" stroke="#C0392B" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M28 63 Q18 72 14 80 Q12 84 16 85" fill="none" stroke="#C0392B" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M26 66 Q20 78 18 86 Q17 90 21 90" fill="none" stroke="#C0392B" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M70 60 Q80 65 85 72 Q88 76 84 78" fill="none" stroke="#C0392B" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M72 63 Q82 72 86 80 Q88 84 84 85" fill="none" stroke="#C0392B" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M74 66 Q80 78 82 86 Q83 90 79 90" fill="none" stroke="#C0392B" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Arms -->
+  <path d="M28 48 Q15 40 10 32" fill="none" stroke="#E74C3C" stroke-width="3" stroke-linecap="round"/>
+  <path d="M72 48 Q85 40 90 32" fill="none" stroke="#E74C3C" stroke-width="3" stroke-linecap="round"/>
+  <!-- Left claw -->
+  <ellipse cx="8" cy="28" rx="6" ry="4" fill="#E74C3C" stroke="#C0392B" stroke-width="1.2" transform="rotate(-20 8 28)"/>
+  <ellipse cx="8" cy="34" rx="6" ry="3.5" fill="#E74C3C" stroke="#C0392B" stroke-width="1.2" transform="rotate(15 8 34)"/>
+  <!-- Right claw -->
+  <ellipse cx="92" cy="28" rx="6" ry="4" fill="#E74C3C" stroke="#C0392B" stroke-width="1.2" transform="rotate(20 92 28)"/>
+  <ellipse cx="92" cy="34" rx="6" ry="3.5" fill="#E74C3C" stroke="#C0392B" stroke-width="1.2" transform="rotate(-15 92 34)"/>
+  <!-- Body -->
+  <ellipse cx="50" cy="55" rx="25" ry="18" fill="#E74C3C" stroke="#C0392B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Body highlight -->
+  <ellipse cx="46" cy="48" rx="12" ry="5" fill="white" opacity="0.15"/>
+  <!-- Shell pattern -->
+  <path d="M38 45 Q50 42 62 45" fill="none" stroke="#C0392B" stroke-width="0.8" opacity="0.5"/>
+  <path d="M35 52 Q50 48 65 52" fill="none" stroke="#C0392B" stroke-width="0.8" opacity="0.5"/>
+  <!-- Left eye -->
+  <line x1="42" y1="38" x2="40" y2="30" stroke="#C0392B" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="40" cy="27" r="4" fill="white" stroke="#C0392B" stroke-width="1"/>
+  <circle cx="39.5" cy="26.5" r="2" fill="#1A1A2E"/>
+  <circle cx="39" cy="25.8" r="0.8" fill="white"/>
+  <!-- Right eye -->
+  <line x1="58" y1="38" x2="60" y2="30" stroke="#C0392B" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="60" cy="27" r="4" fill="white" stroke="#C0392B" stroke-width="1"/>
+  <circle cx="59.5" cy="26.5" r="2" fill="#1A1A2E"/>
+  <circle cx="59" cy="25.8" r="0.8" fill="white"/>
+  <!-- Smile -->
+  <path d="M44 58 Q50 64 56 58" fill="none" stroke="#A93226" stroke-width="1.2" stroke-linecap="round"/>
+  <!-- Cheek blushes -->
+  <circle cx="38" cy="58" r="3" fill="#FF9AA2" opacity="0.35"/>
+  <circle cx="62" cy="58" r="3" fill="#FF9AA2" opacity="0.35"/>
+</svg>

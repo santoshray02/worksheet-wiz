@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <style>
+    .outline { fill: none; stroke: #5a4a2a; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+    .detail { fill: none; stroke: #5a4a2a; stroke-width: 1.2; stroke-linecap: round; stroke-linejoin: round; }
+    .mane { fill: #c4a24d; fill-opacity: 0.8; stroke: #8a7030; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+    .face { fill: #e8cc7a; fill-opacity: 0.85; stroke: #5a4a2a; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+    .body { fill: #d4b45a; fill-opacity: 0.75; stroke: #5a4a2a; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+  </style>
+  <!-- Tail raised -->
+  <path d="M78 50 C84 46, 90 38, 92 30 C93 26, 90 24, 89 28 C88 34, 84 42, 80 48" fill="none" stroke="#5a4a2a" stroke-width="2.2" stroke-linecap="round"/>
+  <ellipse cx="92" cy="28" rx="3" ry="3.5" fill="#c4a24d" fill-opacity="0.8" stroke="#5a4a2a" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Body - slightly arched for roar -->
+  <path class="body" d="M28 44 C34 36, 48 34, 60 36 C72 38, 80 44, 82 52 C83 58, 80 64, 76 68 L74 80 C74 84, 70 85, 69 82 L68 72 C64 74, 54 76, 48 74 L46 82 C46 85, 42 85, 41 82 L42 72 C38 70, 34 66, 32 62 L30 78 C30 82, 26 83, 25 80 L26 66 C22 60, 21 52, 24 46Z"/>
+  <!-- Back leg -->
+  <path d="M70 66 L72 80 C72 84, 68 85, 67 82 L66 70" fill="#c8a84e" fill-opacity="0.7" stroke="#5a4a2a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Paw details -->
+  <path class="detail" d="M24 79 L28 79"/>
+  <path class="detail" d="M41 83 L44 83"/>
+  <path class="detail" d="M67 83 L70 83"/>
+  <path class="detail" d="M74 83 L77 83"/>
+  <!-- Mane - more dramatic -->
+  <path class="mane" d="M18 20 C22 10, 36 6, 42 10 C46 6, 52 8, 52 14 C56 8, 62 12, 60 18 C64 20, 66 26, 62 32 C66 36, 64 42, 58 44 C60 48, 56 54, 50 52 C46 56, 38 56, 36 52 C32 54, 26 52, 26 48 C22 50, 16 46, 18 42 C14 38, 12 30, 16 26 C12 22, 14 16, 18 20Z"/>
+  <!-- Mane texture -->
+  <path class="detail" d="M28 12 C28 18, 26 22, 28 26"/>
+  <path class="detail" d="M46 8 C48 14, 50 18, 48 22"/>
+  <path class="detail" d="M60 24 C58 28, 58 32, 60 36"/>
+  <path class="detail" d="M20 34 C22 36, 22 40, 20 42"/>
+  <path class="detail" d="M34 52 C34 48, 36 44, 38 42"/>
+  <path class="detail" d="M52 10 C54 14, 56 16, 56 20"/>
+  <!-- Face - head tilted up slightly -->
+  <path class="face" d="M22 24 C24 18, 34 14, 42 18 C50 20, 54 28, 52 36 C50 44, 42 50, 34 50 C26 50, 20 44, 18 36 C17 32, 18 28, 22 24Z"/>
+  <!-- Eyes - squinted for roar -->
+  <path d="M32 28 C34 26, 38 26, 40 28" fill="none" stroke="#5a4a2a" stroke-width="2.2" stroke-linecap="round"/>
+  <ellipse cx="36" cy="29" rx="1.5" ry="1" fill="#3a3020"/>
+  <!-- Ear -->
+  <path d="M38 16 C40 12, 44 12, 44 16 C44 18, 42 20, 40 20" fill="#e8cc7a" fill-opacity="0.8" stroke="#5a4a2a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Nose -->
+  <path d="M24 34 C23 32, 24 30, 26 30 C27 30, 28 32, 27 34Z" fill="#a0704a" fill-opacity="0.85" stroke="#5a4a2a" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- OPEN MOUTH - roaring! -->
+  <path d="M22 38 C24 36, 30 34, 36 36 C40 37, 42 38, 42 40 C42 44, 38 48, 32 48 C26 48, 22 44, 22 40Z" fill="#c47a5a" fill-opacity="0.8" stroke="#5a4a2a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Tongue -->
+  <path d="M28 42 C30 46, 34 46, 34 44" fill="#d48a6a" fill-opacity="0.7" stroke="#5a4a2a" stroke-width="1" stroke-linecap="round"/>
+  <!-- Teeth -->
+  <path class="detail" d="M24 38 L26 41"/>
+  <path class="detail" d="M38 37 L36 40"/>
+  <!-- Roar lines -->
+  <path d="M10 30 L6 28" fill="none" stroke="#5a4a2a" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+  <path d="M10 36 L4 36" fill="none" stroke="#5a4a2a" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+  <path d="M10 42 L6 44" fill="none" stroke="#5a4a2a" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+  <path d="M12 26 L8 22" fill="none" stroke="#5a4a2a" stroke-width="1.2" stroke-linecap="round" opacity="0.5"/>
+  <path d="M14 48 L10 50" fill="none" stroke="#5a4a2a" stroke-width="1.2" stroke-linecap="round" opacity="0.5"/>
+  <!-- Whiskers -->
+  <path class="detail" d="M22 36 C18 34, 12 34, 8 35"/>
+  <path class="detail" d="M22 38 C18 40, 12 42, 8 44"/>
+</svg>

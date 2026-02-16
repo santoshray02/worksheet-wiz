@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <style>
+    .outline { fill: none; stroke: #3a3a3a; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+    .detail { fill: none; stroke: #3a3a3a; stroke-width: 1.2; stroke-linecap: round; stroke-linejoin: round; }
+    .fill-body { fill: #b8864e; fill-opacity: 0.78; }
+    .fill-belly { fill: #dfc9a8; fill-opacity: 0.82; }
+    .fill-nose { fill: #4a3a3a; fill-opacity: 0.9; }
+    .fill-tongue { fill: #d4787a; fill-opacity: 0.8; }
+  </style>
+  <!-- Body -->
+  <path class="fill-body" d="M50 94 C28 94, 20 84, 20 72 C20 62, 26 54, 34 50 L50 48 L66 50 C74 54, 80 62, 80 72 C80 84, 72 94, 50 94Z" />
+  <path class="outline" d="M50 94 C28 94, 20 84, 20 72 C20 62, 26 54, 34 50 L50 48 L66 50 C74 54, 80 62, 80 72 C80 84, 72 94, 50 94Z" />
+  <!-- Belly patch -->
+  <path class="fill-belly" d="M40 60 C42 56, 50 54, 58 56 C62 58, 64 64, 62 70 C60 76, 54 80, 50 80 C46 80, 40 76, 38 70 C36 64, 38 62, 40 60Z" />
+  <!-- Head -->
+  <ellipse class="fill-body" cx="50" cy="32" rx="24" ry="20" />
+  <ellipse class="outline" cx="50" cy="32" rx="24" ry="20" />
+  <!-- Left ear (floppy) -->
+  <path class="fill-body" d="M28 28 C22 24, 16 26, 14 32 C12 38, 14 44, 18 46 C22 48, 26 44, 28 38Z" />
+  <path class="outline" d="M28 28 C22 24, 16 26, 14 32 C12 38, 14 44, 18 46 C22 48, 26 44, 28 38Z" />
+  <!-- Right ear (floppy) -->
+  <path class="fill-body" d="M72 28 C78 24, 84 26, 86 32 C88 38, 86 44, 82 46 C78 48, 74 44, 72 38Z" />
+  <path class="outline" d="M72 28 C78 24, 84 26, 86 32 C88 38, 86 44, 82 46 C78 48, 74 44, 72 38Z" />
+  <!-- Muzzle -->
+  <ellipse class="fill-belly" cx="50" cy="40" rx="12" ry="9" />
+  <ellipse class="outline" cx="50" cy="40" rx="12" ry="9" />
+  <!-- Eyes -->
+  <ellipse cx="40" cy="30" rx="4.5" ry="5" fill="#5a3e2a" fill-opacity="0.85" />
+  <ellipse cx="40" cy="30" rx="4.5" ry="5" class="outline" />
+  <ellipse cx="60" cy="30" rx="4.5" ry="5" fill="#5a3e2a" fill-opacity="0.85" />
+  <ellipse cx="60" cy="30" rx="4.5" ry="5" class="outline" />
+  <!-- Pupils -->
+  <circle cx="40.5" cy="29.5" r="2.5" fill="#1a1a1a" />
+  <circle cx="60.5" cy="29.5" r="2.5" fill="#1a1a1a" />
+  <!-- Eye shine -->
+  <circle cx="39" cy="28.5" r="1.2" fill="white" fill-opacity="0.9" />
+  <circle cx="59" cy="28.5" r="1.2" fill="white" fill-opacity="0.9" />
+  <!-- Eyebrows (expressive) -->
+  <path class="detail" d="M35 24 C37 22, 42 22, 45 24" />
+  <path class="detail" d="M55 24 C58 22, 63 22, 65 24" />
+  <!-- Nose -->
+  <ellipse class="fill-nose" cx="50" cy="38" rx="5" ry="3.5" />
+  <ellipse class="outline" cx="50" cy="38" rx="5" ry="3.5" />
+  <!-- Nose shine -->
+  <ellipse cx="48.5" cy="37" rx="1.5" ry="1" fill="white" fill-opacity="0.3" />
+  <!-- Mouth and tongue -->
+  <path class="detail" d="M50 41.5 L50 44" />
+  <path class="detail" d="M50 44 C46 46, 42 45, 40 43" />
+  <path class="detail" d="M50 44 C54 46, 58 45, 60 43" />
+  <!-- Tongue -->
+  <path class="fill-tongue" d="M48 44 C48 46, 49 49, 50 50 C51 49, 52 46, 52 44Z" />
+  <path class="outline" d="M48 44 C48 46, 49 49, 50 50 C51 49, 52 46, 52 44" style="stroke-width:1.5" />
+  <!-- Front legs -->
+  <path class="fill-body" d="M32 80 C31 86, 30 90, 30 93 C30 95, 38 95, 38 93 C38 90, 38 86, 38 80Z" />
+  <path class="outline" d="M32 80 C31 86, 30 90, 30 93 C30 95, 38 95, 38 93 C38 90, 38 86, 38 80Z" />
+  <path class="fill-body" d="M62 80 C62 86, 62 90, 62 93 C62 95, 70 95, 70 93 C70 90, 69 86, 68 80Z" />
+  <path class="outline" d="M62 80 C62 86, 62 90, 62 93 C62 95, 70 95, 70 93 C70 90, 69 86, 68 80Z" />
+  <!-- Paw details -->
+  <path class="detail" d="M32 93 L33 91" />
+  <path class="detail" d="M35 93 L35 91" />
+  <path class="detail" d="M64 93 L65 91" />
+  <path class="detail" d="M67 93 L67 91" />
+  <!-- Fur texture -->
+  <path class="detail" d="M42 55 C43 53, 45 54, 46 53" />
+  <path class="detail" d="M54 55 C55 53, 57 54, 58 53" />
+  <!-- Double stroke accents -->
+  <path d="M30 26 C34 20, 42 16, 50 15" fill="none" stroke="#3a3a3a" stroke-width="0.8" stroke-linecap="round" opacity="0.35" />
+  <path d="M20 30 C18 34, 16 38, 16 40" fill="none" stroke="#3a3a3a" stroke-width="0.8" stroke-linecap="round" opacity="0.3" />
+</svg>
